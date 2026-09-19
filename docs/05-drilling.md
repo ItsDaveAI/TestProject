@@ -58,7 +58,7 @@ A passive **skill learned from Driller Marky's questline** (Marky, Reina, and Jo
 
 ## Auto-drilling pets
 
-**Driller Boy** (Lv 10, MyShop, 2,900 pts, 15 days) and **Driller Girl** (Lv 45, 2,900 pts, 15 days), plus Super variants (30 days): with the pet equipped, pressing **D** makes your character auto-drill — it moves half a step and drills repeatedly until drills run out (puppy-eyes emote on empty digs). Timed pets can be recharged via Pia's Recharge Service with **Recharge Coupons** (LifeTO's guide calls this "Idle Drilling"; the pets themselves are official MyShop items). The Korean community calls Driller Boy **드릴군 (Driller-kun)** — its 2013 Korean event variant was the **Baby Driller-kun** pet, and a Korean community tip rates Crazy Drilling as mainly worthwhile on Foxes (whose drill skills synergize), with other characters better off buying drills from personal shops.
+**Driller Boy** (Lv 10, MyShop, 2,900 pts, 15 days) and **Driller Girl** (Lv 45, 2,900 pts, 15 days), plus Super variants (30 days): with the pet equipped, pressing **D** makes your character auto-drill — it moves half a step and drills repeatedly until drills run out (puppy-eyes emote on empty digs). Timed pets can be recharged via Pia's Recharge Service with **Recharge Coupons** (LifeTO's guide calls this "Idle Drilling"; the pets themselves are official MyShop items). The Korean community calls Driller Boy **드릴군 (Driller-kun)** — its 2013 Korean event variant was the **Baby Driller-kun** pet, and a Korean community tip rates Crazy Drilling as mainly worthwhile on Foxes (whose drill skills synergize), with other characters better off buying drills from personal shops. The line's Korean origin is dated precisely by the press: Entriv Soft announced **Driller-kun on November 23, 2011** as a pet that **digs *and* loots on its own** — one button starts fast self-drilling — sold in **Lv 100 and Lv 200 variants** with large weight capacity for mass excavation, and **gifted free to every player who logged in by December 21, 2011**, alongside an island-wide **Poppuri Box hunt** whose per-box rewards ran to the EXP booster armband, Artisan's Flame, and GM gift boxes.
 
 ## Related systems
 
@@ -79,3 +79,5 @@ A passive **skill learned from Driller Marky's questline** (Marky, Reina, and Jo
 - [초반에 구매하면 좋은 마이샵템 — arca.live Trickster channel](https://arca.live/b/trickster/107457369) (Driller-kun, Crazy Drill tip)
 - [매드레이 공략 — 네추럴트릭스터 blog](https://myashdd.blogspot.com/2020/07/1.html) (GPS radar hunts)
 - [Black Market — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Black_Market.html) (Weird Treasure Maps)
+- [엔트리브소프트, 트릭스터에 신규 펫 '드릴군' 출시 — 게임동아 (2011-11-23)](https://game.donga.com/59719/) (Korean launch date, Lv 100/200 variants, auto-dig + auto-loot)
+- [트릭스터, 자동 아이템 발굴 신규 펫 '드릴군' 출시 — 천지일보 (2011-11-23)](https://www.newscj.com/news/articleView.html?idxno=105200) (free-gift event, Poppuri Box hunt rewards)

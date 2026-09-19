@@ -22,6 +22,12 @@ Trickster's party system multiplies EXP (up to **2.5×**) based on party **type*
 | **Royal** | 4+ members covering **all four types** + any others (must not be all-one-gender or it becomes Special) | 2.5× |
 | **Special** | All one gender with at most 2 of the opposite | 2.5× |
 
+**Exact per-member multipliers** (ggFTW archive charts):
+
+- **Normal / Beginner:** 2 members 1.2×, 3–4 members 1.3×, 5 members 1.4× EXP / 1.5× TM, 6 members 1.5× EXP / **1.8× TM** — the TM curve overtakes the EXP curve from 5 members.
+- **Type:** 4 members 1.4×, 5 members 1.7× EXP / 2.0× TM, 6 members 2.0× EXP / **2.5× TM**.
+- **Royal / Special:** +80%/+80% at 4 members, rising to **+150% EXP / +200% TM at 6** (the archive's 5-member value is not preserved).
+
 **Rules of thumb:**
 - The multiplier only counts members **on the same map** — a 6-person royal at 2.5× drops to 2.0× while someone is elsewhere. Leaving the map reduces the multiplier; leaving the party changes the type.
 - Large level gaps downgrade a party to **Normal** (Thai-era guide: gap over ~31 levels; ggFTW's beginner rule uses 100) and disable EXP sharing in the gap case.
