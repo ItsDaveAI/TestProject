@@ -24,6 +24,8 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 - **Five guardian forms**, each tied to a graph shape: **Sephirens** (Guardian of Power, skill "Power Source" — claws and gale-wings), **Digrimm**, **Ifron**, **Krusef**, and **Spinel**. If multiple graphs tie, the form is decided by which behaviors promoted those types most.
 - Each form exists in grades: **Legendary / Mighty / Superior / Accomplished**.
 - Community-measured graph rules (LifeTO guide): **1,000 aura points = 1 graph point** (A/M/S/C graph); the process stops at a **14-point total** (the Mighty cap) or when any single graph reaches **6 points**; 0-point graphs automatically become 1 after hatching; **graph points equal the number of guardian skill slots**; and reaching **18 total points (base + secret empathy) guarantees a Legendary** — the secret-empathy route burns 1,000+ cards via Card Identification *after* equipping the Soul Seed but *before* starting base empathy.
+- **The rune carry-over quirk** (Mew's guide): passives gained through a **Louis's rune** (Faint, Guard Break) keep boosting skills like Shockwave even after the rune is swapped for **Cochma** (Shield Breaker + Lucky Fist) — actives don't stick, passives do. This is the backbone of the community's "cookie-cutter" Lucky Fist guardian build.
+- **The Accomplished trap:** if your secret-empathy +2 lands *on* the type you wanted, that guardian becomes unobtainable — the +2 must miss the target graph, which is what separates an Accomplished outcome from a Mighty/Legendary one.
 - LifeTO ships a Soul Seed Viewer quality-of-life tool for planning graphs.
 
 ## The Korean awakening chain (각성)

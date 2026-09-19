@@ -89,9 +89,30 @@ The **Charm 0th tier** (Cat/Raccoon shared) shows how formula-driven the kits ar
 | Physical Training | +2,360 HP at master |
 | Final Blow | Damage scales with missing HP: {AP + (max HP − current HP) ÷ 10} × multiplier × 2/3 |
 
-Magic's 2nd tier adds the element system: Bard picks **two adjacent elements from the wheel of five** and Magician an exclusive Light/Dark choice — see [Character types](01-character-types-and-creation.md).
+Magic's 2nd tier adds the element system: Bard picks **two adjacent elements from the wheel of five** and Magician an exclusive Light/Dark choice — see [Character types](01-character-types-and-creation.md). The pairings settled into a meta (cyan's guide): **Water + Electric** for its burst combo (the popular Soul Master pick), **Fire + Electric** combining AoE with multi-hit (the common Witch pairing), and **Wind** alone as the fastest farmer via Wind Blade spam — while Sheep Witches overwhelmingly chose **Light** over Dark, because Light Witch learns Magician's shield skills where Soul Master gets no defense line at all.
 
 **Magic & Sense skill rosters** (mastery cards in parentheses — one card can master several skills): Magic carries Shockwave and Mana Arrow (Clione), Cure (Hula Octopus), Bottle of Mana + Aura of Mana + Luck Breaker (Silver G), Mana Web + Rust (Gold G), Mana Ring (Nephthys), Mist of Mana (Koom), Mana Storm (Larva), and Mana Shield (Turvy) — and **one Relics card, Lima, masters all five Bard element basics** (Drip Bomb, Electro Attack, Whirlwind Blaze, Cleaving Terra, Wind Blade). Sense carries Sixth Sense + Stone Strike (Clione), Heavy Carrier (Hula Octopus), Shuriken Master (Oran G), Sticky Foot (Silver G), Shockvibe (Gold G), Lucky Seven + Tornado Bomb (Guiana), Basic Detection (Larva), Armor Breaker + Gun Booster (Turvy), Lucky Fist (Royal Jelly ×55), and Sense Breaker (Book of the Dead ×20, drilled).
+
+## The Sense 0th tier — DA, AC, and the gun
+
+The Sense kit (Explorer, shared Fox/Lion) doubles as the game's utility layer:
+
+| Skill | Effect |
+| --- | --- |
+| Stone Shower | Starting skill (granted at creation, never sold) — fixed 75 damage at TM 1, MP 20, 2 s cooldown |
+| Invincible Drill | Passive — being attacked no longer cancels drilling (cannot be leveled) |
+| Sixth Sense | DA buff: DA × 45% |
+| Stone Strike | Single-target: (DA + 1) × (multiplier × 10 × 2/3) |
+| Gun Carrier | Passive enabling gun use (cannot be leveled) |
+| Heavy Carrier | +3,360 WT at master |
+| Shuriken Master | Throws a shuriken **loaded into the gun's "bullet" slot**: {(DA + shuriken AP ÷ 10) × (multiplier × 10 × 2/3)} − 1 |
+| Sticky Foot | Lowers the target's HV by a DA-derived amount |
+| Invincible Reload | Being hit no longer cancels gun reloading |
+| Gun Booster | AC buff while gunning — directly raises gun damage |
+| Basic Detection | Marks buried items up to **110 m deep** with red circles — position only, not identity |
+| Armor Destructor | Lowers the target's DP |
+
+**The gun formula** is the Lion's defining mechanic — a gun's damage rides the wielder's AC (with LK on hits/crits), not body AP: **gun AP = (AC − 48) × 20 + the gun's own AP**. Hence Lion builds go all-AC, and the Fox splits by job: Thief Master stays all-DA (detection plus Stone Strike/Shuriken damage), Hunter Lord goes all-AC to gun — the DA Fox being the classic drilling/storage alt.
 
 ## Monsters use the same skills
 
@@ -115,3 +136,5 @@ Monster skill tables reuse player skills by level — e.g. boss Tombeth (Lv 121)
 - [Tombeth — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Tombeth.html) (monster skill levels)
 - [매력형 고양이, 너구리 스킬 트리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-charm-type-cat-raccoon-skill.html) (Charm 0th-tier formulas, type graphs)
 - [마법형 양, 용 스킬 트리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-magic-type-sheep-dragon-skill.html) (Magic graph, MA/LK scaling, element rules)
+- [감각형 여우, 사자 스킬 트리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-sense-type-fox-lion-skill.html) (Sense 0th-tier kit, gun formula, DA/AC builds, element meta)
+- [Sense Skills — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Sense_Skills.html) (Stone Shower, Invincible Drill, Gun Carrier specifics)
