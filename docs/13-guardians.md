@@ -18,6 +18,7 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 - Guardians fight **PvE only**.
 - **Mind's Eye** — the follow-on Enlightenment skill that lets you see the Shadow World — requires a hatched Guardian (see [Shadow World](14-shadow-world.md)).
 - Higher-level Enlightenment quests (Janus's Secret Hideaway, Lv 180+ 3rd job with matured Poseidon Seed) continue from here: Living Flame collection from Red Flame Spirits, etc.
+- **The named mythos:** Trickster M's first episode quest is the only source that names the frame — the guardians are the **16 protectors of Poseidon's Blessing** (King Poppuri among them), a number that echoes the original awakening chain's **16 Secret Cards** (see [Trickster M](34-trickster-m.md)).
 
 ## Guardian forms and graph mechanics
 

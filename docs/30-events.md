@@ -40,6 +40,7 @@ Boss Summon events, EXP-boost weeks, and GM gift-certificate quizzes rounded out
 The Korean event calendar (from the Korean event archive) ran the full seasonal loop — Valentine's/White Day "Fabian's crush" chains, Chuseok food-recovery events (songpyeon-rabbit pets), the 7th-anniversary musical "Snow White and the Seven Dwarfs" (2010), a Tanabata three-parter, Phantom School ghost stories, Halloween pumpkin-village hunts, the four-part Summer Camp series (2012), a Children's Day event, the 9th-anniversary parade, Christmas solo-vs-couple events, New Year snake events (2013), and "everyone's summer" (2013, Baby Driller-kun pet).
 
 - **Pola's launch campaign (Jan–Feb 2013):** SMS friend invites (weapon exchange ticket), Pola 1st-advancement rewards (shield skin + gift box), attendance + guild join (hat skin), full participation (pet exchange ticket), and island-wide **Blue Blue / Pink Pink Penguin** hunt monsters dropping useful items.
+- **10th-anniversary celebration (March 2013):** the **Don Juvanni Commemorative Statue** event — a quest from the Don Juvanni NPC in Megalopolis paying **commemorative coins**, exchangeable for anniversary gifts, a weapon-exchange ticket, the **Don Juvanni Hat**, and Don Juvanni's Omina Box, with item upgrades on top (ran to April 24) — released alongside **12 Pola job-clothing items** (Animal Lover / Trainer / Bear clothing boxes).
 - **Collaborations:** Sanrio (Hello Kitty and Cinnamoroll equipment — Korean service) and the Japanese version's **Squid Girl (침략! 오징어 소녀)**, **Higurashi When They Cry**, and **Moonlight Weapon Mina (월면토병기 미나)** collab items and pets.
 - **GM culture:** Korean GMs ran OX quizzes frequently, appeared in towns to grant EXP buffs and chat with players, and the publisher held annual offline user meetings — credited with the game's famously loyal community.
 
@@ -63,4 +64,5 @@ The Korean event calendar (from the Korean event archive) ran the full seasonal 
 - [X Trickster Online (permanent events note)](https://xtrickster.com/)
 - [트릭스터 이벤트 정리 — cyan's Trickster blog](https://livehepa.blogspot.com/p/trickster-online.html) (Korean event archive 2010–2013, collabs)
 - [트릭스터, 새 친구 '폴라'를 소개합니다 — 경향게임스 (2013-01-30)](https://www.khgames.co.kr/news/articleView.html?idxno=61730) (Pola launch event)
+- [어느덧 10주년, 트릭스터 기념 이벤트 실시 — 게임메카 (2013-03-27)](https://www.gamemeca.com/view.php?gid=271356) (Don Juvanni statue event, Pola job clothing)
 - [트릭스터(게임) — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0(%EA%B2%8C%EC%9E%84)) (GM OX-quiz culture)

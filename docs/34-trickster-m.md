@@ -6,6 +6,8 @@
 
 The positioning was **"the cutest Lineage" (귀여운 리니지)**: Lineage M-grade MMO structure rendered in casual 2D dot art. The developers' stated systemic goal was fixing what the PC original lacked — the original's class roles were vague and parties mostly just sped things up, so T:M redefined the classes into clear roles to make party play strategic, while **simplifying stats/abilities/equipment versus Lineage** and ensuring **enhancement failure never destroys equipment**.
 
+**The story-completion pledge:** a week after launch came the first **episode quest**, promising serialized continuations of the original's unfinished main story — the director stated the full arc was already planned, with T:M-only story to follow once the original's tale was told. Its first chapter follows the traces of **King Poppuri, one of the 16 guardians protecting Poseidon's Blessing**, adding object-manipulation gimmicks to the quest format (the only explicit telling of the original's Poseidon/guardian mythos — see [Guardians](13-guardians.md)).
+
 ## Characters
 
 Eight heroes rework the original cast (3 characters per account; canonically humans wearing ear bands and tail accessories):
@@ -57,3 +59,5 @@ The Korean community's verdict was brutal: Trickster M was documented as **"Line
 - [Trickster M — PlayPile](https://playpile.gg/games/trickster-m)
 - [Trickster Online — Wikipedia](https://en.wikipedia.org/wiki/Trickster_Online) (Trickster:M service dates)
 - [트릭스터M/비판 및 사건 사고 — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0M/%EB%B9%84%ED%8C%90%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0) (reception, incident record)
+- ['트릭스터M' 첫 업데이트…"원작 스토리 이어서 완결" — 게임톡 (2021-05-28)](https://www.gametoc.co.kr/news/articleView.html?idxno=60953) (King Poppuri episode, serialized story plan)
+- [[인터뷰] '드릴 액션'과 엔씨소프트 개발 노하우의 결합, 트릭스터M — 청년일보 (2021-05-17)](https://www.youthdaily.co.kr/news/article.html?no=71429) (drill-relic growth design, delay to May 20)
