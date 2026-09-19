@@ -1,0 +1,69 @@
+# Chaos Tower (Tower of Chaos)
+
+## Overview
+
+The **Chaos Tower** (in-game: **Tower of Chaos**; Korean: 혼돈의 탑) is Caballa Island's premier progressive dungeon — "the single most difficult and challenging addition ever released" per its 2008 launch announcement. It debuted with **11 floors** requiring **level 160+** (April/May 2008, Trickster Online Revolution) and was rebuilt in the **September 28, 2011 Korean overhaul** into the full **72-floor** tower.
+
+## Structure
+
+- **A break room every 6th floor** — floors 1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67.
+- **A boss on every 12th floor** — floors 12, 24, 36, 48, 60, 72.
+- Floors 1–12 through 61–72 are grouped in the wiki navigation; monsters climb into the Lv 240+ range by the mid floors (e.g. floor 36 hosts Corrupt Freyja Lv 247, Chaos Freyja Lv 249, Corrupt Cone Stone Lv 252).
+- Boss floors host **Corrupt/Chaos pairs** of regional monsters, the level ladder climbing ~50 per 12 floors — 12F: Corrupt/Chaos Golden Mole (Lv 147/149) + Corrupt Kheperer (152); 24F: Corrupt/Chaos Naranjo (197/199) + Corrupt Freyr (202); 36F: Corrupt/Chaos Freyja (247/249) + Corrupt Cone Stone (252).
+- Each 12th floor also holds a **Chaotic Space** — the dimensional gap — where Poirot's quests send you to kill a **Requiem Spirit** (Lv 297 at 24F) within 5 minutes for a Stage 2 Requiem Box and ~22.5M base / 4.2M TM EXP.
+- Entry at the Tower of Chaos entrance (1st floor) via the Caballa Relics quest chain (Poirot - Make a Missing Ed Flyer → Get to the Bottom of the Rumours).
+- The tower is **cyclical content** ("순환형 콘텐츠") — any character past first advancement can enter, with boss hunts and rare-item farming scaling upward.
+
+## The 2011 Korean overhaul
+
+The September 2011 update rebuilt the tower at enormous scale — **350 quests** (158 scenario + 192 normal), **180 monsters**, **187 items**, **10 NPCs** — as a staircase maze that grows more ruined toward the top, carrying the "find the lost brother" storyline:
+
+- **New monster skills** (used by tower bosses, requiring party strategy):
+  - **Guard (가드)** — nullifies a fixed number of hits regardless of damage; either stop attacking or chip with fast weak hits.
+  - **Buff Canceller (버프캔슬러)** — strips every buff on the target and bursts damage — lethal even at full buffs.
+  - **Deadly Poison (맹독)** — sustained damage-over-time.
+  - **Blood Drain (흡혈)** — heals the monster for a share of damage dealt while active; stop attacking when it triggers.
+- **New equipment families:** 5-star **Otherworld (이계)** set-ability gear — six sets from the Lv 110 **Spiritual Set** to the Lv 335 **Crimson Set** (진홍 셋트) — plus Lv 350 **Chaos (혼돈)** and **True Soul (진혼)** gear added progressively. Quest pets **Little Troy** and **Worm**.
+- **Chaos Equipment Fusion (혼돈 장비 융합 시스템):** at the rest-floor NPC **Professor Komby (박사콤비)**, merge identical tower equipment (Chaos/Requiem/Altiverse families) into stronger copies — the tower's dedicated gear-growth system that produced some of the strongest equipment in the game. Full mechanics in [Forging](35-forging.md).
+- **Honor titles (명예 타이틀):** how you complete scenario and monster quests determines which titles you earn — the title-collection meta lives on the MyView Honor tab.
+
+## True Soul Space (진혼의 공간)
+
+The December 20, 2012 Korean follow-up: a **7-floor other-dimensional dungeon** reached by defeating the **72nd-floor boss** and passing the **Gate of True Soul (진혼의 관문)** — new monsters, quests, and rare-item boss rewards beyond the tower's top. Detailed in [Korean version systems](33-korean-version-systems.md).
+
+## Quests and NPCs inside
+
+- **Poirot** — the tower's storyline anchor (missing "Ed" flyer, dimensional-gap investigations).
+- **Wandering Warrior Tan** — mercenary contract tests: timed monster kills (e.g. 50× Mimic in 15 min), survey notebooks, stage proficiency tests, harsh training quests per floor.
+- **Intern G** — Chaos Integer collection quests (e.g. Collect Chaos Integer.36Byte).
+- Floor climbing runs on **survey notebooks**: each floor's hunting quest (winged Lv 107, platypus Lv 112, the Chaos potato Lv 117, the squirrel...) is exchanged at that floor's Don Giovanni for the next notebook, with curiosities like the **Mysterious Video Disc** unlocking floor 7 — and rest floors let you **register teleports** for future runs.
+- **Fairy/assistant NPCs** in break rooms; Poirot teleports quest-qualified players to **Chaotic Space** floors (e.g. 36F Chaotic Space — the Dimensional Gap Investigation is once-per-lifetime, its *Reinvestigation* once per day).
+
+## Titles
+
+The tower introduced the **Title system**: a new "Title" tab in MyView (the **Honor** button) displaying earned titles — tower progression titles being the flagship set (wedding titles are the other known family; see [Wedding](20-wedding-system.md)).
+
+## Other notes
+
+- **Harkon** (the 3rd-job item) can be drilled on the tower's Battlefield floors — one of its farmable sources.
+- LifeTO's knowledge base notes the tower among endgame galder/equipment farms (gloom/phantom hunting routes).
+- xTrickster built a custom "Lighthouse of Chaos" tower variant — server-specific content.
+- The Korean launch event for the overhaul granted items for simply entering the tower, extra items per floor-boss kill, and skull-themed shield/hat/sword chances for first-advancement characters.
+
+## Related systems
+
+- [Quests](25-quests.md), [Job advancement](04-job-advancement.md) (Harkon), [Bosses](27-bosses.md)
+- [Korean version systems](33-korean-version-systems.md)
+
+## Sources
+
+- [Trickster Online Revolution - The Chaos Tower is Here — IGN (Apr 2008)](https://www.ign.com/articles/2008/04/28/trickster-online-revolution-the-chaos-tower-is-here)
+- [Trickster Online Revolution new content — GamesIndustry.biz (May 2008)](https://www.gamesindustry.biz/trickster-online-revolution-tricky-new-game-content-released-for-the-mmorpg)
+- [Tower of Chaos's Quests — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Tower_of_Chaos%27s_Quests.html)
+- [Tower of Chaos 36th Floor — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Tower_of_Chaos_36th_Floor)
+- [Tower of Chaos 12th / 24th Floor — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Tower_of_Chaos_12th_Floor.html) (floor monster ladders)
+- [Poirot - 24th Floor Dimensional Gap Investigation — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Poirot_-_24th_Floor_Dimensional_Gap_Investigation.html) (Requiem Spirit timed kill)
+- [Third Job Advancement (Harkon sources) — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Third_Job_Advancement.html)
+- [트릭스터, '혼돈의 탑'이 새로운 모습으로 돌아온다 — 디지털투데이 (2011-09-28)](https://www.digitaltoday.co.kr/news/articleView.html?idxno=21860)
+- [혼돈의 탑 꼭대기엔… — 경향신문 (2011-10-10)](https://www.khan.co.kr/article/201109281518081)
+- [신규 캐릭터 북극곰 소녀 최초 공개 (진혼의 공간) — 인벤 (2012-12-20)](https://www.inven.co.kr/webzine/news/?news=51549)
