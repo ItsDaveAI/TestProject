@@ -4,6 +4,8 @@
 
 **Skins (스킨)** are appearance-only equipment — hat, mask, cape, and weapon visuals, plus full fashion outfits — worn over your stat gear through the [fashion slots](37-interface-controls-and-recovery.md) or fused directly onto equipment. namu.wiki lists skins as one of the game's top-level systems: the high female-player ratio (an old community estimate put it near 70%) made Trickster a near-community game, and **skin prices rose continuously** as look-building ("룩덕") became a core pursuit.
 
+**Expiry history:** in the Japanese service, paid fashion items originally shipped with a **3-month expiry** — cosmetics as rentals; a **late-2011 update** made them permanent, the dated marker of the industry's shift from time-limited cosmetics to permanent ownership.
+
 ## What skins are
 
 - Appearance items with no stats of their own: weapon skins, head/mask/cape visuals, and per-slot fashion (upper/lower/outer body, waist, head, face, hand, decorations).

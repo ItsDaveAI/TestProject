@@ -4,6 +4,8 @@
 
 Gacha is a **mini-game loot-box system** inside MyShop and on the official website: rare items are "buried" in themed **Gacha Towns**, and players dig them up with special drills using **Gacha Coins**. Each town holds a collectible set of **9 rares**; completing the set awards a **4G Card** redeemable for exclusive equipment.
 
+**Origin:** the gacha-as-drilling format began in the Japanese service — GCREST implemented the **Gacha Drill (ガチャドリル)** on **June 10, 2005**: spend points on a special map, dig anywhere, receive a random item (¥200 per play, with 5/11-play bundles — the pack sizes other services later mirrored). Its first exclusives — the **Chibi Mira** pet and the **Petit Devil equipment series** — were *added in Japan first*. The Japanese community's lasting critique: gacha-exclusive gear was powerful enough that a Lv 100 could overwhelm a Lv 200 — the pay-gap emblem of the whole era.
+
 ## How to play
 
 1. Acquire **Gacha Coins** (MyShop: 1,000 points ≈ $1 each; packs of 5 / 11 / 23 coins; also event rewards and recharge promotions).
@@ -52,3 +54,5 @@ Normal filler items also appear in towns: Green Elixirs, Repair Powders, MyShop 
 - [Megalopolis Square (4G exchanges) — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Megalopolis_Square.html)
 - [Town 1 Megalopolis / Town 2 Oops Wharf — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Town_1_Megalopolis.html) (rotating set histories)
 - [Trickster Online Revolution new content (Chaos Tower + Gacha Towns) — GamesIndustry.biz (May 2008)](https://www.gamesindustry.biz/trickster-online-revolution-tricky-new-game-content-released-for-the-mmorpg)
+- [「トリックスター」レアアイテムが手に入るガチャドリルを実装 — 4Gamer (2005-06-10)](https://ddo.4gamer.net/news/history/2005.06/20050610185634detail.html) (Gacha Drill origin, JP-first rares)
+- [トリックスター (オンラインゲーム) — JP encyclopedia article](https://tsunezu.net/trickster/) (gacha pricing, pay-gap critique)

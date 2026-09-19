@@ -20,6 +20,8 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 
 **Scenario/Episode structure** (the level-ordered story spine):
 
+**The starter quest spine (Desert Beach → Paradise → Relics):** Lv 15 at Gate of Desert Beach opens **Don Guivanni's** drilling quest (1 Empty Potion Bottle + 1 Oasis Water — the unlock for Beach Town Paradise's chains) and **Driller Marky's** 2× Tanning Oil dig (reward: the **penguin pet**, serviceable to Lv 25). Paradise adds **Strange Fisherman** (Lv 20; class-split: 5 Salt or 20 Ground Earthworm), the Bunny-only **Octopus Girl** (10 Red Lipstick), and **Card Girl's** first riddle appearances (her later riddles pay TM EXP and Arcana Cards — e.g. Mimic at Lv 45, Chibcha at Lv 55, Chimu at Lv 60). Gate of Caballa Relics chains onward with **Monkey T** (3× Gold Ring, 3× Gold Necklace, 3× Gold Plated Wheel — repeatable **25 times** for TM EXP + galder coupons) and **Wise Hen** (25 Hulled Millet across 5 cycles).
+
 **The story frame:** billionaire game-company founder **Don Cavalier** dies and his will reveals a contest — whoever wins the "Trickster" game on **Caballa Island**, the stage he built in secret in the Pacific, inherits his entire fortune ("a story you've heard somewhere before," as the Korean wiki jokes). The 2002 pre-launch interview adds the lore spine: the **"trickster"** is the ancient hero and **messenger connecting the forgotten ancient world to the present** — the game-creator Don Cavalier mirroring that role as the bridge between reality and the buried ancient city-state — which is what the island's relics, episodes, and the "more than a treasure hunt" six-episode plot slowly unearth. The main story concluded with **Episode 6** (July 2011 update, OST by ESTi × Miya); only event content followed. Episode 6 wrapped the main *line*, but the Korean wiki keeps a standing **"unresolved threads" (미해결 떡밥)** list for it — and Trickster M's marketing leaned on exactly that, promising to complete "the ending the original never got to show" through serialized episode quests ([Trickster M](34-trickster-m.md)).
 
 | Stage | Level | Content |
@@ -64,3 +66,5 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 - [PCファーストインプレッション「トリックスター」 — Game Watch Japan (2005-02)](https://game.watch.impress.co.jp/docs/20050202/trick.htm) (ranked monster quests, thorough tutorial)
 - [시나리오1 퀘스트 Chapter 1~3 — 류나곰's Naver blog](https://m.blog.naver.com/red_oasis/221343902366) (chapter steps, levels, rewards)
 - [지역별 퀘스트 아이템 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/11/trickster-online-quest-item.html) (episode 2/3 structure, Dev Room key)
+- [Card Girl Quests — PandaTO Wiki](https://pandato.fandom.com/wiki/Card_Girl_Quests) (riddle chains, Monkey T, Wise Hen)
+- [Trickster Online Tips — Happy Blogger](https://tricksteronlinetips.blogspot.com/) (starter quest spine, penguin pet)

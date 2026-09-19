@@ -13,6 +13,8 @@ MyCamp is Trickster's **housing/decoration system**: every character can pitch a
    - **Capacity** — 2 to 16 characters.
 3. Other players enter by clicking the camp's floating name/text box (double-click the white textbox above it).
 
+Each character stores exactly **one saved camp layout** (an engine limitation) — plan the final arrangement before committing.
+
 ## Inside the camp
 
 - Owner controls (in-camp menu): room details (title/status/max), member list, **Options** (same as the O-key options window), **Deco** (decoration mode), **Out** (leave; the camp stays pitched for a while), **Exit** (leave and close the camp). Visitors get member list, Options, and Exit.

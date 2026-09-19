@@ -2,7 +2,7 @@
 
 ## Overview
 
-**소환사가 되고싶어 ("I Want to Be a Summoner", for Kakao)** is the forgotten middle successor — a **mobile board RPG** by **Entrivbr Soft itself** (the original studio, not NCSOFT), first shown at **G-STAR 2014** and launched **April 21, 2015**, reusing Trickster's dot sprites, sound, and systems wholesale: **800+ characters** drawn from the MMO's cast, the **growth-compound** terminology carried over by name, **Harkon and galders** recycled as its currencies. Korean service ended **January 9, 2017** (the Japanese server ran on to **April 25, 2019**). An earlier mobile Trickster (via SK Networks Internet) had flopped before it — fans entered this one fearing "corpse-selling," but the VIP test won goodwill, and after Trickster M's reception, the community **re-evaluated it as "the last real Trickster game"** — the only successor made by the original developers.
+**소환사가 되고싶어 ("I Want to Be a Summoner", for Kakao)** is the forgotten middle successor — a **mobile board RPG** by **Entrivbr Soft itself** (the original studio, not NCSOFT), first shown at **G-STAR 2014** and launched **April 21, 2015**, reusing Trickster's dot sprites, sound, and systems wholesale: **800+ characters** drawn from the MMO's cast, the **growth-compound** terminology carried over by name, **Harkon and galders** recycled as its currencies. Korean service ended **January 9, 2017**; the Japanese service launched **May 24, 2016** as *トリックスター 召喚士になりたい* and ran on to **April 25, 2019**. An earlier mobile Trickster (via SK Networks Internet) had flopped before it — fans entered this one fearing "corpse-selling," but the VIP test won goodwill, and after Trickster M's reception, the community **re-evaluated it as "the last real Trickster game"** — the only successor made by the original developers.
 
 ## Systems
 
@@ -37,3 +37,4 @@ Type system and support-card stacking, steep SP consumption, and legendary-dunge
 - [신개념 보드 RPG '소환사가 되고싶어 for Kakao' 론칭 — 헤럴드경제 (2015-04-21)](https://biz.heraldcorp.com/article/469249) (launch details, Kuu/Harkon events)
 - [트릭스터 세계관 담은 '소환사가되고싶어' 카톡 출시 — 게임조선 (2015-04-21)](https://m.gamechosun.co.kr/news/view.php?no=123603)
 - [[끝장리뷰] 당신의 취향을 저격할 퓨전 RPG — 게임조선 (2015-05-07)](https://m.gamechosun.co.kr/news/view.php?no=123603) (board mechanics, affection, attributes)
+- [トリックスター (オンラインゲーム) — JP encyclopedia article](https://tsunezu.net/trickster/) (JP service of 召喚士になりたい, 2016-05-24 launch)

@@ -76,6 +76,10 @@ A late-Korean hot-spring theme park at Tapasco Volcano (OurTrickster lists its s
 - **Sanrio collaboration** (Korean): Hello Kitty and Cinnamoroll equipment.
 - **Japanese Trickster collaborations** (Japan-only runs): **Shinryaku! Ika Musume (Squid Girl)** items, **Higurashi When They Cry** pet, **Moonlight Acid: Mina (월면토병기 미나)** items.
 
+## Japanese service record (GCREST → Gamepot)
+
+The Japanese service — the version that out-earned its home market — ran a distinct operational history: weekly Tuesday 10:00–16:00 maintenance (the *Trickster+* rebrand launch famously overran into a **26-hour maintenance**), **nProtect GameGuard** from August 22, 2006 with enforcement waves from June 2007 (monthly ban counts published), the **second-job launch of November 14, 2006** that immediately broke and required an emergency maintenance, an item-duplication monitoring sweep from July 21, 2009, and an unauthorized-access incident on August 7, 2009 met with account suspensions and IP restrictions. Registered IDs passed **1.2 million by April 2008**, and on **July 18, 2012** operation passed from GCREST to **Gamepot**, who ran it to the January 28, 2014 shutdown. The service's title itself kept rebranding — 素敵な出会い トリックスター → みみとしっぽの大冒険 トリックスター+ → トリックスター0 -ラブ- (2007) → みみとしっぽの大冒険 トリックスター (2010).
+
 ## Korean event calendar highlights (2010–2013)
 
 From the Korean event archive: Valentine's/White Day "Fabian's crush" (2011), Chuseok food-recovery events with songpyeon-rabbit pets (2010–2012), 7th-anniversary musical "Snow White and the Seven Dwarfs" (2010), Tanabata three-part event (2010), Phantom School ghost stories (2010), Halloween pumpkin-village hunts (2010–2012), Summer Camp four-program series (2012), Children's Day (2010), 9th-anniversary parade (2012), Christmas solo-vs-couple events (2012), New Year snake events (2013), and "everyone's summer" (2013, baby Driller-kun pet). **GM culture:** GMs ran OX quizzes frequently, appeared in towns to hand out EXP buffs and chat, and the publisher held annual offline user meetings.
@@ -105,3 +109,5 @@ From the Korean event archive: Valentine's/White Day "Fabian's crush" (2011), Ch
 - [트릭스터AD, 넷마블 서비스 종료 발표 — 망상과공상 (2008-06-12)](https://gamelog.kr/205) (AD/R parallel-service war, DB standoff, traffic figures — the TrickWorld operator's firsthand account)
 - [한 달 앞으로 다가온 트릭스터AD 서비스 종료 — 망상과공상 (2008-08-14)](https://gamelog.kr/239) (cash refunds, migration to R, signature campaign)
 - [트릭스터(MMORPG) — 우만위키](https://www.ggemguide.com/guide_on_view.htm?uid=3934) (character-migration outcome, server demographics)
+- [トリックスター (オンラインゲーム) — JP encyclopedia article](https://tsunezu.net/trickster/) (JP service history, maintenance record, rebrands)
+- [TricksterWiki (JP community wiki)](https://trickster.wiki/) (shutdown schedule, Gamepot-era records)
