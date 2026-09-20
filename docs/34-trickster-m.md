@@ -48,6 +48,8 @@ Chapter-based **solo core-story adventures** — a new story structure covering 
 
 The Korean community's verdict was brutal: Trickster M was documented as **"Lineage wearing Trickster's skin"** — NCSOFT forced Lineage-like systems onto the original studio, sidelining the drill-adventure identity the reveal had promised; launch-day store ratings fell to ~1 star (with review-manipulation suspicions when they briefly jumped to 4); the original's story quests were replaced by "kill X / fetch Y" allocations; "린저씨" (Lineage-refugee) players dominated the rankings and clashed with original fans; and the incident record runs from the re-se-ma-ra submarine patch and pet infinite synthesis to coupon duplication, mail-bug sanctions, the Janus-7 server PK wars, fan-art contest "negative rewards," item-disassembly bans, and permanent-collection probability-manipulation suspicions. The service lasted 34 months.
 
+**The shutdown was corporate, not just the game's:** on January 3–4, 2024, NCSOFT announced it was dissolving **Ntreev Soft itself** — the studio born from Sonori's online division (incorporated December 2003), the home of Trickster, Pangya, and Pro Baseball Manager — effective the same February 15 date, ending Trickster M and Pro Baseball H2/H3 together; its ~70 staff received voluntary-resignation notices with two months' severance. Ntreev had been bought in the 2011 **NCSOFT-vs-NHN bidding war** (~₩107–108.5 billion, completed February 2012) and then ran **eleven consecutive loss years** (~₩61.7 billion cumulative by Q3 2023) through a 2016 restructuring — and with the dissolution, **the Trickster IP reverted to parent NCSOFT**, which framed the cut as "selection and concentration" amid its own Lineage-trilogy revenue decline. The press verdict on T:M itself: thin gameplay and aggressive probability-item monetization (Yonhap).
+
 ## Sources
 
 - [NC to Revive 'Trickster' and 'Pangya' on Mobile — Asia Business Daily (2020-07-02)](https://www.asiae.co.kr/en/article/2020070211270341553)
@@ -65,3 +67,6 @@ The Korean community's verdict was brutal: Trickster M was documented as **"Line
 - [[인터뷰] '드릴 액션'과 엔씨소프트 개발 노하우의 결합, 트릭스터M — 청년일보 (2021-05-17)](https://www.youthdaily.co.kr/news/article.html?no=71429) (drill-relic growth design, delay to May 20)
 - [엔씨(NC) 트릭스터M, 1주년 업데이트 'DOUBLE NEW IMPACT' 실시 — NC press (2022-05-18)](https://about.ncsoft.com/news/article/tm-news-20220518) (Pola class, Chain/Earthquake Hammer, Alteo world)
 - [엔씨(NC) 트릭스터M, 1주년 기념 업데이트 사전예약 시작 — NC press (2022-05-04)](https://about.ncsoft.com/news/article/tm-news-20220428-2) (Byeolhui's Astrology Libra, Caballa Collection Book)
+- [엔씨소프트, 자회사 엔트리브 정리…'트릭스터M' 서비스 종료 — 연합뉴스 (2024-01-04)](https://www.yna.co.kr/view/AKR20240104073800017) (corporate dissolution, gameplay/monetization verdict)
+- [엔씨, 적자 자회사 엔트리브 정리…'트릭스터M' 등 섭종 — 뉴시스 (2024-01-04)](https://www.newsis.com/view/NISX20240104_0002581436) (11-year loss record, cumulative deficit)
+- [[단독] 엔씨, 자회사 엔트리브 결국 폐업 — MTN (2024-01-04)](https://news.mtn.co.kr/news-detail/2024010409592231342) (bidding war, IP transfer to NCSOFT, severance)
