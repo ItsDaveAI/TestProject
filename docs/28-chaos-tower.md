@@ -41,7 +41,13 @@ The December 20, 2012 Korean follow-up: a **7-floor other-dimensional dungeon** 
 
 ## Titles
 
-The tower introduced the **Title system**: a new "Title" tab in MyView (the **Honor** button) displaying earned titles — tower progression titles being the flagship set (wedding titles are the other known family; see [Wedding](20-wedding-system.md)).
+The tower introduced the **Title system**: a new "Title" tab in MyView (the **Honor** button) displaying earned titles. The full catalogue runs to **five families**:
+
+- **Honor titles** — the tower's quest ladder: *Oddballs Friend* (understanding Wandering Photographer Ren's hobby), *Nice Adventurer* (getting Professor Komby to tell you his secret), *Mercenary Recruiter*, *Smarty Assistant*, *Committee Volunteer*, *G's Friend*, *2Bit / 4Bit Inventor* (Chaos Integer collection tiers), *Mercenary Trainee*, *Committee Slacker*, and onward up the tower.
+- **Stella titles** — from [Star Gazing](16-star-gazing.md): the *The Gods* family and the *Experts* family, the latter earned through card combos (Three / Two Card Combo).
+- **Set titles** — granted for collecting **whole equipment sets**: the boss sets (*Pharaoh, Guardian, Dread Pirate, Pirate, Sacrifice, Beast, Cold Hearted, Soki*), the 1st/2nd-job character sets, and others — the long-tail reward for set completionism.
+- **Couple titles** — from the [Wedding](20-wedding-system.md) system.
+- **Harkon titles** — from the [Harkon Protector](15-harkon-protector.md).
 
 ## Other notes
 
@@ -67,3 +73,4 @@ The tower introduced the **Title system**: a new "Title" tab in MyView (the **Ho
 - [트릭스터, '혼돈의 탑'이 새로운 모습으로 돌아온다 — 디지털투데이 (2011-09-28)](https://www.digitaltoday.co.kr/news/articleView.html?idxno=21860)
 - [혼돈의 탑 꼭대기엔… — 경향신문 (2011-10-10)](https://www.khan.co.kr/article/201109281518081)
 - [신규 캐릭터 북극곰 소녀 최초 공개 (진혼의 공간) — 인벤 (2012-12-20)](https://www.inven.co.kr/webzine/news/?news=51549)
+- [Titles — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Titles.html) (five title families, honor/set/stella examples)

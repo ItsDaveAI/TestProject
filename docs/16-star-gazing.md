@@ -14,6 +14,8 @@ Complete Stella's short quest chain at **Desert Beach Field 2 - Sand Palace** (L
 
 Until this quest is done, Stella will not read your fortune at **any** of her business locations (her tent in Blooming Cora, Sand Palace, Megalopolis Square — where she also runs a Lv 35 daily quest, service cost from 1,000 galders).
 
+Stella also feeds the **title system**: the *The Gods* and *Experts* title families come from her content, the Experts tier earned through card combos (see [Chaos Tower — Titles](28-chaos-tower.md)).
+
 ## Fortune Cards
 
 - Obtained by opening **Star Card Packs** — common monster drops, plus quests and events. Pack series: **No.1–No.7** plus themed packs (New Year, Merry Christmas, Year of the Hare, 6th Anniversary).
@@ -49,3 +51,4 @@ Boosts last **3 hours** (CoraTO-era rule), can be extended with **Star Tears** (
 - [Fortune — CoraTO Wiki](https://mewsie.world/CoraTOWiki/index.php/Fortune)
 - [Star Gazing — PandaTO Wiki](https://pandato.fandom.com/wiki/Star_Gazing)
 - [Quest Stargazer Stella — Trickster Online Tips blog](http://tricksteronlinetips.blogspot.com/2009/05/trickster-online-quest-stargazer-stella.html)
+- [Titles — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Titles.html) (Stella title families)

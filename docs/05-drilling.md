@@ -44,6 +44,7 @@ Sold by each region's Item Girl (No. 1 at Gate of Desert Beach/Paradise; No. 2 a
 
 - **Mines** — special mining maps scattered across Caballa Island where **refine ores** are drilled (see [Refinement](08-refinement.md)).
 - **Treasure Hunts** — "Worn and Old" Treasure Maps drilled up in each region's fields lead to buried treasure (a "Surprise" drilling outcome; also a source of Chaos's Feathers). The rarest **Weird Treasure Maps** open each region's hidden **Black Market** (see [Economy](31-economy-bank-trade.md)).
+- **Surprise Spot quests** — the map tiers carry a repeatable quest layer on top: **Explorer Reina** runs *Treasure Hunting 1 & 2* (the Worn and Old Map tiers) and **Driller King Marky** runs *Romance of Drilling* (Weird Maps), plus Indiana John's one-off — **43 quests** across every region except Coral Beach, Phantom School, and Abyss. Worn-map quests repeat infinitely; the Weird/Old tiers are dailies, and a region's Old-map chain only unlocks after **50 Worn-map quests in that same region**.
 - **GPS hunts** — quest chains (notably Phantom School's classroom quests) use **GPS items** dropped by local monsters: activate one and a radar indicator appears, its detection level counting down (1 = closest) until you dig up a buried **Poseidon's treasure** chest ("SURPRISE!" on success).
 - **Poseidon's Treasure / treasure map digging** — quest-linked buried treasure content.
 
@@ -81,3 +82,5 @@ A passive **skill learned from Driller Marky's questline** (Marky, Reina, and Jo
 - [Black Market — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Black_Market.html) (Weird Treasure Maps)
 - [엔트리브소프트, 트릭스터에 신규 펫 '드릴군' 출시 — 게임동아 (2011-11-23)](https://game.donga.com/59719/) (Korean launch date, Lv 100/200 variants, auto-dig + auto-loot)
 - [트릭스터, 자동 아이템 발굴 신규 펫 '드릴군' 출시 — 천지일보 (2011-11-23)](https://www.newscj.com/news/articleView.html?idxno=105200) (free-gift event, Poppuri Box hunt rewards)
+- [Surprise Spot Quests Guide — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Surprise_Spot_Quests_Guide.html) (Reina/Marky quest structure, 50-quest unlock, daily vs infinite tiers)
+- [Category:Surprise Spot Quest — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Category_Surprise_Spot_Quest.html) (the 43-quest catalogue)

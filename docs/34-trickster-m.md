@@ -8,6 +8,8 @@ The positioning was **"the cutest Lineage" (귀여운 리니지)**: Lineage M-gr
 
 **The story-completion pledge:** a week after launch came the first **episode quest**, promising serialized continuations of the original's unfinished main story — the director stated the full arc was already planned, with T:M-only story to follow once the original's tale was told. Its first chapter follows the traces of **King Poppuri, one of the 16 guardians protecting Poseidon's Blessing**, adding object-manipulation gimmicks to the quest format (the only explicit telling of the original's Poseidon/guardian mythos — see [Guardians](13-guardians.md)).
 
+**Pola's return:** the original's *final* character became T:M's *first* new class — added **May 18, 2022** in the 1st-anniversary *DOUBLE NEW IMPACT* update, still hammer-wielding (**Chain Hammer**, **Earthquake Hammer** — melee plus AoE), alongside the **Alteo** fast-growth world (a specialized server boosting players to Lv 60). T:M also grew its own echoes of the original's systems: **Byeolhui's Astrology (별희의 점성술)** — the star-gazing counterpart, gaining the Libra zodiac — and the **Caballa Collection Book (까발라 도감)**, a monster-specimen collection dex (see [Korean version systems](33-korean-version-systems.md) for the original Pola).
+
 ## Characters
 
 Eight heroes rework the original cast (3 characters per account; canonically humans wearing ear bands and tail accessories):
@@ -61,3 +63,5 @@ The Korean community's verdict was brutal: Trickster M was documented as **"Line
 - [트릭스터M/비판 및 사건 사고 — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0M/%EB%B9%84%ED%8C%90%20%EB%B0%8F%20%EC%82%AC%EA%B1%B4%20%EC%82%AC%EA%B3%A0) (reception, incident record)
 - ['트릭스터M' 첫 업데이트…"원작 스토리 이어서 완결" — 게임톡 (2021-05-28)](https://www.gametoc.co.kr/news/articleView.html?idxno=60953) (King Poppuri episode, serialized story plan)
 - [[인터뷰] '드릴 액션'과 엔씨소프트 개발 노하우의 결합, 트릭스터M — 청년일보 (2021-05-17)](https://www.youthdaily.co.kr/news/article.html?no=71429) (drill-relic growth design, delay to May 20)
+- [엔씨(NC) 트릭스터M, 1주년 업데이트 'DOUBLE NEW IMPACT' 실시 — NC press (2022-05-18)](https://about.ncsoft.com/news/article/tm-news-20220518) (Pola class, Chain/Earthquake Hammer, Alteo world)
+- [엔씨(NC) 트릭스터M, 1주년 기념 업데이트 사전예약 시작 — NC press (2022-05-04)](https://about.ncsoft.com/news/article/tm-news-20220428-2) (Byeolhui's Astrology Libra, Caballa Collection Book)

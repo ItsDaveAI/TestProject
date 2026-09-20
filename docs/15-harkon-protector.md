@@ -6,10 +6,11 @@ Harkon Protector is a **recurring group PvE tower-defense event** (Enlightenment
 
 ## Entry
 
-- Requirement: characters who have **fully attained enlightenment** (Mind's Eye active — see [Shadow World](14-shadow-world.md)).
-- Talk to **Eclipse** (visible only with Mind's Eye) at the scheduled time; she teleports you to that region's Shadow Sanctuary.
+- Requirement: enlightenment (Mind's Eye) for the Shadow-World side of the content (see [Shadow World](14-shadow-world.md)) — but the **Harkon Sanctuary Eclipse appears publicly**: no Mind's Eye is needed to join the defense itself, which is why it served as the group PvE on-ramp.
+- Talk to **Eclipse** at the scheduled time; she teleports you to that region's Sanctuary.
 - The **first 30 characters** to talk to Eclipse per area are accepted.
 - Sanctuaries open at fixed times every day (US Eastern); once a Harkon Statue is destroyed the Sanctuary closes.
+- The original-era Sanctuaries were **tiered by level band** — 1st (Lv 30–79), 2nd (Lv 80–129), 3rd (Lv 130–179), each with its own Wicked/Violent monster roster — across **six daily windows** (12:00/14:00/16:00/18:00/20:00/22:00, two per band, announced in Event Garden - Ceremonia 10 and 2 minutes ahead, where **Happisto Stallone** offers three preparation quests). Waves escalate through mid-tier bosses (Wicked Scylla, Hecate, Charybdis — each broadcasting taunts) to **Lord Chronos** himself as the finale.
 
 ## Schedule (per region)
 
@@ -77,3 +78,5 @@ Each comes in Power/Charm (AP, AC, LK, DP, HV) and Magic/Sense (AC, MA, DA, LK �
 - [Eclipse — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Eclipse.html)
 - [트릭스터, 디펜스 모드 '하르콘 수호전' 리뉴얼 — 게임톡 (2012-11-21)](https://www.gametoc.co.kr/news/articleView.html?idxno=5452) (four modes, level 30+, 6/day, event)
 - [무게부/신속부 얻는 방법 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/12/trickster-how-to-get-speed-weight.html) (bracket schedule, Stollon exchange table, Broken Speed Charm)
+- [Harkon Sanctuaries — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Harkon_Sanctuaries.html) (level-band tiers, six PST windows, public Eclipse, Stallone quests)
+- [1st Harkon Sanctuary Assaults — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/1st_Harkon_Sanctuary_Assaults.html) (wave script, Scylla/Hecate/Chronos broadcasts)
