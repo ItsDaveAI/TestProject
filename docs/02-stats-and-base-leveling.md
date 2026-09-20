@@ -47,6 +47,18 @@ Because Sense types carry a locked 4 in Sense, Fox and Lion are the game's natur
 
 **Derived stat formulas** (per stat level, from the Charm-type class page): **HP = stat level × 30 + 90**; **DP = stat level × 4 − 8**. Similar linear formulas govern the other stats — which is why graph builds (4-digit builds above) matter more than single points.
 
+**Per-level stat growth** (ggFTW archive's documented baseline rates — the Build Graph then multiplies each group: **4 pips = 1 stat level**, and each graph digit sets how many pips its group gains per character level):
+
+| Stat | Baseline growth |
+| --- | --- |
+| AP / MP / HP | **+4 AP, +30 MP, +30 HP per level** |
+| WT | **+80 per level** |
+| DP / MD | **+4 per level** |
+| AC / MA / DA / LK / HV | **+1 per 4 levels** |
+| DX | **−1 per 12–13 levels** (lower is better; attack delay only — unaffected by skills and guns) |
+
+Interaction notes from the same archive: **LK** governs spell/gun hit rate, spell/gun evasion, and critical rate (its — and DA's — rumored compound-result influence is explicitly marked *disputed* there); **HV** resists gun damage and powers several Raccoon skills.
+
 **EXP curve:** the eTO experience chart shows the steep joint base/TM climb — Lv 25 needs 118,900 base / 95,030 TM; Lv 49 needs 836,340 base / 2,449,250 TM (the TM requirement jumps hard approaching 50); level 332's requirement was corrected to 246,191,680. Full curve on the ggFTW Experience Chart page.
 
 ## Weight
@@ -73,6 +85,7 @@ At milestone base levels the Megalo Company delivers a **gift box to your MyShop
 - [How are they reading the numbers? — GameFAQs board](https://gamefaqs.gamespot.com/boards/926855-trickster-online/41269566) (P/M/S/C digits, locked type stat)
 - [Picking Your First Character — Trickster Online Amino](https://aminoapps.com/c/trickster-online/page/user/willard-trees/DZze_wlCdfmJvq78lRrP4Mz00KBKMVpqEX) (creation-screen Build Graph UI)
 - [Charm Type — Trickster Online Miraheze wiki](https://tricksteronline.miraheze.org/wiki/Charm_Type) (HP/DP derived formulas)
+- [Stats — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Stats.html) (12-stat growth rates, pip mechanics, LK/DA compound dispute)
 - [Experience Chart — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Experience_Chart.html) (per-level base/TM curve)
 - [Level Up Reward Box Guide — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Level_Up_Reward_Box_Guide.html) (milestone boxes via MyShop)
 - [Lv. 15 / Lv. 120 / Lv. 180 Gift Box — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Lv-9.html) (box contents)

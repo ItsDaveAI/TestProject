@@ -114,6 +114,32 @@ The Sense kit (Explorer, shared Fox/Lion) doubles as the game's utility layer:
 
 **The gun formula** is the Lion's defining mechanic — a gun's damage rides the wielder's AC (with LK on hits/crits), not body AP: **gun AP = (AC − 48) × 20 + the gun's own AP**. Hence Lion builds go all-AC, and the Fox splits by job: Thief Master stays all-DA (detection plus Stone Strike/Shuriken damage), Hunter Lord goes all-AC to gun — the DA Fox being the classic drilling/storage alt.
 
+(The full shared 0th tier per the ggFTW archive is **16 skills** — everything in the table above plus **Quick Reload**, **Lucky Seven** (the LK buff, Guiana mastery), **Anger Management**, and **Compound Mastery**.)
+
+## The 2nd-job (1차) signature skills
+
+Each type's 2nd job opens its signature line (hybrids learn the same skills at **+50 TM**, and each type keeps a few skills **pure-only**). The TM-41 tier universally masters via **Ironclad Turtle ×2**; TM-55 skills scatter across Quiem / Requi / Chibcha cards:
+
+| Tree | Skill (TM) | Effect |
+| --- | --- | --- |
+| **Bard** (Sheep) | Bolster Ballad (40) | **Party MP-cost aura** (10.5% at master) — active only while the caster *stands still*; moving makes it self-only |
+| | Elemental Boost (210) | +% to **all five elements**; requires Bolster Ballad mastered — the late-era capstone |
+| **Magician** (Dragon) | Hinder Snare (41) | Chance to **root** all enemies around the caster (cannot be leveled) |
+| | Light Pact / Dark Pact (55) | Gate passives for the Light/Dark lines — **mutually exclusive** |
+| | Arrow of Light (55) / Hellfire (55) | The line's first attacks, both on (MA − 49) × Power ÷ 10 (pillars of light / dark hellblazes, master power 470) |
+| **Explorer** (Fox) | Precise Pitch (41) | Empowers Shuriken Master for 120 s: with both mastered, **(DA × 33) + (Throw AP ÷ 10 × 79.2)** |
+| | Item Detector | The deeper detection skill (Quiem ×2) |
+| **Inventor** (Lion) | Butt Plate (41) | **Rifle-butt melee** for a gunner: (DA + AC − 49) × ratio − 1, master ×3.55 |
+| | Power Shot (55) | [(GunAP − 11) + 20 × (AC − 48)] × ratio — the skill-level echo of the gun formula; needs Gun Booster Lv 10 |
+| **Entertainer** (Cat) | Volley Kick (41) | **[AP + (HV × 16)] × (m ÷ 8)**, master ×2.325 — the Cat's bread-and-butter single hit |
+| | Galder Barrage (55) | Galders → **fixed damage on three targets** (100 galders per the ggFTW archive; the Korean guide recorded 150): ignores DP and physical resistance, **bypasses Shield of Heaven**, blocked only by Guard; targets must stand within one character-width. Needs Galder Thrower Lv 10 |
+| | Evolution / Beast Claw / Fatal Wound / Sumo Suit (135) | The pure-Cat line — **excluded from the Diva hybrid** (who learns Sumo Suit only at TM 185) |
+| **Card Master** (Raccoon) | Card Strike (41) | Consumes **1 Empty Card** for ranged splash AoE: (AP + HV × 8) × m, master ×2.65 |
+| | Super Hips (55) | Passive **critical-hit immunity** (needs Dodge Master Lv 10) — the boss-tank staple |
+| | One Pair (120) / Metamorphosis / Wild Nail | The pure-Raccoon line — **excluded from the Duke hybrid** (Duke gets One Pair at TM 175) |
+
+The same pages document the hybrid +50 TM rule in practice: every skill above carries a second (higher) TM number for the hybrid class — Duelist learns the Boxer line at +50, Duke the Card Master line, and so on.
+
 ## Monsters use the same skills
 
 Monster skill tables reuse player skills by level — e.g. boss Tombeth (Lv 121) casts Power Blow 4, Final Blow 4, Super Hips, Sturdy Shield 6, Mana Reflector, Magic Meltdown, Cure 6, and Enhanced Resistance; the 2011 Chaos Tower monsters added Guard / Buff Canceller / Deadly Poison / Blood Drain (see [Chaos Tower](28-chaos-tower.md)). Debuff skills that players skip are frequently **learned by Guardians** for bossing instead.
@@ -138,3 +164,5 @@ Monster skill tables reuse player skills by level — e.g. boss Tombeth (Lv 121)
 - [마법형 양, 용 스킬 트리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-magic-type-sheep-dragon-skill.html) (Magic graph, MA/LK scaling, element rules)
 - [감각형 여우, 사자 스킬 트리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-sense-type-fox-lion-skill.html) (Sense 0th-tier kit, gun formula, DA/AC builds, element meta)
 - [Sense Skills — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Sense_Skills.html) (Stone Shower, Invincible Drill, Gun Carrier specifics)
+- [Bard / Magician / Explorer / Inventor / Entertainer / Card Master Skills — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Bard_Skills.html) (2nd-tier skill tables, formulas, mastery cards, hybrid exclusions; per-class pages at `Magician_Skills`, `Explorer_Skills`, `Inventor_Skills`, `Entertainer_Skills`, `Card_Master_Skills`)
+- [Engineer — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Lion.html) (the complete 16-skill shared Sense 0th tier)

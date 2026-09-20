@@ -6,6 +6,8 @@
 
 **Expiry history:** in the Japanese service, paid fashion items originally shipped with a **3-month expiry** — cosmetics as rentals; a **late-2011 update** made them permanent, the dated marker of the industry's shift from time-limited cosmetics to permanent ownership.
 
+**Hair dye:** basic hair colors are chosen at character creation; **MyShop Hair Dye** recolors permanently — but only for the *current job*: advancing to the 2nd or 3rd job resets that job's look to its default hair (the Lion's yellow, for example) until dyed again — a quiet dye economy running parallel to the skin market.
+
 ## What skins are
 
 - Appearance items with no stats of their own: weapon skins, head/mask/cape visuals, and per-slot fashion (upper/lower/outer body, waist, head, face, hand, decorations).
@@ -41,3 +43,4 @@ Korean community documentation is blunt about the consequences: skins and decora
 - [트릭스터(게임) — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0(%EA%B2%8C%EC%9E%84)) (스킨 as a top-level system; skin price inflation)
 - [트릭스터(게임) r183 판 — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0(%EA%B2%8C%EC%9E%84)?uuid=35caba67-fdc4-41ec-add0-4c6634ecdd82) (70% female-player estimate, 룩덕 economy)
 - [[테치치 트릭스터] 다양한 스킨 얻기 & 활용 방법 — Journey's Naver blog](https://m.blog.naver.com/wldiek04/221525726437) (acquisition categories, preview, fusion application)
+- [Engineer — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Lion.html) (hair dye rules, job-advancement default reset)
