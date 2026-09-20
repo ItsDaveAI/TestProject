@@ -4,6 +4,8 @@
 
 **Galders** are the in-game currency. The economy runs on monster drops, quest coupons, equipment trading between players, and the bank/storage network in the capital. Trading between players happens through **direct trade**, **personal shops**, and the mail system's **Trade Mail** (there is no auction house in the official client; OurTrickster's web Auction House is a server addition).
 
+The black market largely skipped the game: the Korean community record notes that even shops specializing in RMT macros **couldn't find Trickster macros to sell** — the game earned too little per hour to be worth farming, part of why the culture stayed "almost a community game" rather than a gold-sink economy.
+
 ## Currency forms
 
 | Form | Value | Notes |
