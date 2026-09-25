@@ -56,6 +56,7 @@ The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, 
 - **Wing Ports** from Item Girl: single-region scrolls (e.g. Wing Port (Paradise) 1,000 g Lv 15; Wing Port (Caballa Relics) 3,000 g Lv 45).
 - **Portable Ports (PP/PPAD)**: consumable teleports to gates and towns; the advanced **Portable Port AD** covers nearly the whole island.
 - **Memory Ports (client `Item_MemoryPortParam`):** a special teleport item class that **saves destination slots** (5 slots per item) — bind a Memory Port to your favorite spots and jump back without re-selecting; the deluxe tier the Dev Room duelists demand as toll.
+- **The Witch's Broom random teleport (client `RandomPortParam`, 51 items):** a novelty-teleport family — "마녀의 빗자루 출발~!!" ("Witch's broom, departing~!!") — each port rolls a **weighted destination** among zones (e.g. 20% / 20% / … across its list): gambling on where you land, the chaotic counterpart to the fixed teleports above.
 
 ## Related systems
 

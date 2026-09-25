@@ -55,6 +55,8 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 
 **The quest-reward schema (client data):** each `QuestResult_` row pays up to **4 item slots, galders, a granted Skill + SkillLevel** (skill quests in raw form), **10 message slots**, **up to 3 random-reward table references** (random rewards are first-class), and fixed **Exp + Tmxp**. The archive holds **4,464 reward rows across 2,075 quest tables**, plus 622 monster-quest and 80 party-quest result tables.
 
+Around the rewards sits the binding layer: `NpcTalk_*` (565 tables, 58 fields) attach **each NPC position to up to five quest IDs** plus region — the quest-to-NPC wiring — and `QuestDetail_Map_*` (64 tables) place the **quest markers' map coordinates** (layer + X/Y) — the quest-tracker UI's positioning data.
+
 **The quest data layer (client):** quest content is table-driven at overwhelming scale — **2,074 `QuestResult_` reward tables**, **622 `MonsterQuestResult_`**, **80 `PMonQuestResult_` (party-quest)** results, plus `QuestDetail_Map_` (64) location bindings and the `NpcMsg_*` dialog trees (~500 files) that carry every NPC's branching conversation. Officer Tera's 30 party quests and the episode chains in this file are the surface of that dataset.
 
 - Quests commonly require **drilled or compounded items** (e.g. Ginseng Tea is compounded at Paul's from Ginseng + Honey + Distilled Water), tying quests into [Drilling](05-drilling.md) and [Maturing Compound](09-maturing-compound.md).
