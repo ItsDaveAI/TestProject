@@ -40,6 +40,10 @@ Boosts last **3 hours** (CoraTO-era rule), can be extended with **Star Tears** (
 - Cluster swapped cards together (start or end of the arc) rather than spreading them.
 - Place your cards near matching cards Stella holds to raise the odds of stacking a desired stat.
 
+## The Fortune House (client dialog)
+
+**The entrance NPC:** the gate NPC (Npc222 — present at the Alteo gate, the Wharf path, and the `Fortune_` map variant) delivers the system's own pitch: "**the night sky's stars illuminate people's past, present, and future — Trickster is no exception. Don't you want to see your star?**" — with options to learn today's fortune, ask how stars are read, take the fortune quest (an item check), or **enter the Fortune House itself** (`EnterFortuneHouse`). Star Gazing was a place you walk into, anchored by a recurring gate NPC, not just a menu.
+
 ## Related systems
 
 - [Shadow World](14-shadow-world.md) — Star Tears from shadow dailies

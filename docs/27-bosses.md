@@ -52,6 +52,8 @@ Bosses are reached through multi-step trials (party-scale puzzle/defense content
 - **Boss pets** are 5-star pets for [synergy](12-pets.md).
 - Revival servers adjust boss access: xTrickster removed entry level caps and trials entirely; PandaTO allows tempering boss uniques.
 
+- **NPC combat assists (client dialog):** dungeon NPCs can cast skills *for* the player — in Volcano Dungeon 16, **Leviathan himself offers to help** ("why are you struggling against mere monsters? Take my power and finish them!") via `NpcSkillStart` — a borrowed-buff mechanic inside boss dungeon content.
+
 ## Related systems
 
 - [Party system](17-party-system.md), [Chaos Tower](28-chaos-tower.md), [Card Battle](06-card-battle.md)

@@ -16,6 +16,8 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 | **Key quests** | Region-unlock quests gated by collecting **stickers** (e.g. 10 Caballa Stickers from Relics NPCs → Fortune Teller → Julio) — "Key Quests (Access)". |
 
 **The key economy behind key quests (client `KeyItemRateInfo` / `KeyboxItemInfo`):** the keys exist as a four-item ladder — **Ordinary Key (평범한 열쇠)**, **Lucky Key EV**, **Ordinary Key EV**, and the **Extraordinary Key (비범한 열쇠)** — and only the **Extraordinary Key raises drop rates (+40%)**; the other three carry a zero modifier (the EV keys are event variants). The **key boxes** pay out in two rare grades — a **Type-A rare** by default and a **Type-B rare at a 30% rate** — with no normal-item floor (key-item-only boxes).
+
+**The Weird Box's password branches (client dialog):** the Scenario-1 Weird Box (Relics Dungeon 1) is a **password-locked branching teleporter** — "now, enter the password. Beep-beep-" — accepting **six code words**, each routing to its own destination: **FANTASIA (환상, "Illusion"), DISASTER (재난, "Calamity"), HAPPYEND (행복한결말, "Happy Ending"), FRIENDLY (우정, "Friendship"), VENDETTA (복수, "Revenge"), and MARRIAGE (신기루, "Mirage")** — the "Vendetta" of Scenario 1 Chapter 3 being one selectable path of six.
 | **Monster quests** | Timed hunts from the regional **Monster Guilds**: Hunter Yuri's regional chains, then Assistant Hunter's timed missions (e.g. 10× Mandragora Lv 58 in 20 min, 5 cycles, Lv 50+). Rewards scale by level; galder coupons common. |
 | **Card quests** | Card Girl's collect-monster-cards chains — a TM-oriented complement to [Card Battle](06-card-battle.md). |
 

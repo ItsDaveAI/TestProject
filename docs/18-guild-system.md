@@ -64,6 +64,8 @@ Guild Colosseum battles are large-scale PvP (see also [PvP](19-pvp.md)):
 
 **Battle maps:** School Coliseum, Cave Coliseum, Volcano Coliseum, Nora Sewers Coliseum, Boss Battle Coliseum, Oriental Coliseum.
 
+**The lobby and its robot (client dialog):** the guild-battle lobby is staffed by **GB-01**, a beeping robot ("반갑습니다. 삐리~ … 삐리리릿~") that opens **three separate registration lobbies** — **guild battle** (`GuildGame_ShowLobby`), **level battle** (`LevelGame_ShowLobby`), and **guild-battle events** (`EventGame_ShowLobby`) — plus a plain-language rules briefing. The level-battle brackets are fixed in `LevelGameInfo`: **Lv 0–99 / 100–149 / 150–199 / 200+** — four score-separated war divisions behind the mode's no-GB-points rule above.
+
 ## Guild events
 
 Ntreev USA ran **Guild vs. Guild tournaments** (e.g. Dec 16, 2009 – Jan 13, 2010) monitored in four categories — Most Active Guild, Most New Members, Most Guild Battle Wins, Most Completed Quests — with a **Dragon Helmet** (bonus-stat item) for winning guild members.

@@ -4,7 +4,7 @@ Trickster Online (also *Trickster: Links to Fantasy*, *Trickster Online Revoluti
 
 The game is set on **Caballa Island**, where the late billionaire game-company founder Don Cavalier willed his fortune to whoever solves his final masterpiece — a contest that becomes far more than a treasure hunt across 6 story episodes.
 
-This folder documents the game's systems, **one file per system**. All data was gathered via Exa web search from the sources listed at the bottom of each file (primarily the ggFTW Trickster Wiki archive mirrored by LifeTO, Wikipedia, official press releases, community wikis, and Korean sources — namu.wiki, the Korean game press, and Korean player-blog archives).
+This folder documents the game's systems, **one file per system**. All data was gathered via Exa web search from the sources listed at the bottom of each file (primarily the ggFTW Trickster Wiki archive mirrored by LifeTO, Wikipedia, official press releases, community wikis, and Korean sources — namu.wiki, the Korean game press, and Korean player-blog archives). Cross-checked and enriched against the **Korean client's own data** — 10,405 XML tables (system masters, quest dialogs, monster/item tables, UI strings), including the **270-command dialog scripting grammar** embedded in the NPC dialogs (`Quest_Check`, `CreateHarconCannon`, `MakeCouple`…), which carries its own feature surface.
 
 > **New here?** Start with [00-progression-guide.md](00-progression-guide.md) — the level-ordered walk that shows when each system unlocks and how they feed each other.
 

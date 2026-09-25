@@ -41,6 +41,14 @@ The Wedding System launched **June 17, 2010** as a major Ntreev USA content upda
 - The **rings** chosen during the quest grant further special abilities.
 - Ntreev marked the launch with a Wedding Screenshot Forum Event: the 5 best hall screenshots won 3 Gacha Coins and a GM-signed wedding illustration poster.
 
+## The marriage office (client dialog scripts)
+
+The couple/marriage service hub NPC (wandering NPC295 of the northeast path) speaks the full ruleset in data:
+
+- **Forming a couple (`MakeCouple`):** "to escape solo life, tell me you'll form a couple and designate the partner you like — **I'll convey your heart with this arrow of love and peace**. If they refuse, nothing can be done — but that's still better than never trying and spending your life in love with a PC monitor."
+- **Divorce (`BrokenMarriage`), the complete rule:** "**divorce requires the partner's consent** — I deliver the consent message, and a refusal blocks it. **If the partner doesn't answer for one month, the divorce proceeds anyway.** On divorce you **return the wedding ring, the title, every anniversary gift received so far, and the Love-Love Big Bang mode**, and **cannot form a new couple for 7 days**."
+- The office also runs **`BrokenCouple`** (uncoupling), **`ExchangeMarriage`** (the wedding-goods picker — items gated by date count, "the choosing partner brings the set of two"), **`CheckMarriageOption`** (marriage preparation), and the **`OpenMarriageBoard`** marriage-promotion bulletin board — plus the wedding-hall teleport.
+
 ## Related systems
 
 - [Party system](17-party-system.md) (Love Points from partying)
