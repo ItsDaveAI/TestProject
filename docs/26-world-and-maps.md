@@ -55,6 +55,7 @@ The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, 
 - Client dialog confirms Pachi's **Snow Hill branch price list**: Tapasco Volcano gate **4,000 g**, Techichi Volcano gate **4,000 g**, Snow Hill gate **3,000 g**, Megalopolis **500 g** — and the level-gate etiquette: Snow Hill NPCs turn away adventurers **below Lv 160** ("레벨 160이하에게 스노우힐 지역은 너무 위험해요~").
 - **Wing Ports** from Item Girl: single-region scrolls (e.g. Wing Port (Paradise) 1,000 g Lv 15; Wing Port (Caballa Relics) 3,000 g Lv 45).
 - **Portable Ports (PP/PPAD)**: consumable teleports to gates and towns; the advanced **Portable Port AD** covers nearly the whole island.
+- **Memory Ports (client `Item_MemoryPortParam`):** a special teleport item class that **saves destination slots** (5 slots per item) — bind a Memory Port to your favorite spots and jump back without re-selecting; the deluxe tier the Dev Room duelists demand as toll.
 
 ## Related systems
 

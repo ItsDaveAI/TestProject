@@ -32,6 +32,7 @@ Not all speed gear is cash: the **Brand accessories** exchanged from Harkon Prot
 - **Mileage:** every 5,000 points spent earns a **Bonus Egg** (2 during Double Egg events) for the Egg Shop — see [Egg Shop & Pet Breeding](36-egg-shop-and-pet-breeding.md).
 - **MyShop inventory:** press Y → the MyShop inventory is also where **Gacha wins**, level-up gift boxes, and milestone letters (e.g. the 3rd Job Guide at Lv 120, Eclipse's Message at Lv 180) are delivered.
 - **Recharge promotions:** e.g. Feb 27–28, 2009 — one free Gacha Coin per 5,000 points recharged through the Trickster site/in-game page.
+- **Usage-period extension (사용기간 연장, client data):** the client carries a dedicated **timed-item renewal service** — a "extend usage period" window with duration options, and a guard rule ("items cannot be discarded during the extension process"). The Korean-era answer to the rental economy: expiring gear could be *renewed*, not just rebought — companion to Pia's Recharge Service for drill pets.
 - **Revival servers:** LifeTO adds a **Galder→MyShop converter** (1,000 galders per point) in its control panel — a server-specific economy feature; xTrickster makes all MyShop items in-game-obtainable and non-expiring.
 
 ## Related systems
