@@ -45,6 +45,8 @@ Monster-part compounds (Sharp Leg, Crow's Claw, Jackstone, Swamp Shark Teeth, Fr
 
 ## MyShop compound items
 
+**Growth-compound equipment (client `ItemParamCM2`, 6,136 rows):** a distinct equipment line exists specifically *for* growth compounding — refined items whose flavor text describes the process: the **Turtle Shell Cane** and **Turtle Shell Hat** ("made from the shell of a long-lived wandering turtle; through growth compounding with a refined item, draw out the years of memory seeped in the shell") and the **Confession Stone Hat** ("a stone that heard years of courageous confessions — compound it to draw out the courage sealed within"). Nine equipment pieces in the client carry explicit growth-compound text — the growth side of [Refinement](08-refinement.md)'s 정제 (refining) step.
+
 | Item | Use |
 | --- | --- |
 | Magic Stones | Add basic stats |

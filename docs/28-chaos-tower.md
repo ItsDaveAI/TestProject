@@ -51,6 +51,8 @@ The tower introduced the **Title system**: a new "Title" tab in MyView (the **Ho
 
 The client's `TitleInfo` table holds **148 titles** — and its first entries are the **fortune-title family** from [Star Gazing](16-star-gazing.md): *별희의 미움을 받은* ("Hated by Byeolhui"), *대흉의* ("of Great Misfortune"), and the planet-shining series (Mercury/Uranus/Neptune/Mars) — confirming the fortune readings as one of the largest single title sources.
 
+**The set system behind Set titles (client data):** `CMSetItemParam` defines **320 equipment sets**, each binding up to **8 member items** — the job-clothing lines ("2차전직 토끼세트 2차" — 2nd-job Bunny set, "엔지니어 의류세트 1차" — Engineer 1st clothing set), beginner special sets, and the boss sets that pay the Set titles above. The camp-furnishing counterpart (`CampSetItemParamCM`, 74 sets) does the same for [MyCamp](21-mycamp.md) bundles.
+
 ## Other notes
 
 - **Harkon** (the 3rd-job item) can be drilled on the tower's Battlefield floors — one of its farmable sources.

@@ -6,6 +6,8 @@ Trickster Online takes place on **Caballa Island** (Korean: 까발라섬), a Pac
 
 ## Regions
 
+**Official level bands and flavor (client `WorldMap_RegionInfo`, 13 regions):** every region entry in the table above carries the client's own recommended band and lore — e.g. Ghost Blue is "the devil's zone, a ship graveyard that sank countless vessels, which sailors still shun" (Lv 95–110); Mirage Island is "a place where timespace crossed, where the legendary figures of Caballa legend can be met and their stories heard" (Lv 80–100); Techichi is "a village fossilized under white ash flown from Tapasco" (Lv 210–240); Tapasco's pepper trees "give the erupting gas its spicy taste — hence the name" (Lv 230–270).
+
 | Region | Town | Notes |
 | --- | --- | --- |
 | **Coral Beach** (Korean: 코라비치) | Coral Town - Blooming Cora | Starter island area, Lv 1–15 monsters; Coral Dungeon connects toward Desert Beach |

@@ -28,6 +28,8 @@ The Wedding System launched **June 17, 2010** as a major Ntreev USA content upda
 - After the wedding, the couple gains the ability to **teleport to wherever their partner is located**.
 
 **Wedding rings (client data):** `WeddingRingInfo` defines **11 rings, each granting gendered skills** — every ring carries a `SkillIdMale` and a `SkillIdFemale`, so husband and wife receive *different* abilities from the same ring.
+
+**Wedding dresses (client data):** `WeddingDressInfo` defines **16 dress items, each with separate male and female dress designs** (DressMale / DressFemale per item) — outfits are couple-paired, not unisex.
 - The **rings** chosen during the quest grant further special abilities.
 - Ntreev marked the launch with a Wedding Screenshot Forum Event: the 5 best hall screenshots won 3 Gacha Coins and a GM-signed wedding illustration poster.
 

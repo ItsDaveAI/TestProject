@@ -23,6 +23,8 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 ## Guardian forms and graph mechanics
 
 - The client's `SoulGuardianParam` table lists **eight guardian entries** — a correction to the wiki's "five forms": the four type-guardians **Sephirens** (세피렌스, FType 0 / Power, skill "Power Source" — claws and gale-wings), **Digrimm** (디그림, Magic), **Iffrian** (이프리언 — the wiki's "Ifron", Sense), and **Crusave** (크루세이프 — the wiki's "Krusef", Charm) — **plus four separate Spinels: Spinel (Power), Spinel (Magic), Spinel (Sense), Spinel (Charm)**. Spinel is not a fifth single form but a **universal family available in every type**. Each entry carries its own speech table, AI tactics table, and level-growth table. If multiple graphs tie, the form is decided by which behaviors promoted those types most.
+
+**Why Spinel is universal (client `SoulSeedParam`):** there are **two seed items** — the **Soul Seed (영혼의 씨앗)**, which hatches the four type-guardians (Sephirens / Digrimm / Iffrian / Crusave), and a separate **Spinel's Seed (스피넬의 씨앗)**, which hatches the four Spinel variants. The Spinel family isn't a graph accident — it's a **second seed item** with its own four-type product line.
 - Each form exists in grades: **Legendary / Mighty / Superior / Accomplished**.
 - Community-measured graph rules (LifeTO guide): **1,000 aura points = 1 graph point** (A/M/S/C graph); the process stops at a **14-point total** (the Mighty cap) or when any single graph reaches **6 points**; 0-point graphs automatically become 1 after hatching; **graph points equal the number of guardian skill slots**; and reaching **18 total points (base + secret empathy) guarantees a Legendary** — the secret-empathy route burns 1,000+ cards via Card Identification *after* equipping the Soul Seed but *before* starting base empathy.
 - **The rune carry-over quirk** (Mew's guide): passives gained through a **Louis's rune** (Faint, Guard Break) keep boosting skills like Shockwave even after the rune is swapped for **Cochma** (Shield Breaker + Lucky Fist) — actives don't stick, passives do. This is the backbone of the community's "cookie-cutter" Lucky Fist guardian build.
@@ -30,6 +32,8 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 - LifeTO ships a Soul Seed Viewer quality-of-life tool for planning graphs.
 
 ## The Korean awakening chain (각성)
+
+(Client note: awakening is **resettable** — `AwakenStrings` carries the reset message "각성을 초기화 하였습니다" ("awakening has been initialized") — the Lv 180 awakening state could be undone and redone.)
 
 Korean guides sequence the whole Enlightenment line by level: **1st advancement (Lv 60) → Card Identification (Lv 65) → 2nd advancement (Lv 130) → Soul Seed (Lv 135) → Awakening (Lv 180)**.
 

@@ -16,6 +16,8 @@ The **Card Identification skill** (On/Off type, MP 30) is earned through the Car
 
 (Client data confirms the reward structure:) `CardIdentify_Exp` sets identification payout at **TM EXP only** — base-EXP ratio **0**, TM ratio **1.0** ("기본 경험치") — which is why CID was *the* TM-farming loop. `CardIdentify_ComboTable` is the **combo multiplier**: consecutive identifications pay **1× / 2× / 4× / 7× / 12× / 19× …** (51 combo tiers), and `CardIdentify_GradeInfo` splits results per card **grade 1–12**, each grade rolling two result tables at fixed rates plus a **Special table** at its own rate (the `CardIdentify_ResultTable1–12` / `SpecialResult1–12` files hold the actual loot pools).
 
+**The loot pools themselves:** each of the 12 result tables holds ~**40 items with exact drop rates** — e.g. Table 1: One-shot Potion and Gold Pearl Potion at **30%** each, Miracle/Sand/Ground Drill No. 1 at **5%** each — while the 12 Special tables carry the prizes: **transformation picture frames (변신 액자) at 26%** — Baby Rabbit, Baby Buffalo, and the other baby-animal transformation frames are the Special-table jackpot.
+
 - Every Monster/Character Card is numbered **1–15**; each number carries fixed **Life** and **Gauge** values used in the identification minigame:
 
 | Card # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
