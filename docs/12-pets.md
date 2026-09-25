@@ -32,6 +32,15 @@ Send a pet out to **collect items from a map by itself** — items are randomly 
 - **Pet Training** re-rolls a pet's stats exactly like equipment tempering — fueled by **Protein Candy** (reroll) and **Lock Candy** (lock a stat while rerolling), from MyShop and events.
 - **Pet Reinforce** is the pet equivalent of Maturing Compound: pets equip **Hardants** into open **Talent Slots**, each hardant typed to a stat the pet accepts, and slots are consumed like compound slots.
 
+**Pet tier upgrades and evolutions (client `PetLevelUpInfo`, 483 rows):** every pet runs on a fixed upgrade graph catalyzed by one MyShop consumable — the **Pet Growth Vitamin (펫 성장 비타민)** — in **two parallel tracks**:
+
+- **T-track (360 rows):** base → **T2 → T3 → T4** — stat-tier upgrades keeping the same form (e.g. 버들강아지 → 버들강아지T2 → T3 → T4).
+- **E-track (123 rows, `Evolve` flag):** **E1 → E2 → E3 → E4** — true evolutions into new forms.
+
+**183 pets** carry chains — e.g. Christian (크리스티앙) has both a full T-track and a full E-track, eight upgrade steps in total.
+
+**Character-pet reinforcement (client `CharacterPetReinforceInfo`, 5 rows):** the character-pet line gets its own reinforce catalysts — **Pierce (피어스)** items that create variant pets: Attack Pierce → **Angry Angel Rabbit** (AP +50), Magic Pierce → **Wise** (MA +10), Sense Pierce → **Seasoned** (DA +10), the fourth → **Swift** (HV +10) — and the rare-flagged **Divine Angel Rabbit** carrying **all four bonuses at once**.
+
 ### Pet origins and grades
 The pet chart organizes pets by **origin** — In-Game (store/quest/monster-drop), In-Game Event, Gacha, **Egg**, MyShop, MyShop Event, and **Crystal** pets — across level brackets up to 280. The **5-star** class (200+ entries on ggFTW) covers **character pets** (Boxer Lina, Bard Amelie, Card Master Roan, Warrior Bika, Magician Azhi, Inventor Singha, Explorer Zorra, Entertainer Jen — NPC-styled versions of the eight classes, plus Divine variants), **boss pets** (Count Blood, Captain Skull, Admiral Skulley), **voice pets**, and **collaboration pets** (e.g. Akane Isshiki in all four type variants, and the Higurashi pair Ensaki Mion & Shion) — everything eligible for top-tier Synergy. **Egg Pets** are the exception to fixed stats — they grow with you via the Pet Breeding System (see [Egg Shop & Pet Breeding](36-egg-shop-and-pet-breeding.md)).
 
@@ -65,3 +74,4 @@ Late-era additions (Korean service): the Chaos Tower overhaul introduced the que
 - [Pets Chart — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Pets_Chart.html) (stat tables, origins)
 - [Category:5 Stars Pet — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Category_5_Stars_Pet.html) (character/boss/voice/collab pets)
 - [Pet Synergy — Our Trickster Online Wiki](https://oto.fandom.com/wiki/Pet_Synergy)
+- Client data: `PetLevelUpInfo` (483-row pet upgrade graph — T-track tiers, E-track evolutions, Pet Growth Vitamin catalyst), `CharacterPetReinforceInfo` (Pierce-reinforced Angel Rabbit variants), `Maturing_CompoundPet`, `Pet_Property`, `PetSpeech_*`

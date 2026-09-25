@@ -29,6 +29,12 @@ Available in **all regions** once Mind's Eye is active:
 - Shadow monsters drop **shadow/gloom equipment** (on LifeTO, gloom equipment farming at Path to Caballa Relics with Mind's Eye is a primary galder income), plus HP/MP potions and galders.
 - Shadow daily quests are repeatable daily income and a source of **Star Tears EV** (up to 12/day on CoraTO) used to extend [Star Gazing](16-star-gazing.md) fortunes.
 
+## The shadow arsenal in client data
+
+- **The Dark skill family:** the per-skill curve archive carries a dedicated shadow set — **Dark Spear, Dark Fog, Dark Ghost, Dark Barrier, Dark Whisper, Dark Slow, and Dark Up** (each with full `ESAII_`/`ESAction_` level curves) — the signature kit that separates shadow monsters from the regular roster.
+- **The shadow exchange shop** is registered as `Exchange_Shop_Shadow` — a 54-slot exchange roster (IDs 876–929), the client-side remnant of the shadow-gear economy.
+- The shadow-world boss layer has its own spawn table (`BossMon_Shadow2`) — a single check-timed boss entry per region cycle.
+
 ## Related systems
 
 - [Guardians](13-guardians.md) — prerequisite
@@ -44,3 +50,4 @@ Available in **all regions** once Mind's Eye is active:
 - [Eclipse — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Eclipse.html)
 - [New Tricksters' Guide — LifeTO](https://guides.lifeto.co/t/new-tricksters-guide/14)
 - [Fortune — CoraTO Wiki](https://mewsie.world/CoraTOWiki/index.php/Fortune) (Star Tears from Shadow dailies)
+- Client data: `ESAction_Dark*` / `ESAII_Dark*` (the seven-skill Dark family), `Exchange_Shop_Shadow` (54 exchange slots), `BossMon_Shadow2`
