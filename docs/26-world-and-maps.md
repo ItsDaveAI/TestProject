@@ -6,6 +6,10 @@ Trickster Online takes place on **Caballa Island** (Korean: 까발라섬), a Pac
 
 ## Regions
 
+**The mine-ore registry (client `Textboard` signage):** the in-world signs at each mine name its pits' ores — **Crystal Copper**: Pit 1 bronze/tin/sulfur, Pit 2 quartz/amethyst/agate; **Jade Steel**: wrought iron/steel/lead/eternal-steel + jade/cat's-eye/kunzite/moonstone; **Silver Jewel**: silver/mithril + turquoise/garnet; **Precious Jewel**: tantalum/titanium/**Ori-Harkon/adamantite** + opal/chrysoberyl/zircon/alexandrite; Golden Ash and Silent Lava follow — the complete ore-by-location table behind [Refinement](08-refinement.md)'s tiers.
+
+**Zone entry rules (client signage):** the deep fields carry posted warnings — **"strong monsters inhabit… entry forbidden below Lv 120/150/180/200/230/260, parties only"** — the tier zones are level-gated *and party-only* by design. The **Megalopolis forest paths** are level-banded: Path 1 (SE) Lv 30–100, Path 2 (SW) Lv 101–200, Path 3 (NW) Lv 201–400 — with the map board naming each path's monsters (Popo/Yamqueen; Tichly/Wasp/Mantis; Yamuking/Fossil Soldier/Joker). One lore sign: the **Predator's dual-personality warning** (Rosemary and Sophia hold its entrance passes), and Don Giovanni's no-entry notice as "Megalo Company Chairman."
+
 **Official level bands and flavor (client `WorldMap_RegionInfo`, 13 regions):** every region entry in the table above carries the client's own recommended band and lore — e.g. Ghost Blue is "the devil's zone, a ship graveyard that sank countless vessels, which sailors still shun" (Lv 95–110); Mirage Island is "a place where timespace crossed, where the legendary figures of Caballa legend can be met and their stories heard" (Lv 80–100); Techichi is "a village fossilized under white ash flown from Tapasco" (Lv 210–240); Tapasco's pepper trees "give the erupting gas its spicy taste — hence the name" (Lv 230–270).
 
 | Region | Town | Notes |

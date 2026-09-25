@@ -12,6 +12,8 @@ The Wedding System launched **June 17, 2010** as a major Ntreev USA content upda
    The client's `CoupleStatusInfo` table gives the **exact point economics** — 11 event types, each adjusting three separate meters (**Relation / Love / Friend points**): positive events pay e.g. **+8 relation, +3 love, +5 friend**, while negative ones claw back −2/−2/−1 — the couple system tracks a friendship axis alongside romance.
 3. When Love Points reach the threshold, an in-game notification fires and the **MyView window flashes** — you may begin the wedding quests.
 
+**The couple-stat engine (client couple tables):** the relationship runs on **three separate meters** — Relation, Love, and Friend — where **Love and Friend are each 0–100 scales** and Relation carries **13 descriptor bands** from 처음 만난 듯한 ("like first meeting," 0–5) through 동반자로 여기는 ("regarded as a companion," 96–99) to **영혼의 반쪽 같은 ("like one's other half of the soul," 100)**. The 54-row advice table (`CoupleLoveFriendStringInfo`) prescribes activities by band — party play, party quests, whispers, memos, gifts, and simultaneous play each move a meter, and negative events claw points back (−2/−2/−1 on one event type; another pays +10/+5/−3 — friendship *spent* to buy love). **The couple skill set (client `CoupleDeleteInfo`):** coupling grants a **22-skill set (IDs 5020–5041)** and a five-quest chain (7100–7104) — and **breakup deletes them all**. Divorce rules: the **ring (a skill) is destroyed**, **new bonds blocked for one week**, and **couple skills are unusable while a divorce is in progress**.
+
 ## Wedding quests
 
 | NPC | Quest | Notes |

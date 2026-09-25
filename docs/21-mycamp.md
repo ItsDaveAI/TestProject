@@ -24,6 +24,8 @@ Each character stores exactly **one saved camp layout** (an engine limitation) �
 
 ## Decorating and the MyCamp shop
 
+**Housing rules (client `MCHelpText`):** **floor tiles expand the camp's size** (the Space category's floors are the area upgrade) while **all walls are free**; the shop list supports **buy / gift / details** per item (gifting furnishings to friends); right-click removes or rotates placed items, drag places and moves; and floor-edit versus item-placement are separate modes with a wall-visibility toggle.
+
 **The furniture registry (client data):** `MCItemParam` defines **1,098 MyCamp items** — each with its inventory icon, in-camp 3D object file, inventory type, description, and shop placement — and `CampSetItemParamCM` bundles 74 themed sets. MyCamp's catalogue is the single largest item family in the client after the equipment master.
 
 - Open the decoration screen by pressing **Shop** inside your camp, or via **MyShop (Y) → MyCamp button** (top right). The MyCamp inventory holds owned items; new purchases land under the **NEW** tab.

@@ -18,6 +18,8 @@ The remaining official function-list items: the **client interface and controls*
 
 ## Keyboard shortcuts
 
+**Client-confirmed shortcuts and rest mechanics (tooltips/SystemHelp):** **R** toggles run/walk; **Z or ~** auto-picks dropped items and galders; **V** opens bonus-point allocation on level-up; **D + click** drills. **Sitting or lying down speeds HP/MP regeneration** (sit via PageUp/PageDown or `/앉기`, `/잠`) — but **items can't be used while resting**, and **casting a magic skill while hit cancels the cast** (spell interruption). One-click attack auto-attacks continuously. The world hides one more: the **emergency slide** — click the ground and press **Page Down** to slide (the in-world "비상 미끄럼틀" sign teaches it). No minimap zoom in dungeons; a **level requirement can gate unequipping**; the ammo slot is level-gated; NPC interaction has a click-range; and **detection can fail** ("감별에 실패하였습니다"). The base **level cap is 400** (the Lv-400 achievement message).
+
 | Key | Function | Key | Function |
 | --- | --- | --- | --- |
 | M | World Map | F | Friends |

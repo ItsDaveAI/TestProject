@@ -17,6 +17,10 @@ Open mail via the envelope icon (top-left, below HP/MP), the Mail icon in the bo
 
 ## Friend list
 
+**Friend rules (client `FriendUIParams`):** the list caps at **50 friends**; registration is **level-gated** (both sides must be of "usable level"); **memos are 35 characters** and arrive in categories — Friend / **Gift** / GM / Guild (gifts flow through the friend-memo system); whispers work **only for online friends**; and the UI maintains a **"friends who deleted me" view**. Friend tracking shows each friend's **current zone and in-transit state** ("moving from %s to %s").
+
+**Anti-spam and security (client `StringTable` / `ExchangeStrings`):** **5 repeated messages trigger a timed chat mute** ("도배를 5번 하셨습니다 — %d초간 채팅이 금지됩니다"); the client runs **macro/debugger detection with forced disconnect** ("매크로 및 불법 디버거 사용이 검출되어 강제종료됩니다") and abnormal-connection (speedhack) disconnects. Trades are guarded by the **secondary-password system (2차 비밀번호)** — both parties must unlock theirs before items move, and **equipped items cannot be traded**. The **GM keyword shortcuts** (로그아웃/스피드…) are the in-game GM command surface.
+
 - Add via right-click → friend functions, or commands `/add`, `/friendadd [player]`.
 - `/fellowlist` shows whose friend list you are on; `/fellowdelete [player]` removes you from someone's list (takes effect when they log off).
 

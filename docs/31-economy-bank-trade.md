@@ -38,6 +38,10 @@ Checks are **tradable and bankable but not droppable** — the standard large-de
 
 The `R_ShopItem_*` family (~40 tables, e.g. Snow's 75 goods) extends the same schema to **every region's general stores** — bullets, empty cards, and the Pink Potion B/C consumable staples across the island — and `TeleportInfo` (225 rows) prices **level-gated teleport destinations** (per destination: minimum level, zone, cost) alongside Pachi's dialog menus.
 
+**Commerce rules (client strings):** personal shops are searchable via the **`/상점검색` (shop-search) command** — 2+ characters of an item name returns every shop stocking it **with map coordinates** ("[%s]님의 상점 — 좌표(%d,%d)"). NPC shops flag item classes on sale (**cash / refined / compound / quest items**), and **cash items can be sold to NPCs — with an extra confirmation warning**. The **warehouse has a maximum slot count** with expansion coupons ("창고의 최대 슬롯 갯수인 %d개를 넘어가므로…"), and ghost-exchange enforces **per-item possession limits** ("소지한도를 초과하였습니다").
+
+**Street-stall mats (client `VisualMatUIParams`):** personal shops render as street stalls with **six selectable stall visuals** — none, **Tiphmont's Begging Mat**, **Seth's Elegant Mat**, **Tiphmont's Fraud Mat**, **Ian's Pauper's Straw Mat (거적대기)**, and the **Tenterion and Baby-Spica character carpets** — the joke shop-front skins for your sidewalk business.
+
 - **Direct trade** window between characters (a listed in-game function).
 - **Personal shops (개인상점):** player-run stall shops were a launch-era system — the 2006 Korean official guidebook carries a dedicated personal-shop chapter, and Korean players still shorthand them as **"갠상"** when advising where to buy drills, skins, and gear. Era mechanics (where/how you open one) are thinly documented in surviving sources, but they functioned as the browsing-based player market alongside direct trade.
 - **Trade Mail** (see [Mail](32-mail-and-communication.md)): attach an item with a price; the buyer pays on delivery; the seller receives the price minus the mail fee.

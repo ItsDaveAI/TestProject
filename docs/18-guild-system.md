@@ -8,6 +8,14 @@ Guilds are player communities with privileges: a shared identity, weekly **ranki
 
 - **Create:** level 35+, **2,000,000 galders**, talk to **Andrew** at the Megalopolis Guild Office → "create a new guild," then name it.
 
+**The guild rulebook (client `GuildUIParams` / `GuildSetupInfo` / error tables):**
+
+- **Membership:** guild cap **64 members**; join applications require Lv 35+; **one guild-master character per account**; withdrawal locks you from joining another guild for **1 week**; dissolution blocks creating a new guild for **1 month** (with a dated expiry shown).
+- **Grades and activity points:** members are graded, each grade's **activity-point threshold is configurable 0–10** (strictly increasing by grade; grade 7 is fixed) — and the points are **sourced from memo counts and login counts**. The **guild master password** system defaults to "0000" (16-char max).
+- **Guild level curve (`GuildLevelInfo`):** 950 / 2,000 / 4,100 / 8,300 / 12,500 / 24,850 / 37,250 / 50,350 / 76,000 / 99,650 points for levels 1–10 — points accrue **live** from logins, GvG, and quest completion, and the **weekly rank pays a percentage EXP bonus** ("%s guild ranks %d this week — %d% bonus EXP applied").
+- **GvG conduct:** **spectating costs 1,000 galders**; a no-show opponent is an **automatic win**; the **out-count must exceed participant count**; room creation requires **officer rank**, and official-match participation is **guild-master-only**; timeout awards the **higher score**; a full retreat is a **forfeit loss**; players already in or watching another match can't be invited; and the **league system** has schedule windows with **playoff-qualified guilds barred from creating casual games**.
+- **Emblems:** template changes are limited to **once per day**, permission-gated, and purchased through the guild shop; **guild-depot storage** is location-gated, item-type-restricted, and expandable by purchase.
+
   **Guild infrastructure (client data):** the guild **warehouse (길드창고)** is zone-restricted — the depot's own error messages include "길드 창고 이용이 불가능한 지역입니다" ("this zone does not allow guild-warehouse access") and data-request states; **guild emblems** run on **10 templates × 16 colors** (`GuildEmblemTemplateInfo`/`GuildEmblemColorInfo`) — the emblem designer's palette system, purchasable through the guild shop above.
 - **Join (two ways):**
   1. Talk to **Guild Clerk Esther** at the Guild Office, browse the guild list, and apply (leader approves).

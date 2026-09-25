@@ -39,6 +39,8 @@ The Card Battling System is one of Trickster's defining non-combat systems: two 
 
 ## Rewards
 
+**Reward caps (client `CardBattleStrings`):** three anti-farming limits governed card EXP — **repeat battles against the same opponent stop paying EXP/points** past a threshold, a **daily unique-opponent cap** limits rewarded opponents per day, and **consecutive rematches are capped** ("%d consecutive plays max"). One physical rule: **your inventory must hold ≤288 items to battle at all** — a full pack locks the minigame.
+
 - The battle winner earns **experience points proportional to points won** — more wins and points means more EXP.
 - Additional prizes: **items, cards, and galders**.
 
