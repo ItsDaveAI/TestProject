@@ -27,6 +27,8 @@ Open mail via the envelope icon (top-left, below HP/MP), the Mail icon in the bo
 
 ## Chat & channels
 
+**The abuse-report system (client data):** the report UI carries explicit rules and teeth — **false reports earn the *reporter* a 3-day block** ("허위 신고일 경우 신고한 사람이 '3일 블록'이라는 강력한 처벌을 당하게 됩니다"), with false-report categories spelled out (no actual abuse, joke reports, GM-insulting titles) and a hard policy line: **kill-steal ("스틸") and loot-theft ("먹자") reports are not accepted or processed** — those disputes were officially out of scope. **GM keyword shortcuts** (`GMKeywordStrings`) map spoken commands like "로그아웃" (logout) and "스피드" (speed) for in-game GM interaction.
+
 - Chat window with tabs (Alt+1–4 to switch); **Ctrl+0–9** sends registered messages (set with `/register [#]`).
 - Custom channels: `/join` or `/chjoin [channel]`, `/chquit`, `/chlist`; speak in a channel with `&[channel] [message]` (channel text appears cyan).
 - `/block [player]` mutes/unmutes; `/blocklist` lists muted players.

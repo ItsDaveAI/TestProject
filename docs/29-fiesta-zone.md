@@ -27,6 +27,8 @@ Fiesta Zones are **timed party-grinding maps** with big EXP/TM bonuses — the "
 
 ## Notes
 
+**The scheduling engine (client data):** `FiestaInfo` holds **240 fiesta instances** — each row binding a zone ID, **portal index and portal-open minute**, and activation windows (year/month/day/hour) with working-day masks — the daily fiesta calendar is a timed-portal script, the same scheduling machinery as the event-drop timers ([Events](30-events.md)).
+
 - The TM multipliers are the draw: Fiesta is one of the fastest TM-leveling methods, pairing with the [party system](17-party-system.md)'s multipliers.
 - A **Fiesta Party** variant coordinates group entry (party-wide ticket use).
 

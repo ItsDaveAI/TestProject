@@ -18,6 +18,7 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 | **Party quests** | Officer Tera's regional dungeon PQs (Desert Beach, Poppuri, Caballa Relics, Oops Wharf, Mermaid Palace, Crystal Copper, Nora Sewer, Vamp Castle, Jade Steel, Blue Ice, Silver Jewel, Snow Field) — sources of [Chaos's Feathers](10-tempering.md). |
 | **Daily quests** | Repeatable dailies (e.g. Star Gazer Stella's Megalopolis daily Lv 35; Shadow World dailies Lv 210; region summer dailies). |
 | **Skill quests** | Quests that grant skills — Crazy Drilling (Driller Marky chain), [Card Identification](07-card-identification.md) (Fairy Nono), Mind's Eye (Eclipse). |
+| **Escort quests** | An engine quest type (client `EscortNpcTalk`): zone-bound, character-type-specific **escort templates** with Start/Fail/Success dialogue — guarding an NPC through a map (shipped in limited use; the engine category exists). |
 | **Event quests** | Limited-time chains during [events](30-events.md) (Poppuri quests, wedding quests, Tower of Chaos quests). |
 
 **Scenario/Episode structure** (the level-ordered story spine):
