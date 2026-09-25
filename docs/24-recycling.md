@@ -20,6 +20,8 @@ Introduced with **Trickster Season 2 (announced January 5, 2011 by SG Interactiv
 
 (The exact item-to-ticket mapping above follows the ggFTW exchange table; PandaTO's version additionally traded Disguise Kits for 3 tickets + 200,000 galders, and its shop was later removed from that server — server-specific variations.)
 
+**The client-side recycle engine (data):** `RecycleShop` (39 rows) defines the base exchange — a **0.30 exchange ratio** (items recycle at 30% rate) with change counts and result items per source class — and `RecycleExceptItem` is the exclusion list: **532+ items barred from recycling**, dominated by celebration/gift-box goods (e.g. 천마강림부 from the congratulation-gift box) — promotional items were deliberately taken out of the recycle economy.
+
 **The Korean-era VIP exchange shop (client data):** the late Korean client added a **VIP Shop** with a **100-item exchange catalogue** (`VIPShop` + three `VIPShopItem` page tables) pricing items in recycle-style points: a **Light-equipment box for 13 points**, classic skins (mini-hat, shield) for **3 points** each — the same old-item-for-points economy, formalized as a permanent shop rather than an NPC menu.
 
 ## Positioning

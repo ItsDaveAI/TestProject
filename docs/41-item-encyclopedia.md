@@ -10,6 +10,8 @@
 
 **Item-class scale (client `ItemParam2`, 8,584 rows):** the master table splits **6,998 use/etc. items (Class 1), 1,464 equipment (Class 2), and 122 Class 3 items** (the card/special families) — with the ~6,136-row `ItemParamCM2` growth-compound line and 1,219-row `ItemParamEx` unique/effect line alongside.
 
+**The random-stat engine (client `RandomStatValueTable`, 3,141 rows):** every randomized-stat item — box equipment, Ultimate/Chaos/Master gear, the uniques — draws from a per-item row holding **each stat's Min–Max range plus an Up/Down import flag** (verbatim: item 32700 rolls AP 1–37 and DX −3 to −7, both "Down"-typed) — the engine behind tempering's special case for randomized gear. `Equip_Property` (5,603 rows) is the companion **per-item applicability matrix** (ApplyRatio + enabled properties) — equipment's counterpart to the pet property table.
+
 Trickster Online's item taxonomy (per the ggFTW/LifeTO classifications) spans **equipment** (weapons: swords/knives/canes/guns/special + ammunition; armor: hats/shields/innerwear/capes/face items; accessories incl. **Speed Acc.**, Head/Face Acc.; drills; pets; soul guardians), **Use items** (boxes, books/letters, galder coupons, HP/MP recovery, teleport devices), **Etc.** (compound materials, ores/gems, hardants, job-change items, mastery items, quest items, throwing weapons), and the **card** families (skill, star, monster, character, secret, fortune, etc.). This file catalogs the items with a *unique* use — the ones you can't guess from the sprite — with cross-references to their systems.
 
 ## Equipment modification catalysts
