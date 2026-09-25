@@ -50,6 +50,13 @@ The Korean event calendar (from the Korean event archive) ran the full seasonal 
 - **Collaborations:** Sanrio (Hello Kitty and Cinnamoroll equipment — Korean service) and the Japanese version's **Squid Girl (침략! 오징어 소녀)**, **Higurashi When They Cry**, and **Moonlight Weapon Mina (월면토병기 미나)** collab items and pets.
 - **GM culture:** Korean GMs ran OX quizzes frequently, appeared in towns to grant EXP buffs and chat with players, and the publisher held annual offline user meetings — credited with the game's famously loyal community.
 
+**Event NPCs preserved in the client (2007–2013):**
+
+- **Chuseok 2007** — the event NPC is the **GM personified**: "전 이맘때가 더 바쁩니다… 이용자들이 무슨 불만이 있는지 들어야 하고, 서버에 이상이 있는지도 감시해야 하니까요" ("I'm busier at holiday time — I must hear players' complaints and watch the servers"), paying **Chuseok food boxes** as thanks.
+- **Valentine 2009** — **Baron André (앙드레 남작)**, "your fantastic fashion companion," who takes pity on "a man who's never dated by thirty" and offers **letters of romantic advice** if you help him decorate the Event Garden five times.
+- **8th anniversary (2011)** — a **Count Blood popularity vote** held by Vamp Castle's butlers and maids: "백작님의 신체적인 사정으로 낮에는 투표를 할 수 없습니다" ("the Count's physical condition means no voting by day") — the polls open only at night, with the overworked staff asking adventurers to help Count Blood win.
+- **Halloween 2012** — the event monster **speaks for all quest monsters**: "인간들이 퀘스트 아이템인지 뭔지 그걸 구해야 한다면서 우릴 보자마자 마구 때리잖아? 아무 짓도 하지 않았는데…" ("humans beat us the moment they see us, saying they need 'quest items' — though we've done nothing"), and the player notices its **bruise marks** — the grind, from the monsters' side.
+
 ## Related systems
 
 - [Drilling](05-drilling.md) — the Poppuri engine
