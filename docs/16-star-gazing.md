@@ -25,6 +25,8 @@ Stella also feeds the **title system**: the *The Gods* and *Experts* title famil
 
 ## The reading
 
+(Client data adds the machinery underneath:) the reading runs on a **star clock (별자리 시계)** — releasing the **spring device (태엽장치)** button sends the needle spinning, and `FortuneRuleParam` fixes its card-selection behavior at a **0.3 seed**. The fortune deck is **118 cards** (`FortuneCardParam`), each carrying a stat **attribute, value, probability, duration — and up to three "cross" effects** that interact when cards combine. Fortune results feed **refinement odds**: the card's refine value scales by `RefineSeed = 100` (`applied refine = card refine × seed/100`). **Re-reads double in price every time** (`FortuneGalder`): 1,000 g → 2,000 → 4,000 → … → **16,384,000 g** at the 15th reading. Underneath it all, `TodayStar` holds a **370-day star-value table per character type** (each of the 8 original characters has its own daily star 1–3), and `TodayWeekParam` sets **weekday luck multipliers** — Sunday 1.6× (best), Saturday 1.5×, Thursday 1.4×, Wednesday 1.3×, Tuesday 1.2×, Friday 1.1×, Monday 1.0×. `FortuneRuleTitle` (239 rules) maps fortune outcomes to **titles** — and the client's `TitleInfo` confirms the family: *별희의 미움을 받은* ("Hated by Byeolhui"), *대흉의* ("of Great Misfortune"), and the planet-shining titles (*머큐리가 비치는* Mercury, *우라누스가 비치는* Uranus, *넵튠이 비치는* Neptune, *마르스가 비치는* Mars). Stella's no-money line survives verbatim in `FortuneString`: **"저리가, 거렁뱅이"** — "Go away, beggar."
+
 1. Stella lays out **10 random cards**. Once revealed, you cannot back out without paying.
 2. **Swap cards:** replace Stella's cards with your own (limited swaps per day; swapped cards are consumed even if pointers miss them; swapped cards fill the reading circle right-to-left).
 3. **Spin:** click Proceed and spin the wheel — **three pointers** land on cards; you gain the stats of the cards they hit.
@@ -45,6 +47,8 @@ Boosts last **3 hours** (CoraTO-era rule), can be extended with **Star Tears** (
 - [Stats](02-stats-and-base-leveling.md)
 
 ## Sources
+
+- Trickster Online Korean client data tables (user-provided `xml.zip`, 2026-09): `FortuneCardParam.xml` (118 cards), `FortuneGalder.xml` (escalating prices), `FortuneRuleParam.xml` (needle seed 0.3, refine seed 100), `FortuneRuleTitle.xml` (239 title rules), `TodayCardParam.xml` (21 daily fortune texts), `TodayStar.xml` (370-day per-character stars), `TodayWeekParam.xml` (weekday multipliers), `FortuneString.xml`, `TitleInfo.xml`
 
 - [Star Gazing — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Star_Gazing.html)
 - [Fortune Cards / Category:Fortune Card — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Fortune_Cards.html) (card numbering, 13 effect types, pack series)

@@ -49,6 +49,10 @@ Trickster Online's item taxonomy (per the ggFTW/LifeTO classifications) spans **
 | Item | Unique use |
 | --- | --- |
 | **Speed accessories (Sprints, Wing Charms, Objet d'Art)** | The MyShop speed ladder: Levitation Charm +30% → Dashing Sprint +60% → Stallion/Gallant/Snappy Sprint +70% → Mystic Favor, Sign of Charisma, Kid Angel/Demon's Wing Charms +80% → Speedy Wing/Mega Kid Charms +90% (Lv 150–170) → Objet d'Art +90% (Lv 190) and beyond toward +100% at Lv 270 — timed ~7 days, compoundable. **Stallion Sprint** also comes from the Lv 40 (3-day) and Lv 140 (7-day) gift boxes. Each tier ships in **paired variants** for physical (AP/AC/LK/HV) and magical (MP/MA/DA/LK) stat blocks — the Lv 140 event Stallion even splits by type (15-day) — and **free event versions** ran alongside: the **Feather Charm** (the free Levitation Charm), the 3-day **Poppuri Sprint**, and the *permanent* **Kitty Earrings** (Special Film events, variable stat ranges) and **Princess's/Queen's Anklets** (Odinea boxes). |
+
+**Speed data (client):** `SpeedItemParam` enumerates **56 speed items with their exact AddSpeedRatio values** (0.6 for the Dashing tier, 0.7 for Stallion-class, … up to 1.0) — the ladder above is confirmed by the client's own numbers, not just wiki text.
+
+**Unique items (client):** `UniqueItemStrings` / `UniqueItemCountTable` / `UniqueItemDropProb` describe a **unique-item tier** whose drops are **broadcast server-wide** on pickup ("%s 님이 %s 아이템을 획득했습니다") and which **despawn if left on the ground** ("%s 아이템이 소멸되었습니다") — the rarest loot layer with its own UI.
 | **Mega / Giga / Tera Brand** | The *unlimited-duration* speed accessories exchanged from Harkon Protector drops ([Harkon Protector](15-harkon-protector.md)) — +40% → +70%. |
 | **Broken Speed Charm** | Free +30% unlimited speed accessory every character receives at creation. |
 | **Wing Port** | Single-region teleport scrolls sold by Item Girl (1,000–3,000 g). |

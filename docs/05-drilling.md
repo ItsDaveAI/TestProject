@@ -57,9 +57,13 @@ A passive **skill learned from Driller Marky's questline** (Marky, Reina, and Jo
 - Follow-up skills: **Anger Management** and **Mega Crazy Drilling**.
 - Caveat: on some event types (e.g. Poppuri event boxes), boxes could not be drilled up while in Crazy Drilling mode.
 
+Client data (`CrazyDrillStrings`, `StressPointInfo`, `Item_DrillParam`) fills in the mechanics: Crazy Mode is **duration-based** ("%d seconds maintained") and is **reset by changing your equipped drill** or entering a no-crazy zone (the mode's zone list is data-driven). The gauge is per-drill — every drill in `Item_DrillParam` (191 of them) carries its own **CDM_GaugeMax** and **CDM_StressBonus**, plus a **Grade**, a **GroundNature** enum (the ground-type specialization, real in data), DigDepth, effective area, gauge speed, scoop mass, and DrillLife. `StressPointInfo` defines five stress event types (0.15 / 0.35 / 1.5 / 0.25 points, with −999 as the reset value). And `DrillGradeExpRate` scales drill **EXP by drill grade** — grade 0 = 1.0×, rising through 6× / 12× / 20× / 30× / 42× / 56× / 72× / 90× / 111× / 136× … up to grade 20: better drills are EXP multipliers, not just depth.
+
 ## Auto-drilling pets
 
 **Driller Boy** (Lv 10, MyShop, 2,900 pts, 15 days) and **Driller Girl** (Lv 45, 2,900 pts, 15 days), plus Super variants (30 days): with the pet equipped, pressing **D** makes your character auto-drill — it moves half a step and drills repeatedly until drills run out (puppy-eyes emote on empty digs). Timed pets can be recharged via Pia's Recharge Service with **Recharge Coupons** (LifeTO's guide calls this "Idle Drilling"; the pets themselves are official MyShop items). The Korean community calls Driller Boy **드릴군 (Driller-kun)** — its 2013 Korean event variant was the **Baby Driller-kun** pet, and a Korean community tip rates Crazy Drilling as mainly worthwhile on Foxes (whose drill skills synergize), with other characters better off buying drills from personal shops. The line's Korean origin is dated precisely by the press: Entriv Soft announced **Driller-kun on November 23, 2011** as a pet that **digs *and* loots on its own** — one button starts fast self-drilling — sold in **Lv 100 and Lv 200 variants** with large weight capacity for mass excavation, and **gifted free to every player who logged in by December 21, 2011**, alongside an island-wide **Poppuri Box hunt** whose per-box rewards ran to the EXP booster armband, Artisan's Flame, and GM gift boxes.
+
+The client's `AutoDrillPetInfo` confirms the full auto-drill pet roster — **7 pets**, each with a fixed **3,000 ms (3-second) dig cycle**.
 
 ## Related systems
 
@@ -68,6 +72,8 @@ A passive **skill learned from Driller Marky's questline** (Marky, Reina, and Jo
 - [Events](30-events.md) (Poppuri drilling events)
 
 ## Sources
+
+- Trickster Online Korean client data tables (user-provided `xml.zip`, 2026-09): `Item_DrillParam.xml` (191 drills: grade, ground nature, depth, CDM gauge/stress), `StressPointInfo.xml`, `DrillGradeExpRate.xml`, `AutoDrillPetInfo.xml`, `CrazyDrillStrings.xml`, `TreasureMap_Item.xml` / `TreasureMap_Teleport.xml` (67 treasure maps, 5 candidate spots each)
 
 - [Caleb's Drilling Guide — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Caleb%27s_Drilling_Guide.html)
 - [Drilling — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Drilling.html)

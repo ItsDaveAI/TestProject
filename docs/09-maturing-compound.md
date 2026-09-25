@@ -56,6 +56,8 @@ Pet stats can be increased with the parallel **Pet Reinforce** service (see [Pet
 
 ## Notes
 
+**Compounder shops (client data):** the `Compounder_*` family (~40 tables) maps the service's full footprint — per-region **compounder spots** (Beach, Relics, Rose, Snow, Swamp, Wharf, Seabed, Mirage, Abyss, Volcano, Techichi, Path/Wharf), special **event compounder shops** (Halloween, Pepero Day, the 9th-anniversary shop, wedding shops 1/2, Tango, Chinese New Year), the **3rd-job compounder shop line** (six pages), the Tartarus compounder — and a **Cuisine spot** (`Compounder_Cuisine_Spot`) with **Hidden-flagged recipes**, confirming secret cooking compounds existed in the official data.
+
 - **Compounder Paul** in Megalopolis Square / Azteca is a separate crafting NPC: he compounds *items* into other items (potions, teas, sticks) rather than stat-slotting equipment — a common point of confusion.
 - Poppuri events historically awarded **compounding cost discounts** (e.g. 2 weeks at stage 3).
 

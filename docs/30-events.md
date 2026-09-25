@@ -37,6 +37,8 @@ Boss Summon events, EXP-boost weeks, and GM gift-certificate quizzes rounded out
 
 ## Korean service events & GM culture
 
+**Scheduled drop-rate events (client data):** `DropItemEventParam` shows the event-drop machinery — per-item **DrillRatio** (e.g. 0.002 = a 0.2% drilling drop rate) and **MonRatio**, each with an exact activation window (`In_Year/Month/Day/Hour/Minute` → `Out_…`) and working-day masks; one long-running row spans 2010–2020. `Timer_Monster_Table` is the companion for **scheduled monster appearances** (timer ID, monster, map, in/out datetime) — the Poppuri-hunt-style event monsters were timed spawns, and `BossHistoryList` tracks the nine world bosses' kill records.
+
 The Korean event calendar (from the Korean event archive) ran the full seasonal loop — Valentine's/White Day "Fabian's crush" chains, Chuseok food-recovery events (songpyeon-rabbit pets), the 7th-anniversary musical "Snow White and the Seven Dwarfs" (2010), a Tanabata three-parter, Phantom School ghost stories, Halloween pumpkin-village hunts, the four-part Summer Camp series (2012), a Children's Day event, the 9th-anniversary parade, Christmas solo-vs-couple events, New Year snake events (2013), and "everyone's summer" (2013, Baby Driller-kun pet).
 
 - **Pola's launch campaign (Jan–Feb 2013):** SMS friend invites (weapon exchange ticket), Pola 1st-advancement rewards (shield skin + gift box), attendance + guild join (hat skin), full participation (pet exchange ticket), and island-wide **Blue Blue / Pink Pink Penguin** hunt monsters dropping useful items.

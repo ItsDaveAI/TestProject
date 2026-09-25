@@ -39,6 +39,8 @@ Bosses are reached through multi-step trials (party-scale puzzle/defense content
 
 ## Boss content ties
 
+**The official boss roster (client data):** `BossHistoryList` tracks exactly **nine bosses** in the kill-history system — **Tutankhamen, Tombeth, Captain Skull, Tenterlion, Count Blood, Queen Odinea, Soki, Spicy Dragon, and Pirate King Karan** — the game's formal answer to "which world bosses count."
+
 - **GvG Boss Battle** (see [Guild system](18-guild-system.md)): guilds fight boss-class copies that spawn in level order — "Tutankhamen G" first, Spicy Dragon last — with Recall Tiles choosing the next spawn.
 - **Boss uniques:** e.g. the Pharaoh set (excluded from [tempering](10-tempering.md) on official rules); boss drops also feed the [recycling/trading economy](31-economy-bank-trade.md).
 - **Boss pets** are 5-star pets for [synergy](12-pets.md).

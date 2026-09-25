@@ -49,6 +49,8 @@ The tower introduced the **Title system**: a new "Title" tab in MyView (the **Ho
 - **Couple titles** — from the [Wedding](20-wedding-system.md) system.
 - **Harkon titles** — from the [Harkon Protector](15-harkon-protector.md).
 
+The client's `TitleInfo` table holds **148 titles** — and its first entries are the **fortune-title family** from [Star Gazing](16-star-gazing.md): *별희의 미움을 받은* ("Hated by Byeolhui"), *대흉의* ("of Great Misfortune"), and the planet-shining series (Mercury/Uranus/Neptune/Mars) — confirming the fortune readings as one of the largest single title sources.
+
 ## Other notes
 
 - **Harkon** (the 3rd-job item) can be drilled on the tower's Battlefield floors — one of its farmable sources.

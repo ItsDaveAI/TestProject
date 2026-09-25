@@ -36,6 +36,8 @@ Bosses carry a **damage-tolerance table** — percentage reduction *per damage c
 
 ## Monsters → items
 
+**Monster data at scale (client):** the archive's monster layer runs ~**97 Tartarus monster/Boss tables**, per-region `Mon_`/`BossMon_` stat blocks (level, type, weakness, resistance — e.g. the 2nd Harkon Sanctuary's Violent roster Lv 70–140), **522 `Tactics_Mon_` AI-behavior tables**, and the `ESAII_*` family of **monster skill-animation/effect definitions** (500+ skills from Chain Punch to Earthquake to Gellder Hit) — the monster "AI + skill" behaviors the revival wikis describe at case level are fully enumerated in the client. `ChrTypeInfo` confirms the client's nine characters (Rabbit, Buffalo, Sheep, Dragon, Fox, Lion, Cat, Raccoon, **Bear**).
+
 Every monster drops its **own card** ([Card Battle](06-card-battle.md) ammunition and the mastery-card economy) plus its Monster Guild quest items; boss kills gate the trial loot (Phantom weapons, uniques, treasure boxes). Monster **cards double as skill mastery items** — the same Clione card masters Power Blow that fights you at Coral Beach.
 
 ## Related systems

@@ -14,6 +14,8 @@ The **Card Identification skill** (On/Off type, MP 30) is earned through the Car
 
 ## How identification works
 
+(Client data confirms the reward structure:) `CardIdentify_Exp` sets identification payout at **TM EXP only** — base-EXP ratio **0**, TM ratio **1.0** ("기본 경험치") — which is why CID was *the* TM-farming loop. `CardIdentify_ComboTable` is the **combo multiplier**: consecutive identifications pay **1× / 2× / 4× / 7× / 12× / 19× …** (51 combo tiers), and `CardIdentify_GradeInfo` splits results per card **grade 1–12**, each grade rolling two result tables at fixed rates plus a **Special table** at its own rate (the `CardIdentify_ResultTable1–12` / `SpecialResult1–12` files hold the actual loot pools).
+
 - Every Monster/Character Card is numbered **1–15**; each number carries fixed **Life** and **Gauge** values used in the identification minigame:
 
 | Card # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |

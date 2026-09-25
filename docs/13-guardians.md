@@ -22,7 +22,7 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 
 ## Guardian forms and graph mechanics
 
-- **Five guardian forms**, each tied to a graph shape: **Sephirens** (Guardian of Power, skill "Power Source" — claws and gale-wings), **Digrimm**, **Ifron**, **Krusef**, and **Spinel**. If multiple graphs tie, the form is decided by which behaviors promoted those types most.
+- The client's `SoulGuardianParam` table lists **eight guardian entries** — a correction to the wiki's "five forms": the four type-guardians **Sephirens** (세피렌스, FType 0 / Power, skill "Power Source" — claws and gale-wings), **Digrimm** (디그림, Magic), **Iffrian** (이프리언 — the wiki's "Ifron", Sense), and **Crusave** (크루세이프 — the wiki's "Krusef", Charm) — **plus four separate Spinels: Spinel (Power), Spinel (Magic), Spinel (Sense), Spinel (Charm)**. Spinel is not a fifth single form but a **universal family available in every type**. Each entry carries its own speech table, AI tactics table, and level-growth table. If multiple graphs tie, the form is decided by which behaviors promoted those types most.
 - Each form exists in grades: **Legendary / Mighty / Superior / Accomplished**.
 - Community-measured graph rules (LifeTO guide): **1,000 aura points = 1 graph point** (A/M/S/C graph); the process stops at a **14-point total** (the Mighty cap) or when any single graph reaches **6 points**; 0-point graphs automatically become 1 after hatching; **graph points equal the number of guardian skill slots**; and reaching **18 total points (base + secret empathy) guarantees a Legendary** — the secret-empathy route burns 1,000+ cards via Card Identification *after* equipping the Soul Seed but *before* starting base empathy.
 - **The rune carry-over quirk** (Mew's guide): passives gained through a **Louis's rune** (Faint, Guard Break) keep boosting skills like Shockwave even after the rune is swapped for **Cochma** (Shield Breaker + Lucky Fist) — actives don't stick, passives do. This is the backbone of the community's "cookie-cutter" Lucky Fist guardian build.
@@ -51,6 +51,10 @@ Korean guides sequence the whole Enlightenment line by level: **1st advancement 
 - [Mew's Guardian Guide — CoraTO Wiki](https://mewsie.world/CoraTOWiki/index.php/Mew%27s_Guardian_Guide)
 - [Mew's Guardian Guide — MewsiEPTO Wiki](https://mewsie.world/epTOWiki/index.php/Mew%27s_Guardian_Guide)
 - [Sephirens — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Sephirens.html) (guardian forms, grades, descriptions)
+
+### Guardian growth (client data)
+
+`SoulGuardianExp` defines the guardian's **EXP sources as ratio tables** — e.g. **normal-quest completion at 0.1 ratio** — and `SoulGuardianLV` / `SoulGuardianParam` carry the per-level growth and stat blocks behind the forms above.
 - [Spinel (Guardian) — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Spinel_(Guardian).html) (five-form roster)
 - [The simplest guide of building Guardian's Graph — LifeTO guides](https://guides.lifeto.co/t/3rd-revision-the-simplest-guide-of-building-guardian-s-graph/1479) (aura points, 14/18-point rules)
 - [전직/카드식별/영혼의 씨앗/각성 퀘스트 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/11/trickster-job-change-card.html) (level sequence, cathedral, doppelganger)
