@@ -12,7 +12,7 @@ A level-ordered walk through the whole game — where each system unlocks and wh
 2. **Episode 0 tutorial** at Blooming Cora — Bunny Maid's registration, Driller Marky's first **drill** ([05](05-drilling.md)), Marx's refining quiz (5 Bronze Gemstones), Stella's star-quest unlock on Desert Beach Field 2 (Lv 15).
 
    The client's **Notice (노티스) system** walks newcomers through exactly this: an exclamation-mark notification companion (disableable via the Option window, `O`) that announces the Lv 15 gift box mailing, points each type to its **skill-card vendor in Paradise** (Power → **Luis**, Magic → **Sephyra**, Sense → **Kokuma**, Charm → **Tifaret**; the same cards at Megalopolis's Skill Master Garden), flags the **key-quest start level** (Sandman Kim in Paradise), and the **Crazy Drilling quest level** (Driller Markut). It also delivers two hard warnings: **at Lv 21 EXP protection and same-spot revival end**, and **at Lv 50 "chick graduation" — you may become someone's Angel** ([44](44-mentor-and-support-systems.md)).
-3. **Bank the staples**: 15 Coins, 5× 50-galder and 2× 500-galder coupons dug everywhere; sell Lv 30 mail ears/tails for starter galders.
+3. **Bank the staples**: 15 Coins, 5× 50-galder and 2× 500-galder coupons dug everywhere; sell Lv 30 mail ears/tails for starter galders. The milestone gift mail (client `PostBoxLevelUpGiftInfo`) begins here — Lv 15 box + drill manual, Lv 25 key-quest guide, Lv 31 **Graduation Ring**, Lv 60 per-type 1st-job guidebook (see [Stats](02-stats-and-base-leveling.md)).
 4. **Desert Beach / Paradise** (Lv 20–39 band): skill NPCs (buy skill cards, [03](03-tm-leveling-and-skills.md)), the **Crazy Drilling** questline in Paradise, Love Hunter Robin's **TM quests** (your TM must not fall behind), the Pyramid, and the **Lv ≤30 Master Mong** bout (3 Addax Horns → Monkey T).
 5. **Megalopolis** (Lv 40–59 band): the capital's services — bank, guild office (join for the ranking EXP bonus), Garden of Skill Master, Monster Guild. Scenario 1 Chapter 1 (Nefertiti's Necklace, Lv 45) ends in your first unique-tier accessory.
 
@@ -31,7 +31,7 @@ A level-ordered walk through the whole game — where each system unlocks and wh
 
 1. **3rd job at Lv 130 / TM 120** — the Door of Judgment (pure left / hybrid right; Dark Lord red), the Harkon via Marx's Snow Hill mine quest, the 16 Tribulation Rooms, guardian stones from your Job Master.
 2. **Episode 3 (Lv 130+)** — Hero's Testament → the **Dev Room Card Key**.
-3. **Soul Seed at Lv 135** — keep the Questionable Letter; the Trickster Cathedral chain matures your **Poseidon's Seed** ([13](13-guardians.md)).
+3. **Soul Seed at Lv 135** — the Questionable Letter arrives by milestone mail (client `PostBoxLevelUpGiftInfo`); the Trickster Cathedral chain matures your **Poseidon's Seed** ([13](13-guardians.md)).
 4. **Guild life** — GvG colosseum battles ([18](18-guild-system.md)), weekly ranking EXP, Boss Battle mode against Tutankhamen G→Spicy.
 5. **Awakening at Lv 180**: 16 Secret Cards (burn 1,000+ via Card ID *before* base empathy for the Legendary route) → Secret Space Map → the doppelganger fight (strip your gear) → **Mind's Eye**.
 

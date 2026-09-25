@@ -27,6 +27,17 @@ Every character advances through three jobs. The 1st job is the starting sprite;
 - Examples: Champion (Bunny pure) builds AP with some MA/Fire attribute for Flaming Fist; Gladiator (Buffalo pure) prefers Earth/Water/Wind attribute. Fox pure builds DA with daggers; Fox hybrid builds for guns.
 - **Pola** (Korean only) has **no hybrid path** — Animal Lover → Trainer → Zoologist — and her Bear-only skill tree is separate from the shared Power skills Bunny/Buffalo use.
 
+## The advancement interface (client data)
+
+The client's own job-change window (`ChangeJobStrings`) describes every job and its branches — confirming the table above and adding several rules:
+
+- Every hybrid is described the same way: it **"learns the counterpart job's skills,"** letting you "build your own character through the broad combination of two jobs' techniques."
+- The **Magician (Dragon)** entry alone lists **three** branch options — **Dark Lord, Priest, and Wizard** — the only three-way branch in the game.
+- Two jobs are explicitly billed as **anti-hide counters**: **Gladiator** and **Professor** both carry skills "able to check Thief Master's hiding" — the wide-attack answer to a hidden Fox in PvP.
+- **Zoologist** (Pola) is described as learning "hammer-weapon-specific skills with further strengthened attacks."
+- Postponing is safe: **"even if you don't advance now, your advancement-quest progress is saved"** (`CJ_CANCEL_CONFIRM`).
+- Advancing triggers a public announcement: **"[name] has advanced to [job] — everyone congratulate them"** (`CJNotice`).
+
 ## Second job advancement
 
 **Requirements:** base level 60, TM level 50 (you can advance later with no penalty besides delayed skill access).
@@ -98,3 +109,4 @@ Dark Lord candidates need everything **plus** 1× Adamantite and 2× Alexandrite
 - [Magic Type / Power Type / Sense Type — Miraheze wiki](https://tricksteronline.miraheze.org/wiki/Magic_Type)
 - [전직/카드식별/영혼의 씨앗/각성 퀘스트 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/11/trickster-job-change-card.html) (Job Masters, Dark Lord stone, Door of Judgment)
 - [폴라 스킬 트리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-paulapolar-bear-skill-guide.html) (Pola's pure-only tree)
+- Client data: `ChangeJobStrings` (per-job advancement UI descriptions, hybrid cross-learning, three-way Magician branch, saved quest progress, public announcement), `LimitSkillMaster_*` (hybrid skill rosters)

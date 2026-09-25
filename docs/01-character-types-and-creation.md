@@ -34,6 +34,10 @@ Each character is associated with an **animal and a profession**; the animal is 
 - The starting character sprite corresponds to the 1st job (e.g. Schoolgirl, Librarian, Archaeologist, Model); sprites change with each job advancement, and can be reverted cosmetically via Louis Bitton's Fashion Job Change service (50,000 galders).
 - **Weapon families:** swords (Buffalo, Cat, Raccoon), knives (Fox), canes (Dragon, Sheep), guns (Lion), and Pola's hammer — town shops stock each family by level bracket side by side (e.g. Lorena's Lv 65 row: Epoch Sword, Dirk, Wood Rod, Metal Gun).
 
+**The creation screen itself (client `CharCreateUIParams`):** pick **type → clothes → hair color → name**, then distribute the **growth-target points** — the Build Graph pips. "Clothes" is the animal cast itself: the eight characters listed by animal (Bunny, Buffalo, Sheep, Dragon, Fox, Lion, Cat, Raccoon) plus **Bear (곰) as the 9th slot** — Pola's creation entry, client-confirmed. Each type's three stats are labeled on screen: Power — attack power / accuracy / agility; Magic — max MP / magic power / magic defense; Sense — weight / detection / luck; Charm — max HP / defense / evasion.
+
+**Character conversion (client data):** the job-change UI carries a character-conversion dialog for the **Witch's Potion (마녀의 묘약)** — "change [character] into [character]." The client's warning is explicit: **dyed hair colors and every worn fashion item become unusable** (`ChangeJobStrings`, `CJ_CHANGE_CHAR`). A drastic remedy for character regret that costs your cosmetics — see [Job Advancement](04-job-advancement.md).
+
 ## Related systems
 
 - [Stats & base leveling](02-stats-and-base-leveling.md)
@@ -55,3 +59,4 @@ Each character is associated with an **animal and a profession**; the animal is 
 - [트릭스터, 새 친구 '폴라'를 소개합니다 — 경향게임스 (2013-01-30)](https://www.khgames.co.kr/news/articleView.html?idxno=61730)
 - [폴라(북극곰) 스킬 트리 정리 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-paulapolar-bear-skill-guide.html)
 - [트릭스터M 캐릭터 가이드 — Game Center](https://game.edu.kg/research/kobs/view-L2tvL2Jsb2cvZ2FtZS1ndWlkZXMvdHJpY2tzdGVyLW0vdHNtLWNoYXJhY3Rlci1qb2JzLWd1aWRlLWtvLmh0bWw) (ears/tail as worn gear)
+- Client data: `CharCreateUIParams` (creation-screen flow, type/stat labels, Bear 9th slot), `ChangeJobStrings` (`CJ_CHANGE_CHAR` — Witch's Potion conversion warning)

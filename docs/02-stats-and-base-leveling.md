@@ -69,6 +69,33 @@ Every item has a weight value (WT). Exceeding 90% of capacity makes your charact
 
 At milestone base levels the Megalo Company delivers a **gift box to your MyShop inventory** ("a gift from Megalo Company") — open the MyShop window to claim it. Documented examples: **Lv 15** → Lotus Leaf Hat; **Lv 30** → extra ears/tails mail (sellable for starter galders); **Lv 40** → a timed **Stallion Sprint** (the MyShop speed-accessory family); **Lv 50** → a 100k Galder Check; **Lv 100/180** → a **Booster Bracer Ex** — a timed accessory that multiplies **EXP and TM EXP ×3**; **Lv 120** → 2× Resurrect Scroll. The 3rd-Job Guide (Lv 120) and Eclipse's Message (Lv 180) letters arrive through the same channel. The boxes are non-tradable and non-bankable.
 
+**The complete Korean-client milestone registry** (client `PostBoxLevelUpGiftInfo`, 33 rows, with `GiveLevelupItem` toast messages): every gift mail is sent by **GM 독수리 (GM Eagle)**, and the full milestone ladder is:
+
+| Level | Mail contents (client registry) |
+| --- | --- |
+| 15 | 15Lv Celebration Box + the Kongjipachi drill-system manual |
+| 20 | 20Lv Celebration Box |
+| 25 | Key-Quest guide letter ("Desert Beach key quests now available") |
+| 31 | **Graduation Ring (졸업반지)** — the newbie-graduation memento |
+| 40 | 40Lv Celebration Box |
+| 60 | 60Lv box + level-up box + **per-type 1st-job guidebook** (Bear edition for Pola) |
+| 80 | 80Lv box A + box B |
+| 100 | 100Lv box + level-up box + **Nefertiti's letter** |
+| 120 | 120Lv box + **per-type 2nd-job guidebook** (Bear edition for Pola) |
+| 135 | **Questionable Letter (의문의 편지)** — the Soul Seed hook ([13](13-guardians.md)) |
+| 140 | 140Lv box + level-up box |
+| 160 | 160Lv box |
+| 180 | 180Lv box A + box B + level-up box + **Nefertiti's Message** |
+| 200 | 200Lv box + level-up box + **"D's Message"** (presumably Don Cavalier) |
+
+The Lv 180 story letter is **Nefertiti's Message** in the client table — some Korean guides call the Lv 180 awakening mail "Eclipse's message," a naming discrepancy rather than a different mail. The eTO wiki's box contents above (Lotus Leaf Hat at 15, Booster Bracer at 100/180) differ from the Korean registry — a service-specific difference, flagged as such.
+
+## Reset and ranking services (client data)
+
+- **Growth-graph reset** (`ResetGrowthGraphUIParams`): re-distribute the four Build Graph digits — and **bonus stat points are reset at the same time**. This is the service behind the "graph-reset item" used for glass-cannon graphs like Magic 4 / Sense 4 (see [Skills](03-tm-leveling-and-skills.md)).
+- **Stat reset** (`ResetStatusUIParams`): shows every stat's **base value vs. allocated value**; a partial reset **destroys remaining unspent points and consumes the item**. The full reset (`ResetAllStatusUIParams`) returns all allocated points at once.
+- **Status rankings** (`StatusRankUIParams`): a server-wide board filterable by **any of the 12 stats**, per individual character, per type, or server-wide — columns: rank, character name, level, points.
+
 ## Related systems
 
 - [Character types](01-character-types-and-creation.md)
@@ -90,3 +117,4 @@ At milestone base levels the Megalo Company delivers a **gift box to your MyShop
 - [Level Up Reward Box Guide — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Level_Up_Reward_Box_Guide.html) (milestone boxes via MyShop)
 - [Lv. 15 / Lv. 120 / Lv. 180 Gift Box — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Lv-9.html) (box contents)
 - [무게부/신속부 얻는 방법 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/12/trickster-how-to-get-speed-weight.html) (timed speed charms from level-up boxes)
+- Client data: `PostBoxLevelUpGiftInfo` + `GiveLevelupItem` (complete milestone gift-mail registry), `ResetGrowthGraphUIParams` / `ResetStatusUIParams` / `ResetAllStatusUIParams` (reset services), `StatusRankUIParams` (stat-ranking board)
