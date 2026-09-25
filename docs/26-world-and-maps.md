@@ -52,6 +52,7 @@ The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, 
 **Client data:** `TeleportAdvInfo` enumerates the region-gate teleport menu — **31 zone destinations** (Desert Beach gate, Ghost Blue gate, Caballa Relics gate, …) — and `TreasureMap_Item` defines **67 treasure maps, each naming 5 candidate dig spots** (`SpotMap0–4`) plus time limits: the treasure-hunt layer of [Drilling](05-drilling.md) in raw form.
 
 - **Kochi & Pachi** (Megalopolis Square) sell region teleports for 300–5,000 galders by destination (e.g. Gate of Desert Beach 300 g; Gate of Techichi 5,000 g).
+- Client dialog confirms Pachi's **Snow Hill branch price list**: Tapasco Volcano gate **4,000 g**, Techichi Volcano gate **4,000 g**, Snow Hill gate **3,000 g**, Megalopolis **500 g** — and the level-gate etiquette: Snow Hill NPCs turn away adventurers **below Lv 160** ("레벨 160이하에게 스노우힐 지역은 너무 위험해요~").
 - **Wing Ports** from Item Girl: single-region scrolls (e.g. Wing Port (Paradise) 1,000 g Lv 15; Wing Port (Caballa Relics) 3,000 g Lv 45).
 - **Portable Ports (PP/PPAD)**: consumable teleports to gates and towns; the advanced **Portable Port AD** covers nearly the whole island.
 

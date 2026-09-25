@@ -63,6 +63,8 @@ A cage-dungeon (B1–B4) whose entry quest chain begins at the **Tartarus Gate**
 
 ## Tapasco Theme Spa (타바스코 테마탕)
 
+**The Spa's story cast (client dialogs):** **Warrior Kei** lurks in the Volcano Town — "내 이름은 전사 케이. 까발라 섬에서 더 이상 적수를 찾지 못해 이리저리 떠돌고 있지. 최강이라는 위치는 언제나 고독한 법인가..." ("My name is Warrior Kei. I wander Caballa Island finding no more rivals — the strongest position is always lonely") — the same Kei who serves as the Buffalo's Job Master ([Job advancement](04-job-advancement.md)), moonlighting in the hot springs. The **Lord of Time and Space** (Npc177) judges those who "protected Tapasco and Caballa Island" and offers to **send them back to the past — to when they first met the Spa** (the Theme Spa's replay/return mechanic in narrative form). And a Spa resident trades for the region's **spicy fragrance** ("알싸하고 화끈한 매운 향기가 그만이군… 같이 먹을래?" — "that tangy, fiery spicy scent is the best… shall we eat together?"), while Snow Hill's dwarf-fairies grumble that their once-peaceful village got noisy when it opened to the public.
+
 A late-Korean hot-spring theme park at Tapasco Volcano (OurTrickster lists its spa as "under construction" — the area never reached the NA version):
 
 - Entry via **Eliza Bath**, requiring **Theme Spa coupons** hunted from Funky Orcs (Tapasco Field 3); the key-quest chain weaves between Tapasco fields and the spa (Al Hauri's red/blue salamander leathers → exclusive bath towel; staff member Minyoung Seo's body-wash/towel quest; chief chef Chaochao's black-pepper quest).

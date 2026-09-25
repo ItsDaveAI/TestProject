@@ -33,6 +33,8 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 
 ## The Korean awakening chain (각성)
 
+**The covenant, in the client's words (Snow Hill's awakened NPC, Npc177):** the awakening quest's dialog carries the mythos explicitly — "각성을 한 그대는 트릭스터로서의 의무를 알고 있는가?" ("You who have awakened — do you know a Trickster's **duty**?") — and the lore core: "알테오 제국은 멸망했지만 트릭스터들은 그들이 지키고자 했던 것, 하르콘의 조각상은 지킬 수 있었다. 자, 이제 그대는 트릭스터로 각성을 한 자로서 그들을 계승해야만 한다" ("The **Alteo Empire fell — but the Tricksters saved what they tried to protect: the Harkon Statues**. Now, as one awakened as a Trickster, **you must inherit their duty**") — with an explicit **refuse or accept** branch (거부한다/수긍한다) before the quest commits. This is the game's own statement of the guardian-Harkon link: the awakening *is* succession to the Alteo guardians' charge.
+
 (Client note: awakening is **resettable** — `AwakenStrings` carries the reset message "각성을 초기화 하였습니다" ("awakening has been initialized") — the Lv 180 awakening state could be undone and redone.)
 
 Korean guides sequence the whole Enlightenment line by level: **1st advancement (Lv 60) → Card Identification (Lv 65) → 2nd advancement (Lv 130) → Soul Seed (Lv 135) → Awakening (Lv 180)**.
