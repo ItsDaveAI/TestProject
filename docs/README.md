@@ -115,5 +115,5 @@ This folder documents the game's systems, **one file per system**. All data was 
 - Korean walkthroughs: Naver blog scenario-quest and class guides (류나곰, Journey/져니)
 - Korean-era archives: the September 2002 경향게임스 developer preview (launch-era MAB/TCC/ATD design), and the Korean community wiki 디시위키 (region progression, boss notes)
 - Japanese & community sources: TricksterWiki (trickster.wiki — the GCREST/Gamepot-era community wiki), Game Watch Japan's 2005 launch impression, and GameFAQs community build guides
-- Primary source: the **Korean client's data tables** (user-provided `xml.zip`, 2026-09 — 10,405 XML files: system params, monster/quest/dialog tables) — cited in files 03, 05, 07, 09, 13, 16, 20, 24–28, 30, 33, 41–42, and 44 as "client data"
+- Primary source: the **Korean client's data tables** (user-provided `xml.zip`, 2026-09 — 10,405 XML files: system params, monster/quest/dialog tables). All 10,405 files were inventoried and every mechanics-bearing table read; the findings are cited as "client data" throughout — files 00, 03–16, 18–21, 24–33, 37–42, and 44. The remainder of the archive is UI windows, sound tables, loading screens, and test files (no game mechanics).
 - LifeTO: the server site and its guides/knowledgebase (lifeto.co, guides.lifeto.co, knowledge.lifeto.co) — interface/controls, item taxonomy, revival-server features
