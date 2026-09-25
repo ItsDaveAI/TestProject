@@ -45,6 +45,8 @@ Bosses are reached through multi-step trials (party-scale puzzle/defense content
 
 **Boss behavior scripts (client data):** `BossMonsterparamEx` (224 boss rows, 529 KB) is the boss master table — per boss: **LifeCnt** (multi-bar lives), a **summon block** (up to 4 summon monster IDs with min/max counts, summon type, interval, total cap, and despawn rules), and **heal blocks** (HealLeftLife / HealLevel / HealTime — bosses that heal themselves on thresholds). The summon tables in this file (Tenter Lion's Stoor Worms, Tombeth's four adds…) are one row each there.
 
+**The boss-spawn footprint (client `BossMon_*`):** **239 per-map spawn tables — 218 populated, 333 spawn rows** — pin where boss-class monsters appear: one family per region (Beach, Coral, Relics, Wharf, Seabed, Rose, Snow, Swamp, Mirage, Marine, Alteo, Abyss, the Office/Path maps…) covering that region's field, dungeon, mine, and play maps, plus the **event park** (Halloween) and the instanced towers (Chaos, Tartaros — see [Chaos Tower](28-chaos-tower.md) / [Korean systems](33-korean-version-systems.md)). Each row locks a boss ID to a count, a check time, and a region gate — the spawn scheduler's raw data. One `BossMon_test` table (18 rows) survives from development.
+
 - **GvG Boss Battle** (see [Guild system](18-guild-system.md)): guilds fight boss-class copies that spawn in level order — "Tutankhamen G" first, Spicy Dragon last — with Recall Tiles choosing the next spawn.
 - **Boss uniques:** e.g. the Pharaoh set (excluded from [tempering](10-tempering.md) on official rules); boss drops also feed the [recycling/trading economy](31-economy-bank-trade.md).
 - **Boss pets** are 5-star pets for [synergy](12-pets.md).
@@ -64,3 +66,4 @@ Bosses are reached through multi-step trials (party-scale puzzle/defense content
 - [GvG — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/GvG.html)
 - [X Trickster Online (server feature notes)](https://xtrickster.com/)
 - [매드레이 공략 — 네추럴트릭스터 blog](https://myashdd.blogspot.com/2020/07/1.html) (Mad Ray laboratory chain)
+- Client data: `BossMon_*` (239 spawn tables, 333 rows — the per-region boss-spawn footprint), `BossHistoryList` (9-boss kill history), `BossMonsterparamEx` (224-row boss master)

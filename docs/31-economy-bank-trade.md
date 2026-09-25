@@ -47,6 +47,8 @@ The `R_ShopItem_*` family (~40 tables, e.g. Snow's 75 goods) extends the same sc
 - **Trade Mail** (see [Mail](32-mail-and-communication.md)): attach an item with a price; the buyer pays on delivery; the seller receives the price minus the mail fee.
 - Revival-server marketplaces: OurTrickster's website Auction House/Marketplace (galders or MyShop points) and LifeTO's control-panel marketplace.
 
+**The check-issuance service in the client's own words (`Shop_Square_Bank`):** Andrew introduces himself as the check issuer — "**a 5% tax applies to check issuance**" — and warns that **checks redeem at full value only with him**: "when you exchange the check later, you must come to me — exchanging at another shop may not pay full value." The bank's check stock is the `R_ShopItem_Money` table; the trade window itself (`TradeWindow`/`TradeUIParams`) is a paired money-edit UI where both sides key in galder amounts side by side.
+
 ## Earning galders
 
 - Selling monster loot to NPCs (weight-limited; see [stats](02-stats-and-base-leveling.md)).
@@ -80,3 +82,4 @@ The `R_ShopItem_*` family (~40 tables, e.g. Snow's 75 goods) extends the same sc
 - [지역별 특산물/퀘스트 아이템 — cyan's Trickster blog](https://livehepa.blogspot.com/2022/02/trickster-online-specialties.html) (coupon stockpiling)
 - [Black Market — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Black_Market.html) (four NPCs, Weird Treasure Maps)
 - [Megalopolis - Black Market — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Megalopolis_-_Black_Market.html) (Morph equipment, Vin's compounding)
+- Client data: `Shop_Square_Bank` (Andrew the check issuer — 5% tax, redeem-at-issuer warning, `R_ShopItem_Money` stock), `TradeWindow` / `TradeUIParams` (paired money-edit trade UI)

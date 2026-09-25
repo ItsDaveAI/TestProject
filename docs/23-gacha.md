@@ -34,6 +34,10 @@ Collect all 9 rares in a town → receive that town's **4G Card**, exchanged wit
 
 Normal filler items also appear in towns: Green Elixirs, Repair Powders, MyShop Pink/Blue potions, MyShop drills, etc.
 
+## The loot-box engine (client data)
+
+`PresentItemParam2` (**1,364 rows**) is the gacha/present-box master — every row is one box, carrying its type, drop count, and **up to 20 drop slots, each with an exact item ID, drop rate, and item count**. The numeric truth under every Gacha Town pool, level-up box, and event box is one of these rows. `BonusPresentItemInfo` defines the pick-bonus variant: one selector present routes to **different bonus boxes depending on whether you take the advertised item or leave it** — the "choose or gamble" box. (`PetComposingPresentInfo` is the same engine for egg-pet hatching — see [Egg Shop](36-egg-shop-and-pet-breeding.md).)
+
 ## History
 
 - Introduced in the **May 9, 2007** update: every existing account received 2 Gacha Coins; new accounts receive 1.
@@ -56,3 +60,4 @@ Normal filler items also appear in towns: Green Elixirs, Repair Powders, MyShop 
 - [Trickster Online Revolution new content (Chaos Tower + Gacha Towns) — GamesIndustry.biz (May 2008)](https://www.gamesindustry.biz/trickster-online-revolution-tricky-new-game-content-released-for-the-mmorpg)
 - [「トリックスター」レアアイテムが手に入るガチャドリルを実装 — 4Gamer (2005-06-10)](https://ddo.4gamer.net/news/history/2005.06/20050610185634detail.html) (Gacha Drill origin, JP-first rares)
 - [トリックスター (オンラインゲーム) — JP encyclopedia article](https://tsunezu.net/trickster/) (gacha pricing, pay-gap critique)
+- Client data: `PresentItemParam2` (1,364-box loot master, 20 rate slots each), `BonusPresentItemInfo` (pick-bonus boxes)
