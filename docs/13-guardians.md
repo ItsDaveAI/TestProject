@@ -59,6 +59,8 @@ Korean guides sequence the whole Enlightenment line by level: **1st advancement 
 ### Guardian growth (client data)
 
 `SoulGuardianExp` defines the guardian's **EXP sources as ratio tables** — e.g. **normal-quest completion at 0.1 ratio** — and `SoulGuardianLV` / `SoulGuardianParam` carry the per-level growth and stat blocks behind the forms above.
+
+`GuardianBasicStat` carries the **full stat blocks per guardian level** (AP/AC/DX/MP/MA/MD/WT/DA/LK and onward) with the table running to **guardian level 800** — the guardian growth ceiling in data, far past the visible stat graph.
 - [Spinel (Guardian) — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Spinel_(Guardian).html) (five-form roster)
 - [The simplest guide of building Guardian's Graph — LifeTO guides](https://guides.lifeto.co/t/3rd-revision-the-simplest-guide-of-building-guardian-s-graph/1479) (aura points, 14/18-point rules)
 - [전직/카드식별/영혼의 씨앗/각성 퀘스트 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/11/trickster-job-change-card.html) (level sequence, cathedral, doppelganger)

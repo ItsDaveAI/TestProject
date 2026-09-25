@@ -62,6 +62,8 @@ Pet stats can be increased with the parallel **Pet Reinforce** service (see [Pet
 
 **The recipe format, exactly (client data):** `Compound_Rare` (187 recipes) and `Compound_Potion` (155) define the non-Nate compound economy — each recipe carries up to **3 result items at a result level**, up to **5 request items with counts**, a **Probability (percent)**, a **Fee in galders**, and a **WasteItem** — the byproduct you're left with on failure. One verbatim example: **힘을 주는 반지 ("Strength-granting Ring")** = Addax's Horn ×4 + Steel Fragment ×4 + Crystal ×3 + Gold Ring ×2 + Ampoule ×5, at **30% success, 700 galders fee**. `Compound_Throw` (19) covers the throwing-weapon recipes.
 
+**The stat-range master (client `Maturing_Compound`, 1,876 rows):** every compound item's roll is a numeric row here — **EnableProperty** (which stat), **MinAbility–MaxAbility** (the exact roll range — e.g. one item grants **608–1312 HP** on Lv 30 equipment), **ItemNum** required, and the **EquipLv** gate. The 1,876 recipes split evenly across the ~12 stat properties (92–94 each): the per-stat ladders of the wiki era are this table, uniform by design.
+
 - **Compounder Paul** in Megalopolis Square / Azteca is a separate crafting NPC: he compounds *items* into other items (potions, teas, sticks) rather than stat-slotting equipment — a common point of confusion.
 - Poppuri events historically awarded **compounding cost discounts** (e.g. 2 weeks at stage 3).
 

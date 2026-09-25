@@ -24,6 +24,8 @@ Each character stores exactly **one saved camp layout** (an engine limitation) �
 
 ## Decorating and the MyCamp shop
 
+**The furniture registry (client data):** `MCItemParam` defines **1,098 MyCamp items** — each with its inventory icon, in-camp 3D object file, inventory type, description, and shop placement — and `CampSetItemParamCM` bundles 74 themed sets. MyCamp's catalogue is the single largest item family in the client after the equipment master.
+
 - Open the decoration screen by pressing **Shop** inside your camp, or via **MyShop (Y) → MyCamp button** (top right). The MyCamp inventory holds owned items; new purchases land under the **NEW** tab.
 - You can **preview placements before buying** — nothing is charged until you commit the layout.
 - Double-left-click an item in the shop to see its name and price; use the pink **Shopping** icon in the Article Manage menu to purchase.
