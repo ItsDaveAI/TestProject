@@ -86,6 +86,17 @@ A late-Korean hot-spring theme park at Tapasco Volcano (OurTrickster lists its s
 - **Regional specialty items (지역별 특산물)** — each region's signature drilled/quest items (Cora Beach cave goods, Desert Beach pyramid jars, Relics era artifacts, Snow Hill jewels) used across quest chains.
 - **PC-room boost hooks (client `ExpHelper`):** the engine reserves dedicated multipliers for **PC방 (PC-room/internet-café) play and event periods** — separate `EXP_PCRoom` / `EXP_Event` / `TM_PCRoom` / `TM_Event` rates — zeroed in this client snapshot (server-side configuration). The table is the mechanical trace of the Korean-service PC-room boost programs.
 
+## Korea's private-server era (2020s)
+
+With no official Korean service after 2014 — and Ntreev itself dissolved in 2024 — Korean players moved to **Korean-language private servers**, a scene now large enough to have its own community hubs (the DCInside Trickster minor gallery, the arca.live Trickster channel). The two reference points Korean newcomers compare (2025 community comparison):
+
+- **Pola Server (폴라서버)** — running ~5 years, the stable population choice: quest items and gear easy to find, a YouTuber driving new-player flow, **MyShop at 3,000 points per 알 (egg)**; downsides: updates only every 1–2 months (mostly skins), no official Discord, slow operator communication.
+- **Poppuri Server (포푸리서버)** — the newer, fast-iterating choice: **EXP ×3 / TM ×6**, boosted starter gear and set options, episode-clear cash-item rewards (unlimited-duration heads/masks, tradeable), dedicated **galder farming zones (겔더존)**, a Lv 60 penguin bag, **Chaos Tower spec-gate cuts** on the main hunting floors (48/56/62), ~200 new skins a month, and a formal Discord with 1–2-day operator replies; downsides: small population (self-sufficiency required) and 5,000 points per egg.
+
+The scene's vocabulary is the original game's — 갠상 (personal shops), 크발 (Crazy Drilling), 키깃 (Chaos's Feathers), 혼탑 (the Chaos Tower) — the Korean community never stopped speaking Trickster.
+
+## The revival-era client mods
+
 ## Collaborations (Korean & Japanese)
 
 - **Sanrio collaboration** (Korean): Hello Kitty and Cinnamoroll equipment.
@@ -127,3 +138,4 @@ From the Korean event archive: Valentine's/White Day "Fabian's crush" (2011), Ch
 - [トリックスター (オンラインゲーム) — JP encyclopedia article](https://tsunezu.net/trickster/) (JP service history, maintenance record, rebrands)
 - [TricksterWiki (JP community wiki)](https://trickster.wiki/) (shutdown schedule, Gamepot-era records)
 - Client data: `Mon_Tartaros1/2_*` (97 per-floor monster tables), `BossMon_Tartaros1/2_*` (97 tables, 183 spawn rows), `NpcMsg_Tartaros*` + `NpcTalk_Tartaros*` (112 floor-dialog sets), `Compounder_Shop_Tartaros`, `NpcMsg_Beach/Relics_Town_Spa_Npc26/27` (the town bathhouses)
+- [♣ 유입 문의 글많아서 써본 폴라/포푸리 장단점 — DCInside 트릭스터 마이너 갤러리 (2025-04)](https://gall.dcinside.com/mgallery/board/view/?id=tricksterpc&no=5877) (Pola vs Poppuri server comparison)

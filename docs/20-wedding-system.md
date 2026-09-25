@@ -41,6 +41,22 @@ The Wedding System launched **June 17, 2010** as a major Ntreev USA content upda
 - The **rings** chosen during the quest grant further special abilities.
 - Ntreev marked the launch with a Wedding Screenshot Forum Event: the 5 best hall screenshots won 3 Gacha Coins and a GM-signed wedding illustration poster.
 
+## The marriage meta (community guides)
+
+**Why marry (the three real benefits, per the Korean community):**
+
+- **Love Crazy Drilling (러브 크레이지 발굴, "럽크발")** — with your partner **on the same field**, the Crazy Drill jackpot fires almost constantly (hearts pop while you drill); it even triggers while the partner lies dead on the same map. A Fox's 1st-job passive extends the duration, and a higher Crazy Drill stage lengthens it — Fox × spouse is the drill-meta's core combo.
+- **Couple teleport (결혼 텔레포트, "결텔")** — a **no-cooldown teleport to your partner**, used to park an alt on a farming map and hop back and forth (dual-client players alt-tab both teleports at once to swap positions). It cannot penetrate the Theme Spa's 4th floor or the Chaos Tower interior.
+- **Cash wedding rings** — using the ring skill on your partner grants **LK +10% for 120 seconds** (cash dresses are looks-only).
+
+**Requirements:** both characters **Lv 30+**, an **opposite-gender pair** (male/male and female/female impossible), both online — hence the standard advice to marry your own alt on a second client.
+
+**The quest chain in practice (Korean walkthrough):** Kyu sends the pair to **Baron Andrew (앙드레 남작)** at the Megalopolis fountain — the **Love's Maze (사랑의 미로)**, where **Star-Gazing Byeolhui random-teleports you for 2,000 galders per hop** until you land on monster/drill rooms; the **groom** collects white-silk threads (5 threads → 1 white silk ×3) from Love's Bunnies and the **bride** charm silk from Love's Tottocchi, each quest paying 2 Wedding Tickets. **Artisan Araine (금속공예사 아레인)** in Megalopolis Shop runs the ring half the same way — 5 ores → 1 Eternal Metal (groom) / Promise Metal (bride) ×3, 2 Ring Tickets each — and **the couple swap one of each ticket** before returning to Kyu.
+
+**The ceremony's fine print:** the reservation board supports **private weddings by password**; **book the Megalo Hall — ceremonies started in Caballa Hall never begin (era bug)**; up to **100 guests** register through the board; the rite **auto-starts 5 minutes** after entry; if either newlywed leaves the hall, **everyone is ejected**; hosts can expel unwanted guests.
+
+**Title churn:** couple titles rotate at noon and midnight as you play together — unhappy with yours, the community's remedy is breaking the couple (instant, free) and re-forming; **divorce** after the wedding is the 7-day-blocked version above.
+
 ## The marriage office (client dialog scripts)
 
 The couple/marriage service hub NPC (wandering NPC295 of the northeast path) speaks the full ruleset in data:
@@ -64,3 +80,5 @@ The couple/marriage service hub NPC (wandering NPC295 of the northeast path) spe
 - [Trickster Online Update: The Wedding System — Lore Hound](https://lorehound.com/news/trickster-online-update-the-wedding-system/)
 - [Wedding — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Wedding.html)
 - [Wedding Hall — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Wedding_Hall.html) (hall services, ceremony shop)
+- [결혼은 왜 하는 게 좋고, 어떻게 하는가? — arca.live 트릭스터 채널 (레이븐우드)](https://arca.live/b/trickster/116952961) (Love Crazy Drill, couple teleport, quest chain, Megalo-Hall bug)
+- [트릭스터 결혼하기 / 이혼하는방법 — 네이버 블로그 솔라 (2019)](https://m.blog.naver.com/dara77/221574003173) (full ceremony walkthrough, 100-guest cap, ticket swap)

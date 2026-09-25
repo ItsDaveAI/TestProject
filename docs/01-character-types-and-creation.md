@@ -17,6 +17,8 @@ Each character is associated with an **animal and a profession**; the animal is 
 
 ## Character identities
 
+**Korean-localization personal names** (Korean Wikipedia): Buffalo **닉키 (Nikki)**, Bunny **니아 (Nia)**, Sheep **미코 (Micco)**, Dragon **유혼**, Fox **베로니카 (Veronica)**, Lion **레오 (Leo)**, Raccoon **홀든 (Holden)**, Cat **제니 (Jenny)** — with Pola as 곰. The international releases used the same roster names where localized (Nikki, Nia, Micco…).
+
 - **Bunny** — a lively high-school student and ace of her boxing club, bored with easy victories; came to Caballa Island for the treasure to buy the "world's most luxurious boxing gloves." Master of 1-on-1 combat with the highest single-target damage.
 - **Buffalo** — an honest professional fighter cheated by gamblers who gave up his title; fights on Caballa Island to pay a rival's medical bills. Specializes in AoE attacks and is the best physical farmer.
 - **Pola** (Korean only) — a polar-bear girl who boarded the wrong ship trying to reach Alaska, landed on Caballa Island, and became an adventurer after hearing polar bears live at Snow Hill. Fights with a **giant hammer and cannot equip shields**; her skills scale on **DA** and her base growth is Power 4 / Sense 3 / Charm 2. Pure-only job tree (no hybrid). See [Korean version systems](33-korean-version-systems.md).
