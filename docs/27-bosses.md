@@ -39,6 +39,8 @@ Bosses are reached through multi-step trials (party-scale puzzle/defense content
 
 ## Boss content ties
 
+**Legendary Unique gear is boss content (client data):** the boss-themed legendary equipment — Tutankhamen's Gold Sword/Pharaoh Hat line, Count Blood's Blood Sword/Vampire Mark, Captain Skull's White Gun/Red Eyepatch/Black Hat, Tenterion's Tail Spear — doubles as a **dialog key**: Tapasco NPCs' trees branch on *wearing* it ("오! 전설 유니크 장비를 갖고 계신 분이로군요!" — "Oh! One who carries Legendary Unique equipment!"), with quest-state checks offering legendary-holder-only options — and the lore ties them to "the adventurer who helped Leviathan and Spicy Dragon" ([Spicy Dragon](#the-bosses)'s trial gauntlet). Boss hunting → legendary sets → Set titles ([Chaos Tower — Titles](28-chaos-tower.md)) → Tapasco's recognition quests is a closed loop.
+
 **The official boss roster (client data):** `BossHistoryList` tracks exactly **nine bosses** in the kill-history system — **Tutankhamen, Tombeth, Captain Skull, Tenterlion, Count Blood, Queen Odinea, Soki, Spicy Dragon, and Pirate King Karan** — the game's formal answer to "which world bosses count."
 
 **Boss behavior scripts (client data):** `BossMonsterparamEx` (224 boss rows, 529 KB) is the boss master table — per boss: **LifeCnt** (multi-bar lives), a **summon block** (up to 4 summon monster IDs with min/max counts, summon type, interval, total cap, and despawn rules), and **heal blocks** (HealLeftLife / HealLevel / HealTime — bosses that heal themselves on thresholds). The summon tables in this file (Tenter Lion's Stoor Worms, Tombeth's four adds…) are one row each there.
