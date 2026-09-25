@@ -18,8 +18,6 @@ The client's `TM_LEVEL2` table is the **complete TM EXP curve — 601 rows, TM l
 
 **Skill-teaching scrolls (client `SkillScroll_Info`, 82 entries):** a second way to learn — consumable **scroll items that grant a specific skill at a fixed level** (item 37000 → skill 7001 Lv 1, and so on). These are the **Secret Scrolls** the [Recycle shop](24-recycling.md) pays out and the event-distributed learnables — one item ID per skill, at one fixed skill level each.
 
-The client's `TM_LEVEL2` table is the **complete TM EXP curve — 601 rows, TM levels 0 through 600** (the first steps: Lv 0→1 costs 320 TM EXP, then 460, 680, 1,000, 1,440, 2,020, 2,760 …, steepening thereafter). TM 400+ exists in data because late-era guardians, Tartarus, and 3rd-job mastery kept raising the ceiling.
-
 - **Hunting monsters** (notably ones below your level) and **quests** (monster quests, card quests, and TM-focused quests such as Love Hunter's).
 - **Drilling** — you gain base EXP on every drill attempt, but **TM EXP only when you actually dig up an item** (formula in [Drilling](05-drilling.md)).
 - **Card Battles** award EXP in proportion to points won.
