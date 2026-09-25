@@ -49,6 +49,8 @@ The Korean wiki's most-cited complaints, each corroborated elsewhere in this doc
 
 Trickster runs an in-game **day/night cycle where 1 real hour = 24 in-game hours**, read by hovering the minimap clock. It gated content through the whole service — most famously **Ray (레이)**, the night-only NPC (7:30 PM–5:30 AM game time, roughly 10 real minutes per window) through whom [Phantom School](25-quests.md) is entered.
 
+The client carries the cycle's full visual layer: `DailyColor` is a **690-row palette table giving every map value four tint colors — Noon, Evening, Night, and Dawn** — the data behind the world's gradual shade shifts, surviving from the launch era's day/night design into the final client.
+
 ## Related systems
 
 - [Card Battle](06-card-battle.md), [Drilling](05-drilling.md), [Pets](12-pets.md), [MyCamp](21-mycamp.md) — the survivors of this era
