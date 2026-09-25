@@ -51,7 +51,7 @@ The pet chart organizes pets by **origin** — In-Game (store/quest/monster-drop
 
 **Pet stat structure (client data):** `Pet_Property` (1,161 rows) defines every pet's stat applicability — each pet carries an **ApplyRatio** and up to **10 EnableProperty slots** (which of the twelve stats that pet can raise). The 463 `Pet_*` files around it carry the per-pet blocks; 440 of them have speech tables (see above).
 
-**Pets talk (client data):** the `PetSpeech_*` family holds **440 pet-speech tables** — five speech lines per pet (`Speech0–4`), each paired with a **voice-audio file reference and a trigger ratio** — pets had spoken lines with actual voice clips, fired probabilistically. Angel-family speech tables (Angel, Black Angel, Black Angel Jr., the Hanbok Black Angel) cover the mentor system's mascots too.
+**Pets talk (client data):** the `PetSpeech_*` family holds **440 pet-speech tables** — five speech lines per pet (`Speech0–4`), each paired with a **voice-audio file reference and a trigger ratio** — pets had spoken lines with actual voice clips, fired probabilistically. Angel-family speech tables (Angel, Black Angel, Black Angel Jr., the Hanbok Black Angel) cover the mentor system's mascots too. The speech master is `PetParam` (1,186 rows): per pet its speech-text binding, a **Voice on/off flag**, and a **speech color** — the color the pet's talk bubble renders in.
 
 Regular pets simply add stats while equipped, e.g. Driller Girl (AP 96, WT 800, DA 6, LK 5, HP 300) or Super Driller Boy (MP 240, MA 11, MD 64, WT 1,280, DA 12, LK 9, HP 240). Pets have 1 compound slot on some servers for Pet Reinforce.
 
@@ -75,3 +75,4 @@ Late-era additions (Korean service): the Chaos Tower overhaul introduced the que
 - [Category:5 Stars Pet — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Category_5_Stars_Pet.html) (character/boss/voice/collab pets)
 - [Pet Synergy — Our Trickster Online Wiki](https://oto.fandom.com/wiki/Pet_Synergy)
 - Client data: `PetLevelUpInfo` (483-row pet upgrade graph — T-track tiers, E-track evolutions, Pet Growth Vitamin catalyst), `CharacterPetReinforceInfo` (Pierce-reinforced Angel Rabbit variants), `Maturing_CompoundPet`, `Pet_Property`, `PetSpeech_*`
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)

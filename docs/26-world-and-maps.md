@@ -57,6 +57,8 @@ The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, 
 
 **Client data:** `TeleportAdvInfo` enumerates the region-gate teleport menu — **31 zone destinations** (Desert Beach gate, Ghost Blue gate, Caballa Relics gate, …) — and `TreasureMap_Item` defines **67 treasure maps, each naming 5 candidate dig spots** (`SpotMap0–4`) plus time limits: the treasure-hunt layer of [Drilling](05-drilling.md) in raw form.
 
+The quest-map layer runs on `QuestRef_2` (259 rows): each quest reference binds its **`MapDetailPosTable`** — the on-map marker positions the quest UI draws (see [Quests](25-quests.md)).
+
 - **Kochi & Pachi** (Megalopolis Square) sell region teleports for 300–5,000 galders by destination (e.g. Gate of Desert Beach 300 g; Gate of Techichi 5,000 g).
 - Client dialog confirms Pachi's **Snow Hill branch price list**: Tapasco Volcano gate **4,000 g**, Techichi Volcano gate **4,000 g**, Snow Hill gate **3,000 g**, Megalopolis **500 g** — and the level-gate etiquette: Snow Hill NPCs turn away adventurers **below Lv 160** ("레벨 160이하에게 스노우힐 지역은 너무 위험해요~").
 - **Wing Ports** from Item Girl: single-region scrolls (e.g. Wing Port (Paradise) 1,000 g Lv 15; Wing Port (Caballa Relics) 3,000 g Lv 45).
@@ -82,3 +84,4 @@ The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, 
 - [트릭스터 던전 지도 — cyan's Trickster blog](https://livehepa.blogspot.com/2025/05/trickster-dungeon-map.html) (dungeon/monster/NPC tables incl. Black Ash, Theme Spa)
 - [트릭스터(게임) — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0(%EA%B2%8C%EC%9E%84)) (regions index)
 - [트릭스터 공략글 정리 — cyan's Trickster blog](https://livehepa.blogspot.com/p/trickster-online.html) (Abyss shipwreck, cathedral, specialties)
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)

@@ -4,6 +4,8 @@
 
 **The exchange economy at scale (client data):** `ExchangeShopContents` is the master table behind every exchange vendor in this file — **2,066 exchange recipes**, each with a result level requirement, up to **3 result items**, up to 3+ request items with counts, and per-recipe failure paths. The per-NPC `Exchange_Shop_*` catalogs — **88 files in all** (the Chaos Tower's 22 exchange-shop files plus 12 ChaosJ pages — Professor Komby's forging counter — 9 Jump-NPC pages, and the per-event shops) — are paged views into it, including a typo'd `Exchang_Shop_*` subfamily (the 2009 New Year, 3-month, and test shops) preserved from development. `GhostExchange_RefineLevel` adds a refine-level gate on ghost-equipment exchanges.
 
+**The wandering itself is a table (client `NpcMoveInfo`, 335 routes):** each row moves an NPC within a zone — and **214 of the 335 routes are item-gated** (the NPC stays put until you bring a specific item, up to four items with counts), with additional **level gates (Min/MaxLevel)** and **character-type/gender gates (`FType`/`ChrType`)**. The "unmarked, wandering merchant" behavior is engine data: what an NPC demands before relocating, and who can trigger it.
+
 A family of **weekday-relocating exchange NPCs** forms Trickster's barter economy: they aren't marked on the minimap, sometimes hide behind background objects, and each offers a different exchange chain that converts farmed junk into elemental crystals, attribute weapons, and treasure boxes — the main non-MyShop route to elemental gear.
 
 ## Merchant Lorena — 500 Galder Coupons → elemental crystals
@@ -53,3 +55,4 @@ Community odds: about one silver per several boxes makes the exchange profitable
 - [카드헌터 유진, 상인 로레나 위치, 아리아 교환 아이템 — cyan's Trickster blog](https://livehepa.blogspot.com/2021/01/card-hunter-eugene-merchant-lorena.html) (weekday tables, coupon costs, crest recipes)
 - [해적주화 사용해서 돈 벌기 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/10/trickster-online-tip-pirate-coin.html) (Lavida, box odds, coin values)
 - [Merchant Lorena — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Merchant_Lorena.html) (fixed shop schedules)
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)

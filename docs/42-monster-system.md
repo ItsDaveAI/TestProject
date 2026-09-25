@@ -42,6 +42,8 @@ Bosses carry a **damage-tolerance table** — percentage reduction *per damage c
 
 **The monster master (client `MonsterParamEx2`, 1,467 rows):** every monster carries **Level, walk/run speeds, stay/chase timers, and per-stat scaling levels** (ApLv/AcLv/DxLv/MpLv/MaLv/MdLv — stats computed from monster level bands, not hand-entered). Levels span **1 to 1005** across 541 distinct values — the 1005-level monster is a Tartarus-era entry. `MonItemDropInfo` (1,091 rows) holds the drop tables (per monster: items with rate + count), `MonsterRegionInfo` binds the 696 maps to their monsters, and `Monster_TacticsEX` (1,706 rows) extends the AI with the advanced behavior set.
 
+The drop layer's second table, `MonItemTable_DropInfo` (155 rows, 61 fields), is the **wide drop-format variant** — up to **20 item slots per monster**, each an item/rate/count triple (one mid-tier monster carries 18 distinct drops: four ore types at 80% down to three rares at 10%) — the shape behind the region drop charts the community transcribed.
+
 **Protection skills and boss immunities (client data):** the `MonProtect_*` tables (P/C/M/S/N — 180 rows) assign monsters **protection-skill ratios by type** (e.g. Charm-type protections at 20% proc), and `MonsterDebuffResist` (7 profiles × 33 fields) gives boss tiers their debuff resistances — the Chaos Tower ≤36F boss profile is fully stun/paralysis/stone/restriction-immune with 50% resistance to stat debuffs ([Chaos Tower](28-chaos-tower.md)).
 
 **The actor master (client `CharacterInfo`, 3,354 rows):** every actor in the game — the nine playable characters *and* every NPC — carries sprite files, **walk/run speeds, stop/move sizes, attack range (50–70 for the base cast), and chase range (300)** — the shared actor engine that monsters (`MonsterParamEx2`) and NPCs both hang from.
@@ -59,3 +61,4 @@ Every monster drops its **own card** ([Card Battle](06-card-battle.md) ammunitio
 - [트릭스터(게임)/스킬 — 나무위키](https://namu.wiki/w/%ED%8A%B8%EB%A6%AD%EC%8A%A4%ED%84%B0(%EA%B2%8C%EC%9E%84)/%EC%8A%A4%ED%82%AC) (M-Defense Paralysis, monster skill kit)
 - [혼돈의 탑 꼭대기엔… — 경향신문 (2011)](https://www.khan.co.kr/article/201109281518081) (Guard/Buff Canceller/Deadly Poison/Blood Drain)
 - [환영학원 퀘스트 공략 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/12/trickster-phantom-school-quest.html) (Wicked Keepers, Mad Ray)
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)

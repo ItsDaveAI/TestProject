@@ -78,6 +78,8 @@ Each comes in Power/Charm (AP, AC, LK, DP, HV) and Magic/Sense (AC, MA, DA, LK �
 
 **Turret building (client dialog scripts):** the defense maps hold **buildable anti-monster turrets (포탑)** — bronze-plate signs read "turret for attacking monsters; usage restricted by [score], [high grade = item required]" with a **three-grade ladder**: the **low-grade turret costs 500 score points**, the **mid-grade 1,000**, and the **high-grade requires a High-Grade Turret Control Stone (상급 포탑 제어석)** item. Each build site runs a `HarconCannonCheck` prerequisite before `CreateHarconCannon` spawns the turret at its fixed zone and spot (cannon zones 3208–3215, four build points per defense map) — the defense's score currency doubles as its construction economy, across ~170 sign-NPC dialog invocations.
 
+**A fifth mode — Endless (client `Sc_HarconDef_Endless`, 60 rows):** alongside the four themed renewals and the Eagle event variant, the client scripts an **Endless** defense — the same wave engine (up to 20 simultaneous monsters per slot, spawn lumps and delays) stretched to 60 rows, the survival-horde variant of the mode.
+
 - [Harkon Protector — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Harkon_Protector.html)
 - [1st Harkon Sanctuary Assaults — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/1st_Harkon_Sanctuary_Assaults.html)
 - [Harkon Protector — PandaTO Wiki](https://pandato.fandom.com/wiki/Harkon_Protector)
@@ -87,3 +89,4 @@ Each comes in Power/Charm (AP, AC, LK, DP, HV) and Magic/Sense (AC, MA, DA, LK �
 - [Harkon Sanctuaries — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Harkon_Sanctuaries.html) (level-band tiers, six PST windows, public Eclipse, Stallone quests)
 - [1st Harkon Sanctuary Assaults — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/1st_Harkon_Sanctuary_Assaults.html) (wave script, Scylla/Hecate/Chronos broadcasts)
 - Client data: `BossMon_Harcon1th/2th/3th`, `BossMon_EP6_Harcon` (mode boss spawns), alongside `HarconDefInfo`/`HarconDefDrop`/`HarconShop_*`/`HarconRecordInfo`/`Sc_HarconDef_*`
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)

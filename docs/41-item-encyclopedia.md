@@ -12,6 +12,8 @@
 
 **The random-stat engine (client `RandomStatValueTable`, 3,141 rows):** every randomized-stat item — box equipment, Ultimate/Chaos/Master gear, the uniques — draws from a per-item row holding **each stat's Min–Max range plus an Up/Down import flag** (verbatim: item 32700 rolls AP 1–37 and DX −3 to −7, both "Down"-typed) — the engine behind tempering's special case for randomized gear. `Equip_Property` (5,603 rows) is the companion **per-item applicability matrix** (ApplyRatio + enabled properties) — equipment's counterpart to the pet property table.
 
+**The set-bonus engine (client `SetItemParam`, 246 sets):** equipment sets pay **real per-stat bonuses** on completion, each with a named `SetEffect` — the **Shining Crystal set** (샤이닝크리스탈, the Absolute-Unique trilogy of [Tartarus](33-korean-version-systems.md)) pays **AP +400, AC/MA/DA/LK +25, HP/MP +1,400, MD/DP +400, WT +2,000**; the **Pharaoh set** HP/MP +245, DP +70, HV +4, WT +350; the biggest single bonus set, **True Amadas (진 아마다스)**, AC +49 / HP +2,970 / MP +1,980 / WT +2,640 / LK +33. (`CMSetItemParam`'s 320 sets, see [Chaos Tower](28-chaos-tower.md), are the job-clothing/beginner lines of the same engine.)
+
 Trickster Online's item taxonomy (per the ggFTW/LifeTO classifications) spans **equipment** (weapons: swords/knives/canes/guns/special + ammunition; armor: hats/shields/innerwear/capes/face items; accessories incl. **Speed Acc.**, Head/Face Acc.; drills; pets; soul guardians), **Use items** (boxes, books/letters, galder coupons, HP/MP recovery, teleport devices), **Etc.** (compound materials, ores/gems, hardants, job-change items, mastery items, quest items, throwing weapons), and the **card** families (skill, star, monster, character, secret, fortune, etc.). This file catalogs the items with a *unique* use — the ones you can't guess from the sprite — with cross-references to their systems.
 
 ## Equipment modification catalysts
@@ -227,3 +229,4 @@ Every section above cross-references its system file; the taxonomy maps to [Inte
 - [Refinement / Customizations — PandaTO Wiki](https://pandato.fandom.com/wiki/Refinement) (star ranks, success/magnification table, anvils, Refine Fortune Cards, Anvil Stones)
 - [Items — LifeTO Knowledgebase](https://knowledge.lifeto.co/items) (type taxonomy)
 - [Trickster Online Tips blog](http://tricksteronlinetips.blogspot.com/) (Master Mong's Addax Horn entry)
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)

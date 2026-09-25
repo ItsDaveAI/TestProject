@@ -57,6 +57,8 @@ The client's `TitleInfo` table holds **148 titles** — and its first entries ar
 
 **The set system behind Set titles (client data):** `CMSetItemParam` defines **320 equipment sets**, each binding up to **8 member items** — the job-clothing lines ("2차전직 토끼세트 2차" — 2nd-job Bunny set, "엔지니어 의류세트 1차" — Engineer 1st clothing set), beginner special sets, and the boss sets that pay the Set titles above. The camp-furnishing counterpart (`CampSetItemParamCM`, 74 sets) does the same for [MyCamp](21-mycamp.md) bundles.
 
+The **stat engine behind those sets** is `SetItemParam` (246 sets) — per-set bonuses like the Pharaoh set's HP/MP +245 / DP +70 / HV +4, detailed in the [Item Encyclopedia](41-item-encyclopedia.md).
+
 **The tower's per-cycle infrastructure (client data):** the **`BossMon_Chaos1–7` families (76 tables, 79 spawn rows)** hold each cycle's per-floor boss spawns; **80 `NpcTalk_Chaos_*` dialog sets** voice the floor NPCs; **51 `R_MapItem_Chaos_*` placement tables** seed the floors' buried items; and each cycle runs its own **support shop** — `Shop_Chaos1–5`, NPC 5001, "here to support those investigating the Tower of Chaos," selling at the standard 0.5 rate from per-cycle `R_ShopItem_Chaos*` stock.
 
 ## Other notes
@@ -85,3 +87,4 @@ The client's `TitleInfo` table holds **148 titles** — and its first entries ar
 - [신규 캐릭터 북극곰 소녀 최초 공개 (진혼의 공간) — 인벤 (2012-12-20)](https://www.inven.co.kr/webzine/news/?news=51549)
 - [Titles — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Titles.html) (five title families, honor/set/stella examples)
 - Client data: `BossMon_Chaos1–7` (per-floor boss spawns), `NpcTalk_Chaos_*` (80 floor-NPC dialog sets), `R_MapItem_Chaos_*` (51 buried-item tables), `Shop_Chaos1–5` / `R_ShopItem_Chaos*` (per-cycle support shops)
+- Client data: `SetItemParam` (246-set bonus engine), `MonItemTable_DropInfo` (155 × 20-slot drop tables), `NpcMoveInfo` (335 wandering routes, 214 item-gated), `PetParam` (1,186-row speech master), `Sc_HarconDef_Endless` (60-row Endless mode), `QuestRef_2` (quest map markers)
