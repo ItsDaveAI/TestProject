@@ -7,6 +7,8 @@ The Card Battling System is one of Trickster's defining non-combat systems: two 
 ## Obtaining cards
 
 - **Each monster drops a card of its type.** Character Cards come from quests; Neutral Monster Cards come from monster-hunting quests and NPC quests.
+
+**Card collection sets (client data):** beyond battling, cards feed a **collection-bonus layer** — `Card_SpecialSet` defines **37 themed card sets**, each a named combination of up to **5 specific monster cards at a grade** (e.g. *테치치의 혼령* "Spirits of Techichi", grade 14 = cards 24019 + 24119 + 24217) paying up to **4 present items at set rates** (20% / 20% …) when assembled. The in-game card **album books** (the `Item_BookParamExt` book-UI family, with its own count/Life display strings) are where sets are registered — collecting lines of the island's monsters, not just battling with them.
 - Card categories: **Power / Magic / Sense / Charm / Neutral** monster cards, plus **Character, Skill, and Etc. cards**.
 - Cards have a **rank (1–15)** and an **MP value**; cards of extreme rank (close to 1 or 15) are generally preferred.
 

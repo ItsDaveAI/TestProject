@@ -6,6 +6,10 @@
 
 **The timed economy (client `GeneralTimerItem`, 1,286 rows):** every timed item carries an exact duration in minutes — from **60 minutes** to **259,200 minutes (180 days)** — the complete rental ladder behind the 7-day/15-day/30-day tiers described throughout this encyclopedia. `PresentItemParam2` (1,364 rows) is the gift-box/present family that delivered them by mail.
 
+**The box loot engine and the branching bonus (client data):** every present box runs the same loot table — up to **4+ possible contents with percent rates** (one verbatim box: 40% / 50% / 100% / 30% across four drops), and the `BonusPresentItemInfo` family adds a **choose-your-bonus mechanic**: one documented box (431762) contains a selectable item (71915) where **claiming the bonus yields one present ID (431763) and declining yields a different one (431764)** — pick-or-skip boxes with different rewards either way.
+
+**Item-class scale (client `ItemParam2`, 8,584 rows):** the master table splits **6,998 use/etc. items (Class 1), 1,464 equipment (Class 2), and 122 Class 3 items** (the card/special families) — with the ~6,136-row `ItemParamCM2` growth-compound line and 1,219-row `ItemParamEx` unique/effect line alongside.
+
 Trickster Online's item taxonomy (per the ggFTW/LifeTO classifications) spans **equipment** (weapons: swords/knives/canes/guns/special + ammunition; armor: hats/shields/innerwear/capes/face items; accessories incl. **Speed Acc.**, Head/Face Acc.; drills; pets; soul guardians), **Use items** (boxes, books/letters, galder coupons, HP/MP recovery, teleport devices), **Etc.** (compound materials, ores/gems, hardants, job-change items, mastery items, quest items, throwing weapons), and the **card** families (skill, star, monster, character, secret, fortune, etc.). This file catalogs the items with a *unique* use — the ones you can't guess from the sprite — with cross-references to their systems.
 
 ## Equipment modification catalysts
