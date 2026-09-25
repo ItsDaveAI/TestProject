@@ -75,6 +75,29 @@ Around the rewards sits the binding layer: `NpcTalk_*` (565 tables, 58 fields) a
 - **Timed monster quests fed rankings** — the Japanese launch-era press describes monster-slaying quests ranked by shortest clear time and hunt count.
 - **Mad Ray chain (Phantom School):** entered at night — the ghost **Ray** appears only between 7:30 PM and 5:30 AM game time ([day/night cycle](39-original-launch-era-systems.md): 1 real hour = 24 in-game hours) at Oops Wharf, Aquarius, or Ceremonia; bring a Neo Stone Drill No. 4 (the school ground is wood/stone, 80 m deep). Corridors are patrolled by unkillable one-shot **Wicked Keepers (Lv 400)** you must walk around. Jia's 30-minute blessing quest targets **Mad Ray (Lv 150)**; Momo's four-step chain (1F → 2F → 3F corridors → annex passage, teleporting you to random classrooms for GPS digs, ghost drops, and the music/art/science/machine rooms) assembles the **laboratory map** pieces and **Yin-energy crystals**, and the completed map opens the **rift** to the boss (it warps away if your opening burst fails). Rewards: **Phantom Repair Powder** (works like Repair Powder but stacks only with itself) and Ray's research journal. School quests are **once per day**; the Korean revival server Natural Trickster restored this chain's rewards.
 
+## The quest master registry (client `QuestInfo`, 1,819 quests)
+
+The largest uncited table in the client is the quest system's master registry — **1,819 quests**, each with a quest-giver NPC, a location string, an objective comment, a **MinLevel–MaxLevel gate (0–400)**, up to **6 required items with counts**, required-skill and required-galder fields, a reward `ResultTable`, and a **repeat cap**. Two views of it:
+
+**The repeat economy (client `MaxCount`):** **801 quests are one-time**, **462 repeat ×5**, **78 repeat ×10**, **45 ×3**, **19 ×2**, and **55 carry MaxCount 0** (unlimited/special) — the quest system was built with a mostly-repeatable long tail, not a one-shot checklist.
+
+**The biggest payouts (client `Exp`/`Tmxp`):**
+
+| Quest | Giver | Level | Base EXP | TM EXP |
+| --- | --- | --- | --- | --- |
+| 광폭한 진혼 물리치기 (Repel the Raging True Soul) | Poirot | 60+ | **164,142,261** | — |
+| 용감한 모험가를 위한 팬던트 (Pendant for a Brave Adventurer) | Happisto Stallone | 300+ | **101,071,863** | — |
+| 파괴된 첫번째 보석찾기 ×4 (The Destroyed First Jewel — per-type variants) | Hwadal / Capt. Stan / Vinoshe / Hunter Master Ena | 300+ | **80,857,490** | — |
+| 테라가 찾은 두번째 조각 (The Second Fragment Tera Found) / 마지막 남은 조각을 찾아서 (In Search of the Last Fragment) | Officer Tera / Eclipse | 300+ | **80,857,490** | — |
+| 형님을 찾아줘 (Find My Brother) / 인형조각을 빨리 찾아와라냥 | Tango / Tango's brother | 270+ | 64,722,476 | — |
+| The ten 3rd-job advancement quests (챔피언/듀얼리스트/검투사/용병/정령사/윗치/성직자/위저드/다크로드/씨프마스터 전직) | each class's Messenger NPC | 130+ | — | **43,418,242 each** |
+
+The top single payout is the Chaos Tower finale's True Soul quest — entered from 1st-job (Lv 60 in Korean numbering) yet paying 164M base EXP, the definitive late-game bomb. The ten class **Messenger** quests (Vulcan Phoenix's Messenger, Alseido Bird's, Dragon Tail's, Black Wings', Holy Ghost's, Golden Ant's, Eternal Night's, Silvanus's, Janus's, King ?'s) pay **43,418,242 TM EXP each** — the client's number for the 3rd-job chain, set against the NA-era wiki's "10,000,000 TM EXP" figure for the Path of Tribulation (a region/era difference, flagged as such).
+
+**Top quest givers (client registry):** Wandering Warrior **Tan (62 quests)**, the **Card Girl (57)**, the **French Maid (55)**, **Treasure Hunter Reina (49)**, Star-Gazing Girl **Byeolhui (40)**, Tifmong Kongkong (34), Genius Boy Kokuma (33), the Frog Shaman (33). Only **2 quests require a skill** to accept, and none require a galder payment — the `SrcGelder` field sits unused in this client.
+
+**Quest-dialog routing (client `Quest_NpcMsg`, 1,702 rows):** each quest ID binds to the NPC dialog table and **message indices** that carry its offer/in-progress/complete text — the layer that lets one NPC file serve many quests.
+
 ## Related systems
 
 - [World & maps](26-world-and-maps.md) — where quests live
@@ -97,3 +120,4 @@ Around the rewards sits the binding layer: `NpcTalk_*` (565 tables, 58 fields) a
 - [지역별 퀘스트 아이템 — cyan's Trickster blog](https://livehepa.blogspot.com/2020/11/trickster-online-quest-item.html) (episode 2/3 structure, Dev Room key)
 - [Card Girl Quests — PandaTO Wiki](https://pandato.fandom.com/wiki/Card_Girl_Quests) (riddle chains, Monkey T, Wise Hen)
 - [Trickster Online Tips — Happy Blogger](https://tricksteronlinetips.blogspot.com/) (starter quest spine, penguin pet)
+- Client data: `QuestInfo` (1,819-quest master registry — objectives, level gates, EXP/TM payouts, repeat caps), `Quest_NpcMsg` (1,702-row quest-dialog routing)
