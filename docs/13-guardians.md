@@ -17,6 +17,8 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 
   The client's `GuardianRareTitle` gives the rarity-tier **rules with exact thresholds**: **전설적인 ("Legendary")** = base-empathy levels **summing 13+** *and* bonus-empathy summing **4+**; **위력적인 ("Mighty")** = base sum 13+; **우월한 ("Superior")** = empathy sum **10+ with all four type values equal**; **다재다능한 ("Accomplished/Versatile")** = sum **6–10 with type values equal** — matching the community-measured graph math above, now with the official numbers.
 - **Skills:** a guardian can use any skill flagged with a **green marker** (guardian-usable); builds are planned around which skills you feed.
+
+  **Rune stones (client `RuneSkill_Info`, 13 + `RuneStoneSkillParam`, 9):** the rune system behind the guardian runes — rune items **grant a carried skill at a level** (e.g. the *폭풍바람의 룬* "Storm Wind Rune," item 435301 → skill 12000 Lv 1, RuneStoneType 7) — the Louis's-rune/Cochma carry mechanics documented in the graph section are this table: runes as skill containers.
 - Guardians fight **PvE only**.
 - **Mind's Eye** — the follow-on Enlightenment skill that lets you see the Shadow World — requires a hatched Guardian (see [Shadow World](14-shadow-world.md)).
 - Higher-level Enlightenment quests (Janus's Secret Hideaway, Lv 180+ 3rd job with matured Poseidon Seed) continue from here: Living Flame collection from Red Flame Spirits, etc.

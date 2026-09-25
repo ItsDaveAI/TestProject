@@ -72,6 +72,8 @@ Each comes in Power/Charm (AP, AC, LK, DP, HV) and Magic/Sense (AC, MA, DA, LK �
 
 ## Sources
 
+**The defense economy (client data):** `HarconDefInfo` (27 rows) configures each defense instance (level, item, unlock ID, **MinP/MaxP player counts**, wait map); `HarconDefDrop` scales rewards by **win count** (defense #1 pays 3 drops, declining to 1 by the 10th — fresh content paid best); `HarconShop_1/2` (53 goods) are the **defense-exchange shops**, stocking **Nate's Compound Frames (조합틀) by level 15–85+** and more; and `HarconRecordInfo` (23 records) is the **record board** — named stats with units and display colors. The `HarconMission*_Str` families carry the three mission briefings' text.
+
 **The wave engine (client data):** the `Sc_HarconDef_*` family holds the event's scenario scripts — six per themed mode (Ancient 1–6, plus Fire, Ice, Fantasy, and the Eagle event variant, each 15–24 rows) — where **each row is one wave carrying up to 20 simultaneous monster slots**, every slot specifying the monster ID, maximum count, spawn position, spawn lump size, and spawn delay. The four-mode Harkon Defense of the 2012 renewal (Ancient/Fire/Ice/Fantasy) is scripted row-by-row in these tables, alongside the boss-script file.
 
 - [Harkon Protector — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Harkon_Protector.html)

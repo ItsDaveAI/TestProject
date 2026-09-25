@@ -51,6 +51,10 @@ The tower introduced the **Title system**: a new "Title" tab in MyView (the **Ho
 
 The client's `TitleInfo` table holds **148 titles** — and its first entries are the **fortune-title family** from [Star Gazing](16-star-gazing.md): *별희의 미움을 받은* ("Hated by Byeolhui"), *대흉의* ("of Great Misfortune"), and the planet-shining series (Mercury/Uranus/Neptune/Mars) — confirming the fortune readings as one of the largest single title sources.
 
+**Honor titles, fully conditioned (client `HonorTitleInfo`, 73 titles):** every honor title is bound to its exact source quest with engine conditions — quest type/ID, **ClearCnt** (clear count), **Time**, and **HuntCnt** thresholds. The named examples in the families list above are the visible tip; `HonorTitleGrade` (11 rows) grades them into tiers. (The first entries match the wiki's tower ladder: *4차원 친구* for understanding Wandering Photographer Ren, *사람좋은 모험가* for earning Professor Komby's trust…)
+
+**Boss debuff immunity (client `MonsterDebuffResist`):** bosses carry full **debuff-resistance profiles** — the Chaos-Tower-36-and-below boss profile resists **Stun / Paralysis / Stone / attack-skill-heal restriction at 100%**, and **MagicPoison / Poison / evade-restriction / AP / AC / DX / MA / DA / LK at 50%** — the engine behind why boss debuffing (the guardian meta) needs the right debuff, not just any.
+
 **The set system behind Set titles (client data):** `CMSetItemParam` defines **320 equipment sets**, each binding up to **8 member items** — the job-clothing lines ("2차전직 토끼세트 2차" — 2nd-job Bunny set, "엔지니어 의류세트 1차" — Engineer 1st clothing set), beginner special sets, and the boss sets that pay the Set titles above. The camp-furnishing counterpart (`CampSetItemParamCM`, 74 sets) does the same for [MyCamp](21-mycamp.md) bundles.
 
 ## Other notes

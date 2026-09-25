@@ -27,6 +27,8 @@ Send a pet out to **collect items from a map by itself** — items are randomly 
 - You can stay on any map while the pet hunts, but you cannot equip that pet while it is away. Start from the map you want farmed (right-click your character → Pet Item Hunt window).
 
 ### Pet Reinforce & Pet Training (Pet Trainer Shara)
+
+**Pet compounding (client `Maturing_CompoundPet`, 88 rows):** pets run on the **same compound engine as equipment** — hardants carry `EnableProperty` + **MinAbility–MaxAbility roll ranges**, `ItemNum` counts, and pet-level gates — 88 pet-compound recipes in the identical format to the equipment master.
 - **Pet Training** re-rolls a pet's stats exactly like equipment tempering — fueled by **Protein Candy** (reroll) and **Lock Candy** (lock a stat while rerolling), from MyShop and events.
 - **Pet Reinforce** is the pet equivalent of Maturing Compound: pets equip **Hardants** into open **Talent Slots**, each hardant typed to a stat the pet accepts, and slots are consumed like compound slots.
 

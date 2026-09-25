@@ -32,6 +32,8 @@ The Wedding System launched **June 17, 2010** as a major Ntreev USA content upda
 **Wedding dresses (client data):** `WeddingDressInfo` defines **16 dress items, each with separate male and female dress designs** (DressMale / DressFemale per item) — outfits are couple-paired, not unisex.
 
 **Wedding-exchange recipes (client `ExchangeMarriage`, 27 entries):** the wedding economy had its own exchange counter — 27 recipes trading result items for request items (the ceremony goods, outfits, and ring materials) inside the general exchange framework ([Wandering Exchange NPCs](40-wandering-exchange-npcs.md)).
+
+**Couple titles (client `MarriageTitleInfo`, 21 templates):** marriage grants **prefix titles carrying the partner's name** — *천상까지 %s의 연인* ("%s's lover to the heavens"), *사랑의 열병 속 %s의* ("%s's, in love's fever"), *%s의 절친한 연인* ("%s's dearest lover"), *%s만 바라보는* ("looking only at %s"), *%s 뿐인* ("%s's one and only"), *%s 달링* ("%s darling") — the Couple title family of the [title system](28-chaos-tower.md), rendered with your partner's name.
 - The **rings** chosen during the quest grant further special abilities.
 - Ntreev marked the launch with a Wedding Screenshot Forum Event: the 5 best hall screenshots won 3 Gacha Coins and a GM-signed wedding illustration poster.
 
