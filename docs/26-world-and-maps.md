@@ -35,6 +35,8 @@ Trickster Online takes place on **Caballa Island** (Korean: 까발라섬), a Pac
 
 Korean guides call the island **까발라섬** (Caballa Island), Coral Beach **코라비치** (Cora Beach), Phantom School **환영학원**, and Techichi's dungeon **검은재 화산** (Black Ash Volcano). The community also documents an **Abyss shipwreck** dungeon that was never fully implemented.
 
+**The Underground Dev Room's duel-teleporters (client dialogs):** the dev-room NPCs are a black-market transport ring — "want to face someone head-to-head? A 1:1 showdown would be great fun… bring **3 Portable Port Deluxe** and I'll send you specially" — one teleporter feeding the **Garden's grand arena** ("a battlefield where anyone can test their skill regardless of level"), another offering 1:1 duels, both demanding the same 3-Portable-Port toll and dismissing refusers as **겁쟁이 (cowards)**. Player-run duel transport hiding inside the developer-themed zone.
+
 **Classic region progression** (per the Korean community): Coral Beach → Desert Beach → Poppuri Dungeon → Caballa Relics → Oops Wharf → Mermaid Palace (dungeon) → Mirage Island → Ghost Blue → Rose Garden → Vamp Castle (dungeon) → Black Swamp → Snow Hill → Techichi Volcano → Tapasco Volcano → Abyss. Drilling depth climbs along it — Desert Beach fields are ~10 m (hold-click works), Poppuri 20–30 m, and by Oops Wharf the grass-gathering quests jump to 10×25 = 250 items.
 The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, Megalopolis 40–59, Caballa Relics 60–79, Oops Wharf 80–99, Phantom School 100–119, Mermaid Palace 120–139, Mirage Island 140–159, Ghost Blue 160–179, and Rose Garden 180–199, with the late regions (Alteo Empire, Techichi, Tapasco, Abyss) covering the 200+ bands (per the community quest-by-location tables).
 
