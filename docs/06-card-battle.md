@@ -52,6 +52,10 @@ Certain card pairs/triples/quads form named **combos** with score multipliers wh
 - 3-card examples: *Insect Empire* (Forest Mantis + Forest Tickler + Forest Wasp, ×1.175), *Ruler of IceBerg* (Queen Odinea + Snow Lady + Icicler), *Vamp Servant* (Count Blood + Maid Lydia + Mr. Freaks)
 - 4-card examples: *Bear Family* (Bug Bear + Goma + Polar Bear + Santa Bear)
 
+## The ranked ladder (client UI data)
+
+Card Battle kept a **persistent per-player record** (`CardBattleUIParams`): the battle window shows each player's **Lv, win count, loss count, battle points, grade, and accumulated galders/EXP** — and the server runs a **Card Battle Rank board** (`CardBattleRankUIParams`) with four record categories: **most wins (최다승리), highest points (최고포인트), most matches (최다전적), and best win rate (최고승률)** — rank, grade, and type per entry. The lobby QoL: **auto-select (자동선택)** for deck picking, an **exit reservation** ("나가기 예약") that queues your departure after the current battle, and a final-battle display. Card selection tabs split the five card families — Attack / Magic / Sense / Charm / Neutral.
+
 ## Related systems
 
 - [Card Identification](07-card-identification.md) (hidden secret cards)
@@ -63,3 +67,4 @@ Certain card pairs/triples/quads form named **combos** with score multipliers wh
 - [Card Combo — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Card_Combo.html)
 - [Trickster Online: Card Battle — InspireMari](https://inspiremari.nl/trickster-online-card-battle/)
 - [Trickster Online Peek #3 — IGN (June 2008)](https://www.ign.com/articles/2008/06/26/trickster-online-peek-3)
+- Client data: `CardBattleUIParams` (per-player record: wins/losses/points/grade/galders/EXP, auto-select, exit reservation), `CardBattleRankUIParams` (four-category rank board)
