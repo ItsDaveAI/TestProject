@@ -6,6 +6,8 @@ Item Fusion lets one equipment's **image (appearance)** be fused onto another eq
 
 ## How to fuse
 
+**Fusion odds (client data):** `EquipFusionSupportItemTable` sets the **base fusion success at 70%** ("70%, 장비융합 기본적용 확률") — with **two support-item catalysts that add +30 percentage points each** (items 19818, 19822), i.e. a boosted fusion can reach 100%. Fusion failure paths and the skin-system renewal ride on the same table family.
+
 1. Talk to Arlene with the stats item, the image item, and an **Artisan's Flame** (MyShop catalyst — 1,600 points each per the ggFTW-era price; earlier sources cite ~4,400).
 2. Stats item in one slot, image item in the other; confirm the fusion preview.
 

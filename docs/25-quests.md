@@ -26,6 +26,8 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 
 **The story in the client's own words (Episode 0, Don Juvanni's dialog tree):** the game opens with Don Cavalier's *vice-president* seizing the frame — "돈 까발리에는 회사의 경영 현실과는 상관없이 제 마음대로 그 따위 유언을 했던 무책임한 회장이야. 그가 없는 지금 회사의 최고 실권자는 나다!" ("Don Cavalier made that ridiculous will of his regardless of the company's reality — an irresponsible chairman. With him gone, *I* am the company's true power holder!") — and, not yet even confirmed as chairman: "게임의 우승자는 내가 가린다" ("the game's winner will be chosen by me") — followed by his **forced march (강행군)** training quest for impatient beginners. The dialog trees carry branching codes (`S_Quest_Check`, `S_ActiveQuestID`, `S_CheckQuestState`, `S_Quest_Complete` with per-option jump targets) — quests *are* dialog state machines in the client.
 
+**The Poseidon thread runs through the dialogs:** **53 NpcMsg files mention Poseidon (포세이돈)** and **109 mention the Megalo Company (메갈로컴퍼니)** — the ancient-guardian mythos isn't confined to the awakening quests; Alteo Empire NPCs bless you in his name: "저는 저주받은 운명에 언제까지나 끌려다니지 않고… 상냥한 모험가님에게 언제나 포세이돈의 축복이 함께하길…" ("I won't be dragged along by a cursed fate forever — may Poseidon's blessing always be with you, kind adventurer…").
+
 | Stage | Level | Content |
 | --- | --- | --- |
 | Episode 0 | 1+ | Tutorial chain at Blooming Cora (Bunny Maid registration) |

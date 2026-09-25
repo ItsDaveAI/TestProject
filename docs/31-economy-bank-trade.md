@@ -34,6 +34,8 @@ Checks are **tradable and bankable but not droppable** — the standard large-de
 
 ## Player-to-player trade
 
+**NPC shop mechanics (client data):** the `ShopItem_*` per-town inventories (Beach, Coral Town, Relics, Beach/Relics Town, the Fiesta shops, Mirage Ep3, a Japanese event shop, and the Cherry-Blossom event shop) price every stocked item with **PurchaseRate and SellingRate multipliers** (buy vs. sell pricing) and an **OutOfStock flag** — NPC shops could run out of items.
+
 - **Direct trade** window between characters (a listed in-game function).
 - **Personal shops (개인상점):** player-run stall shops were a launch-era system — the 2006 Korean official guidebook carries a dedicated personal-shop chapter, and Korean players still shorthand them as **"갠상"** when advising where to buy drills, skins, and gear. Era mechanics (where/how you open one) are thinly documented in surviving sources, but they functioned as the browsing-based player market alongside direct trade.
 - **Trade Mail** (see [Mail](32-mail-and-communication.md)): attach an item with a price; the buyer pays on delivery; the seller receives the price minus the mail fee.

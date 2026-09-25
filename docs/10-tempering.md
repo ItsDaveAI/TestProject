@@ -4,6 +4,8 @@
 
 Tempering is the third equipment-modification system (added in the Season 2 era), distinct from [Refinement](08-refinement.md) and [Maturing Compound](09-maturing-compound.md): it **re-rolls an equipment's base stats** randomly within a **70%–130%** band of their current values. It can be done an **unlimited number of times with no failure rate**. Service NPC: **Alan** (Paradise Shop, Megalopolis Shop, Carbigal Shop, Laplanoel Shopping Mall).
 
+**A source discrepancy worth knowing:** the ggFTW wiki records the re-roll band as **70%–130%** of current values, while the Korean client's `EquipReformRandomStatRatio` table sets the modifier at **−25% ~ +35%** ("−25% ~ +35% 적용") — likely an era or version difference in the same mechanic. The client's companion tables: `EquipReformRandomTable` (the roll table itself), `EquipReformCostDiscount` (cost-discount event hook), and the `EquipComposing*` family for the fusion-side strings.
+
 ## Mechanics
 
 - Example: an item with 100 AP re-tempers to between 70 and 130 AP; 200 DP becomes 140–260 DP.
