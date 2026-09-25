@@ -24,7 +24,28 @@ Provided by **Blacksmith Marx** in the town shops (Paradise Shop, Megalopolis Sh
 
 **Ore quantities per refine level (physical weapons, ggFTW refine chart):**
 
-**Refine economics from the client:** the seven `ItemRefineTable0–6` files are the exact cost tables — one per equipment level bracket, each specifying the **ore item ID and count for every refine level 1–13** (e.g. Lv 0–30 weapons: 7 → 8 → 10 → 12 ores of the first tier, then 7 → 10 → 13 of the next, escalating onward). `RefineLevelTable` (34 rows) maps every refine level to its **display name and color** (낡은 "worn", 일반 "normal", … the refine-tier naming scheme), and `RefineSupportItemLevel` (77 rows) prices the **support items per refine-level band with their success probabilities** — the Artisan's-Flame-class helpers. `ItemRefineCostDiscount` is the discount event hook (the 2011 Poppuri stage-3 refine-discount reward).
+**Refine economics from the client:** the seven `ItemRefineTable0–6` files are the exact cost tables — **one per equipment class**, not per level bracket: **four physical classes ride the metal-ore family and three magic classes the gem-ore family** (the T1 class pays slightly discounted counts, e.g. 6 → 7 → 9 → 10 where T0 pays 7 → 8 → 10 → 12), and each table spans **all 14 item-level bands from 0–30 up to 361–400** — client proof that Lv 400 gear was refinable. Every band specifies the **ore item and count for each refine level 1–13**: raw ore (원석) ×7/8/10/12 for levels 1–4, mid-grade (중급) ×7/10/13 for 5–7, high-grade (상급) ×3/5/7 for 8–10, then the band's **capstone ore** for 11–13 — with the Lv 201+ bands needing only 1–3 of each. `RefineLevelTable` (34 rows) maps every refine level to its **display name and color** (낡은 "worn", 일반 "normal", … the refine-tier naming scheme), and `RefineSupportItemLevel` (77 rows) prices the **support items per refine-level band with their success probabilities** — the Artisan's-Flame-class helpers. `ItemRefineCostDiscount` is the discount event hook (the 2011 Poppuri stage-3 refine-discount reward).
+
+**The complete ore ladder by equipment level band (client data, names resolved via `ItemParam2`):**
+
+| Band | Physical — metal family | Magic — gem family | Lv 11–13 capstone (metal / gem) |
+| --- | --- | --- | --- |
+| 0–30 | Bronze (청동) | Quartz (석영) | Ancient Steel ×1 / Moonstone ×1 |
+| 31–50 | Tin (주석) | Amethyst (자수정) | 〃 |
+| 51–70 | Sulfur (유황) | Agate (마노) | 〃 |
+| 71–90 | Lead (납) | Jade (벽옥) | Mithril ×2 / Garnet ×2 |
+| 91–110 | Wrought Iron (연철) | Cat's Eye (묘안석) | 〃 |
+| 111–130 | Steel (강철) | Kunzite (쿤차이트) | 〃 |
+| 131–150 | White Silver (백은) | Turquoise (터키석) | Ori-Harkon ×3 / Zircon ×3 |
+| 151–170 | Tantalum (탄탈) | Opal (오팔) | 〃 |
+| 171–200 | Titanium (티타늄) | Peridot (금록석) | 〃 |
+| 201–240 | 휘안석 | Spinel (스피넬) | Adamantite ×3 / Alexandrite ×3–4 |
+| 241–280 | Okenite (오케나이트) | Hyacinth (히아신스) | 〃 |
+| 281–320 | Scolecite (스콜레사이트) | Chrysocolla (규공작석) | 〃 |
+| 321–360 | 자황철석 | Jacinth (재신스석) | 〃 |
+| 361–400 | Jadarite (자다라이트) | Cassiterite (주석석) | Adamantite ×4 / Alexandrite ×4 |
+
+The gem column matches the ggFTW ladder above exactly (Spinel at 201–240 — the band containing the Lv 215 magic "Stick," confirming the Spinel-refined-Stick note below). The metal family's Lv 201+ ores (휘안석, Okenite, Scolecite, 자황철석, Jadarite) have no established English names — late-era exotics that only the Korean client data preserves.
 
 | Item level | Lv 1–4 (Rookie) | Lv 5–7 (Novice) | Lv 8–10 (Advanced) | Lv 11–13 (Expert) |
 | --- | --- | --- | --- | --- |
