@@ -8,6 +8,8 @@
 
 **Hair dye:** basic hair colors are chosen at character creation; **MyShop Hair Dye** recolors permanently — but only for the *current job*: advancing to the 2nd or 3rd job resets that job's look to its default hair (the Lion's yellow, for example) until dyed again — a quiet dye economy running parallel to the skin market.
 
+**The dye engine (client data):** hair color runs on a matching system — `HairColorInfoChrType` (27 rows × 22 fields) defines **per-character-type color slots**, and `HairColorMatch` (189 rows) maps **every dye-product pair** — the 189-entry compatibility table that decides which dyes can produce which colors on which character/job.
+
 ## What skins are
 
 - Appearance items with no stats of their own: weapon skins, head/mask/cape visuals, and per-slot fashion (upper/lower/outer body, waist, head, face, hand, decorations).

@@ -7,6 +7,8 @@ Guilds are player communities with privileges: a shared identity, weekly **ranki
 ## Creating and joining
 
 - **Create:** level 35+, **2,000,000 galders**, talk to **Andrew** at the Megalopolis Guild Office → "create a new guild," then name it.
+
+  **Guild infrastructure (client data):** the guild **warehouse (길드창고)** is zone-restricted — the depot's own error messages include "길드 창고 이용이 불가능한 지역입니다" ("this zone does not allow guild-warehouse access") and data-request states; **guild emblems** run on **10 templates × 16 colors** (`GuildEmblemTemplateInfo`/`GuildEmblemColorInfo`) — the emblem designer's palette system, purchasable through the guild shop above.
 - **Join (two ways):**
   1. Talk to **Guild Clerk Esther** at the Guild Office, browse the guild list, and apply (leader approves).
   2. Right-click any guild member → **Guild Information** → Join.
