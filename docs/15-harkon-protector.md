@@ -72,6 +72,8 @@ Each comes in Power/Charm (AP, AC, LK, DP, HV) and Magic/Sense (AC, MA, DA, LK �
 
 ## Sources
 
+**The wave engine (client data):** the `Sc_HarconDef_*` family holds the event's scenario scripts — six per themed mode (Ancient 1–6, plus Fire, Ice, Fantasy, and the Eagle event variant, each 15–24 rows) — where **each row is one wave carrying up to 20 simultaneous monster slots**, every slot specifying the monster ID, maximum count, spawn position, spawn lump size, and spawn delay. The four-mode Harkon Defense of the 2012 renewal (Ancient/Fire/Ice/Fantasy) is scripted row-by-row in these tables, alongside the boss-script file.
+
 - [Harkon Protector — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Harkon_Protector.html)
 - [1st Harkon Sanctuary Assaults — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/1st_Harkon_Sanctuary_Assaults.html)
 - [Harkon Protector — PandaTO Wiki](https://pandato.fandom.com/wiki/Harkon_Protector)

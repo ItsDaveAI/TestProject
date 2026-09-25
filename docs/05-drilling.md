@@ -42,6 +42,8 @@ Sold by each region's Item Girl (No. 1 at Gate of Desert Beach/Paradise; No. 2 a
 
 ## Related drilling features
 
+**The buried-item placement dataset (client data):** the `R_MapItem_*` family is the drilling layer's raw data — **158 per-map placement tables holding 3,243 item-placement rows**, each specifying the item ID, optional source monster, a **depth band (MinDepth–MaxDepth, spanning 10 m to 300 m across the island)**, average and maximum spawn counts, a time table, and a placement priority. Every "dig here, find this, at this depth" fact in this file is one of those 3,243 rows. The companion `MapItem_` tables carry per-map placement for the field items, and `TreasureMap_Item` binds the 67 treasure maps to their 5 candidate dig spots.
+
 - **Mines** — special mining maps scattered across Caballa Island where **refine ores** are drilled (see [Refinement](08-refinement.md)).
 - **Treasure Hunts** — "Worn and Old" Treasure Maps drilled up in each region's fields lead to buried treasure (a "Surprise" drilling outcome; also a source of Chaos's Feathers). The rarest **Weird Treasure Maps** open each region's hidden **Black Market** (see [Economy](31-economy-bank-trade.md)).
 - **Surprise Spot quests** — the map tiers carry a repeatable quest layer on top: **Explorer Reina** runs *Treasure Hunting 1 & 2* (the Worn and Old Map tiers) and **Driller King Marky** runs *Romance of Drilling* (Weird Maps), plus Indiana John's one-off — **43 quests** across every region except Coral Beach, Phantom School, and Abyss. Worn-map quests repeat infinitely; the Weird/Old tiers are dailies, and a region's Old-map chain only unlocks after **50 Worn-map quests in that same region**.

@@ -24,6 +24,8 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 
 **The story frame:** billionaire game-company founder **Don Cavalier** dies and his will reveals a contest — whoever wins the "Trickster" game on **Caballa Island**, the stage he built in secret in the Pacific, inherits his entire fortune ("a story you've heard somewhere before," as the Korean wiki jokes). The 2002 pre-launch interview adds the lore spine: the **"trickster"** is the ancient hero and **messenger connecting the forgotten ancient world to the present** — the game-creator Don Cavalier mirroring that role as the bridge between reality and the buried ancient city-state — which is what the island's relics, episodes, and the "more than a treasure hunt" six-episode plot slowly unearth. The main story concluded with **Episode 6** (July 2011 update, OST by ESTi × Miya); only event content followed. Episode 6 wrapped the main *line*, but the Korean wiki keeps a standing **"unresolved threads" (미해결 떡밥)** list for it — and Trickster M's marketing leaned on exactly that, promising to complete "the ending the original never got to show" through serialized episode quests ([Trickster M](34-trickster-m.md)).
 
+**The story in the client's own words (Episode 0, Don Juvanni's dialog tree):** the game opens with Don Cavalier's *vice-president* seizing the frame — "돈 까발리에는 회사의 경영 현실과는 상관없이 제 마음대로 그 따위 유언을 했던 무책임한 회장이야. 그가 없는 지금 회사의 최고 실권자는 나다!" ("Don Cavalier made that ridiculous will of his regardless of the company's reality — an irresponsible chairman. With him gone, *I* am the company's true power holder!") — and, not yet even confirmed as chairman: "게임의 우승자는 내가 가린다" ("the game's winner will be chosen by me") — followed by his **forced march (강행군)** training quest for impatient beginners. The dialog trees carry branching codes (`S_Quest_Check`, `S_ActiveQuestID`, `S_CheckQuestState`, `S_Quest_Complete` with per-option jump targets) — quests *are* dialog state machines in the client.
+
 | Stage | Level | Content |
 | --- | --- | --- |
 | Episode 0 | 1+ | Tutorial chain at Blooming Cora (Bunny Maid registration) |
@@ -35,6 +37,8 @@ Questing is Trickster's other main progression track: quests award base EXP, TM 
 | Episodes 4–6 | 200+ | The later regions, concluding with Episode 6 (July 2011), which wrapped the main story |
 
 ## Structure notes
+
+**The quest-reward schema (client data):** each `QuestResult_` row pays up to **4 item slots, galders, a granted Skill + SkillLevel** (skill quests in raw form), **10 message slots**, **up to 3 random-reward table references** (random rewards are first-class), and fixed **Exp + Tmxp**. The archive holds **4,464 reward rows across 2,075 quest tables**, plus 622 monster-quest and 80 party-quest result tables.
 
 **The quest data layer (client):** quest content is table-driven at overwhelming scale — **2,074 `QuestResult_` reward tables**, **622 `MonsterQuestResult_`**, **80 `PMonQuestResult_` (party-quest)** results, plus `QuestDetail_Map_` (64) location bindings and the `NpcMsg_*` dialog trees (~500 files) that carry every NPC's branching conversation. Officer Tera's 30 party quests and the episode chains in this file are the surface of that dataset.
 

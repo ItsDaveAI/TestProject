@@ -29,6 +29,7 @@ Guild Colosseum battles are large-scale PvP (see also [PvP](19-pvp.md)):
 
 - Entry: talk to **Guard Gilbert**, pay **50 galders**; level 2+ required. Spectators can enter the Colosseum too.
 - A **guild master (or equal authority) must be present** on the battle map, with a **minimum of 5 guild members**.
+- **Cumulative level caps (client data):** `GuildGameLimitLvInfo` sets four total-level brackets per battle — with 3 members the team-level caps run **300 / 600 / 900 / 1200**; with 5 members **500 / 1000 / 1500 / 2000**; with 8 **800 / 1600 / 2400 / 3200**; with 10 **1000 / 2000 / 3000 / 4000** — GvG modes were tiered by the team's combined levels, matching teams against content their level-sum could face.
 - Victory awards a **GB point**; guilds are ranked by points; **1,000 galders** transfer from the losing guild to the winner.
 - **Space** shows the current war situation during battle.
 

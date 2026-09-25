@@ -24,6 +24,8 @@ Provided by **Blacksmith Marx** in the town shops (Paradise Shop, Megalopolis Sh
 
 **Ore quantities per refine level (physical weapons, ggFTW refine chart):**
 
+**Refine economics from the client:** the seven `ItemRefineTable0–6` files are the exact cost tables — one per equipment level bracket, each specifying the **ore item ID and count for every refine level 1–13** (e.g. Lv 0–30 weapons: 7 → 8 → 10 → 12 ores of the first tier, then 7 → 10 → 13 of the next, escalating onward). `RefineLevelTable` (34 rows) maps every refine level to its **display name and color** (낡은 "worn", 일반 "normal", … the refine-tier naming scheme), and `RefineSupportItemLevel` (77 rows) prices the **support items per refine-level band with their success probabilities** — the Artisan's-Flame-class helpers. `ItemRefineCostDiscount` is the discount event hook (the 2011 Poppuri stage-3 refine-discount reward).
+
 | Item level | Lv 1–4 (Rookie) | Lv 5–7 (Novice) | Lv 8–10 (Advanced) | Lv 11–13 (Expert) |
 | --- | --- | --- | --- | --- |
 | 1–70 | 7 / 8 / 10 / 12 × Fragment | 7 / 10 / 13 × Impure | 3 / 5 / 7 × Pure | 1 × Ancient Steel |

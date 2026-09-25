@@ -38,6 +38,8 @@ The pet chart organizes pets by **origin** — In-Game (store/quest/monster-drop
 
 ## Stat pets
 
+**Pets talk (client data):** the `PetSpeech_*` family holds **440 pet-speech tables** — five speech lines per pet (`Speech0–4`), each paired with a **voice-audio file reference and a trigger ratio** — pets had spoken lines with actual voice clips, fired probabilistically. Angel-family speech tables (Angel, Black Angel, Black Angel Jr., the Hanbok Black Angel) cover the mentor system's mascots too.
+
 Regular pets simply add stats while equipped, e.g. Driller Girl (AP 96, WT 800, DA 6, LK 5, HP 300) or Super Driller Boy (MP 240, MA 11, MD 64, WT 1,280, DA 12, LK 9, HP 240). Pets have 1 compound slot on some servers for Pet Reinforce.
 
 Late-era additions (Korean service): the Chaos Tower overhaul introduced the quest pets **Little Troy** and **Worm**, and Pola's 2013 launch events awarded a **pet exchange ticket** and the **Baby Driller-kun** event pet. Pet nursery **Erin** and pet trainer **Shurin** also staff the Korean Theme Spa (see [Korean version systems](33-korean-version-systems.md)).

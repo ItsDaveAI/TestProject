@@ -4,6 +4,8 @@
 
 Every character advances through three jobs. The 1st job is the starting sprite; the **2nd job** (base Lv 60 / TM 50) branches male/female skill sets; the **3rd job** (base Lv 130 / TM 120) splits into a **pure** path (deepens the type's skillset) or a **hybrid** path (learns the counterpart 2nd job's skills at +50 TM requirement). The Dragon uniquely gets three 3rd-job options.
 
+**The hybrid skill lists (client data):** the 25 `LimitSkillMaster_P/C/M/S_*` tables are the hybrid-limit rosters — the exact skill IDs each hybrid path may learn from its counterpart's tree (e.g. the Power tree's hybrid set runs skill IDs 1001–1011 plus 4702–4708), the client-side enforcement of the "hybrids learn the 2nd-job line, minus the pure-only exclusions" rule documented in [Skills](03-tm-leveling-and-skills.md).
+
 > Korean guides number these differently: **1차 전직** (first advancement, Lv 60) and **2차 전직** (second advancement, Lv 130).
 
 ## Job tree (all 9 characters)

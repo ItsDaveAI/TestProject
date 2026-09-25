@@ -2,6 +2,8 @@
 
 ## Overview
 
+**The master item table (client data):** `ItemParam2` enumerates **8,584 items across 76 fields each** — every item in this encyclopedia is one row there, carrying class/type/subtype, Korean *and English* names, comments, use-text, icons, and full stat blocks. The family around it: `Item_Attribute` (908 item-attribute rows), `Item_GunParam2` (**599 guns**, each with a gun type, gauge speed, and a **min–max attack power range** — gun damage varies within a band, not a fixed value), `Item_BookParamExt`/`Item_BookRefExt` (232+174 books), `Item_SkillCardParam` (305 skill-card items), `Item_ExpParam` (**32 EXP/TM boosters** with exact ratios — the 1.5× EXP / 1.8× TM tier, 1.2×/1.3× tiers, each with separate penalty fields), `Item_MemoryPortParam` (portable-memory teleports), and `Item_SpeedParam` (51 speed values). The 100-item VIP exchange catalogue and unique-item broadcast tier are documented above.
+
 Trickster Online's item taxonomy (per the ggFTW/LifeTO classifications) spans **equipment** (weapons: swords/knives/canes/guns/special + ammunition; armor: hats/shields/innerwear/capes/face items; accessories incl. **Speed Acc.**, Head/Face Acc.; drills; pets; soul guardians), **Use items** (boxes, books/letters, galder coupons, HP/MP recovery, teleport devices), **Etc.** (compound materials, ores/gems, hardants, job-change items, mastery items, quest items, throwing weapons), and the **card** families (skill, star, monster, character, secret, fortune, etc.). This file catalogs the items with a *unique* use — the ones you can't guess from the sprite — with cross-references to their systems.
 
 ## Equipment modification catalysts

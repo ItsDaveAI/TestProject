@@ -38,6 +38,8 @@ The community quest-band mapping runs Coral Beach 1–19, Desert Beach 20–39, 
 
 ## Map anatomy
 
+**The map registry (client data):** `MapInfoEx` enumerates **696 maps** — the complete island from Blooming Cora to Tartarus — and the `MapSound_*` family (~100 files) configures each region's ambient sound (Harcon Play, Alteo Dungeon, Office Dungeon, Wharf Dungeon, Tartarus, Chaos Battle…). Map text boards (`Textboard`) carry the in-map sign text ("지역정보 — 점프대를 이용하세요" — "use the jump pad").
+
 - **Gates** link regions; **fields** are numbered per region (Beach Field 1–7...); **dungeons** are themed multi-floor instances; **mines** hold refine ores; special rooms (trials, guardian rooms, coliseums) hang off towns. Each region also hides a **Black Market**, reachable only with Weird Treasure Maps (see [Economy](31-economy-bank-trade.md)).
 - The **World Map** function is a listed in-game system for navigation.
 
