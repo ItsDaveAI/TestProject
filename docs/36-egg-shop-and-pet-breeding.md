@@ -12,6 +12,8 @@ The **Egg Shop** is the MyShop **mileage system**, listed on the ggFTW main page
 
 ## The Egg Shop (Leonardo)
 
+The client brands Leonardo's exchange the **알샵 ("Al Shop" — 알, "egg," the client's name for the point currency)** (`RShopUIParams`): four buy tabs — **skin equipment, light equipment, pets, armor** — a **sell tab alongside the exchange** ("팔기"), remaining/spent-egg counters, and a purchase-confirmation dialog. The Bonus Eggs are its currency, confirming the mileage loop: spend points → earn 알 → exchange for skins and pets.
+
 Exchanged with **Leonardo at Megalopolis Shop** (LifeTO names him Leonard):
 
 | Purchase | Cost |

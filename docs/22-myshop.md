@@ -28,6 +28,8 @@ Not all speed gear is cash: the **Brand accessories** exchanged from Harkon Prot
 
 ## Other behaviors
 
+- **The storefront's full taxonomy (client `PurShopUIDefine`):** character tabs for Recommended / New / Beginner / Pet items, and **18 MyCamp furniture categories** (slots, camp, frames, skins, wallpaper, flooring, windows, doors, beds, storage, tables, chairs, appliances, kitchen & bath, electronics, wall deco, floor deco, carpets) — plus **discounted set purchases** ("sets can only be bought in a complete state; removing an item loses the set discount") and a **gift-memo system** with random message templates (random templates like "even if I go bald, I like free stuff! Thanks for the gift~").
+
 - **Gifting:** MyShop supports sending items as gifts (a listed in-game function; also used for couple/Love-Point building).
 - **Mileage:** every 5,000 points spent earns a **Bonus Egg** (2 during Double Egg events) for the Egg Shop — see [Egg Shop & Pet Breeding](36-egg-shop-and-pet-breeding.md).
 - **MyShop inventory:** press Y → the MyShop inventory is also where **Gacha wins**, level-up gift boxes, and milestone letters (e.g. the 3rd Job Guide at Lv 120, Eclipse's Message at Lv 180) are delivered.
