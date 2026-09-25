@@ -13,7 +13,9 @@ Open mail via the envelope icon (top-left, below HP/MP), the Mail icon in the bo
   - Galder-only: fee of **500 g** for amounts 1–500,000; above that, 0.1% of the amount (e.g. 1,000 g per million).
   - Item: flat **500 g** fee; item + galder costs the galder fee plus an extra 10 g.
 - **Trade Mail** — attach an item and set its price; the buyer pays on opening, and you receive a receipt with the money (minus the mail fee). The core async selling mechanism (see [Economy](31-economy-bank-trade.md)).
-- **System Mail** — where level-up gift boxes and important quest letters arrive (Nefertiti's, **Eclipse's Message** at Lv 180, the Questionable Letter, D's Letter, 3rd Job Guide at Lv 120 — delivered via the MyShop inventory).
+- **System Mail** — where level-up gift boxes and important quest letters arrive (Nefertiti's letter at Lv 100 and **Nefertiti's Message at Lv 180** — some Korean guides call the Lv 180 mail "Eclipse's message" — the Questionable Letter at 135, D's Message at 200, the job guidebooks at 60/120; all per client `PostBoxLevelUpGiftInfo`, delivered via the MyShop inventory).
+
+**Mail retention and fee rules (client `PostSetupInfo`, 7 rows):** normal mail is kept **7 days**, returned mail 7 days, and **payment-request (COD) mail only 1 day**; item-send and COD fees are **0.1% (10 per 10,000) of the item price / requested amount**, with a **500-galder minimum** when the computed fee rounds to zero — and the **maximum sendable amount per gift or trade mail is 500 million galders (5억)**.
 
 ## Friend list
 
@@ -51,3 +53,4 @@ Open mail via the envelope icon (top-left, below HP/MP), the Mail icon in the bo
 - [Chat Commands — Cursed guild forum (Piety, 2010)](https://cursed.forumotion.com/t175-chat-commands)
 - [Controls and Secret Controls — MewsiEPTO Wiki](https://mewsie.world/epTOWiki/index.php/Controls_and_Secret_Controls)
 - [Functions list — Our Trickster Online Wiki](https://oto.fandom.com/wiki/Episode_Quests)
+- Client data: `PostSetupInfo` (retention periods, 0.1% fees, 500 g minimum, 5억 cap), `PostBoxLevelUpGiftInfo` (system-mail letters), `FriendUIParams`, `StringTable` / `ExchangeStrings` (anti-spam, security), `GMKeywordStrings`

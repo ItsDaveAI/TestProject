@@ -34,6 +34,12 @@ Trickster Online offers three PvP formats, all centered on the **Colosseum** in 
 - Community "PvP wars" between guilds/teams were commonly arranged on the free battlefields (documented in player videos from the official era).
 - Card Battle (see [06-card-battle.md](06-card-battle.md)) is the non-combat PvP counterpart; GvG covers mass guild battles (see [18-guild-system.md](18-guild-system.md)).
 
+## PvP in client data
+
+- **Ladder tracking (client `PvPGameUIParams`):** the 1:1 duel-request window shows the opponent's **name, level, ladder score (레더점수), PvP record (PvP전적), and a forced-exit count (강제종료)** — PvP kept a per-player ladder rating *and* a rage-quit counter. The error set covers declined challenges, mismatched opponents, and opponents unable to accept.
+- **The registered duel reward (client `PvPRewardItem`):** a single payout row — the **50-Galder Coupon at a 30% rate** — the Bunny-Maid winner's reward in data.
+- The Colosseum's gate staff exist as seven gate-NPC dialog sets (`NpcMsg_Colosseum_Gate_*`) plus the Play3 arena NPC — the arena had a full NPC roster.
+
 ## Related systems
 
 - [Guild system & GvG](18-guild-system.md)
@@ -47,3 +53,4 @@ Trickster Online offers three PvP formats, all centered on the **Colosseum** in 
 - [Trickster Online: PvP System — InspireMari](https://inspiremari.nl/trickster-online-pvp-system/)
 - [New Tricksters' Guide — LifeTO](https://guides.lifeto.co/t/new-tricksters-guide/14) (Lower/Higher Colosseum split)
 - [Trickster Online - PvP War Episode 1 (video)](https://www.youtube.com/watch?v=58oyFltK7Vw)
+- Client data: `PvPGameUIParams` (ladder score, PvP record, forced-exit counter, duel-request errors), `PvPRewardItem` (50-Galder Coupon at 30%), `NpcMsg_Colosseum_*`
