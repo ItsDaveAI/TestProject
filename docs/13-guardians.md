@@ -14,6 +14,8 @@ The **Guardian system** (Enlightenment content, Season 2 era) gives every charac
 ## Guardian facts
 
 - **Grades:** normal, superior, mighty, and **legendary** guardians (Mew's community guide: a first legendary took ~10 days with minimal preparation, 3–5 days with good preparation; a skilled player finished one in a day).
+
+  The client's `GuardianRareTitle` gives the rarity-tier **rules with exact thresholds**: **전설적인 ("Legendary")** = base-empathy levels **summing 13+** *and* bonus-empathy summing **4+**; **위력적인 ("Mighty")** = base sum 13+; **우월한 ("Superior")** = empathy sum **10+ with all four type values equal**; **다재다능한 ("Accomplished/Versatile")** = sum **6–10 with type values equal** — matching the community-measured graph math above, now with the official numbers.
 - **Skills:** a guardian can use any skill flagged with a **green marker** (guardian-usable); builds are planned around which skills you feed.
 - Guardians fight **PvE only**.
 - **Mind's Eye** — the follow-on Enlightenment skill that lets you see the Shadow World — requires a hatched Guardian (see [Shadow World](14-shadow-world.md)).

@@ -30,6 +30,16 @@ Guild Colosseum battles are large-scale PvP (see also [PvP](19-pvp.md)):
 - Entry: talk to **Guard Gilbert**, pay **50 galders**; level 2+ required. Spectators can enter the Colosseum too.
 - A **guild master (or equal authority) must be present** on the battle map, with a **minimum of 5 guild members**.
 - **Cumulative level caps (client data):** `GuildGameLimitLvInfo` sets four total-level brackets per battle — with 3 members the team-level caps run **300 / 600 / 900 / 1200**; with 5 members **500 / 1000 / 1500 / 2000**; with 8 **800 / 1600 / 2400 / 3200**; with 10 **1000 / 2000 / 3000 / 4000** — GvG modes were tiered by the team's combined levels, matching teams against content their level-sum could face.
+
+**The full GvG mode and arena system (client `GuildGameTypeInfo`):**
+
+- **Team Match (팀 매치)** — first guild to the configured out-count (or highest out-score) wins; **outed members auto-respawn after a timer**.
+- **Team Death Match (팀 데쓰 매치)** — first guild to out the *entire* opposing roster wins; a KO'd player **automatically switches to spectate**.
+- **Monster Match (몬스터 매치)** — race to a target score by **hunting monsters**; fighting the opposing guild is allowed alongside, KOs respawn after a time — fought on a modified **Flame arena with a platform for selecting boss monsters**.
+
+**Six named arenas**, each with the client's own tactical blurb: **Natural Cave** (wide corridors — encirclement viable), **Phantom School** (small and frantic — "a map where you can hear the haunted school's wails"), **Flame** (open volcanic field), **Nora's** (the cramped sewer maze — "treat the narrow passages as cover"), **Soccer** (built to commemorate the World Cup — a full pitch to sprint across), and **Grudge (원수)** ("enemies meet on a narrow bridge" — the single-log bridge map for choke-point tactics).
+
+**Rewards and the guild shop (client data):** `GuildGameRewardInfo` pays **score-threshold item rewards** (1,100 / 1,300 / 1,500 score → items 7100/7102/7101), `GuildGamePresentInfo` lists 15 present entries, and the **guild shop** (`GuildShopGoodsTable`) sells guild infrastructure for points: **member expansion (1,000), guild warehouse (1,500), warehouse expansion (1,500), emblem (500), emblem package (1,000)** — GvG score converts into guild capacity. `GuildRankBonusExp` (10 rows) and `GuildLevelInfo` (11 levels) drive the weekly ranking EXP bonuses.
 - Victory awards a **GB point**; guilds are ranked by points; **1,000 galders** transfer from the losing guild to the winner.
 - **Space** shows the current war situation during battle.
 
