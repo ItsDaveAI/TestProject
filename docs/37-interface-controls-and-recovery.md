@@ -10,6 +10,8 @@ The remaining official function-list items: the **client interface and controls*
 
 The windows behind the keys above are their own tables: `QuickSlotWindow` (the quickslot bar with its three alternate sets) and `OptionWindow` / `OptionUIParams` / `OptionUITooltip` (the settings window where the Notice toggle lives).
 
+Two more interface layers from the client: the **tutorial course engine** (`TutorialSystem`, 26 steps) is distinct from the Notice layer — each step binds a tutorial quest (the opening chain, quests 1233–1235) to its **start NPC, end NPC, start map, monster map, and end map**, with **UI-open steps** that force specific windows open mid-course (OpenType 1/2/3 with UIOpen/UIOpenType) — the guided hand-holding of Episode 0, scripted row by row. And the **screenshot feature** (`ScreenCaptureString`) stamps captures with the service's homepage and copyright: **"http://trickster.netmarble.net" — "Copyright (C) 2004 Ntreev Soft"** — the Korean client's own Netmarble-service watermark, direct evidence of the Netmarble publishing era in the shipped client.
+
 - **Character information**: HP/MP, level, EXP bar, galders, weight.
 - **Mini map** (M opens the full world map of Caballa Island).
 - **Day/night clock**: hover the minimap to read the in-game time — **1 real hour = 24 in-game hours**, gating night-only content such as Ray's Phantom School entry ([original-era systems](39-original-launch-era-systems.md)).

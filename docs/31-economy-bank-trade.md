@@ -49,6 +49,8 @@ The `R_ShopItem_*` family (~40 tables, e.g. Snow's 75 goods) extends the same sc
 
 **The check-issuance service in the client's own words (`Shop_Square_Bank`):** Andrew introduces himself as the check issuer — "**a 5% tax applies to check issuance**" — and warns that **checks redeem at full value only with him**: "when you exchange the check later, you must come to me — exchanging at another shop may not pay full value." The bank's check stock is the `R_ShopItem_Money` table; the trade window itself (`TradeWindow`/`TradeUIParams`) is a paired money-edit UI where both sides key in galder amounts side by side.
 
+**In-game advertising (client `ADActorInfo`):** the client carries an **ad-billboard actor system — 11 placed billboard actors across the town zones** (each a fixed zone + spot + actor file), the infrastructure slot for the F2P-era in-game advertisements of the Korean service.
+
 ## Earning galders
 
 - Selling monster loot to NPCs (weight-limited; see [stats](02-stats-and-base-leveling.md)).

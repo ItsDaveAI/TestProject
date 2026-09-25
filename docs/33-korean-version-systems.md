@@ -84,6 +84,7 @@ A late-Korean hot-spring theme park at Tapasco Volcano (OurTrickster lists its s
 - **Trickster Cathedral (트릭스터 성전)** at Mirage Island Field 7 — the Soul Seed quest hub (Shining Egg → Nephtri → Eclipse).
 - **Abyss shipwreck (심연 던전: 난파선)** — an unfinished/unimplemented area documented by the Korean community.
 - **Regional specialty items (지역별 특산물)** — each region's signature drilled/quest items (Cora Beach cave goods, Desert Beach pyramid jars, Relics era artifacts, Snow Hill jewels) used across quest chains.
+- **PC-room boost hooks (client `ExpHelper`):** the engine reserves dedicated multipliers for **PC방 (PC-room/internet-café) play and event periods** — separate `EXP_PCRoom` / `EXP_Event` / `TM_PCRoom` / `TM_Event` rates — zeroed in this client snapshot (server-side configuration). The table is the mechanical trace of the Korean-service PC-room boost programs.
 
 ## Collaborations (Korean & Japanese)
 

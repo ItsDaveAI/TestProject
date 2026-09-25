@@ -22,6 +22,8 @@ Introduced with **Trickster Season 2 (announced January 5, 2011 by SG Interactiv
 
 **The client-side recycle engine (data):** `RecycleShop` (39 rows) defines the base exchange — a **0.30 exchange ratio** (items recycle at 30% rate) with change counts and result items per source class — and `RecycleExceptItem` is the exclusion list: **532+ items barred from recycling**, dominated by celebration/gift-box goods (e.g. 천마강림부 from the congratulation-gift box) — promotional items were deliberately taken out of the recycle economy.
 
+`RecycleChange` (21 rows) is the coupon-conversion tier: the **recycle coupon (item 63740)** exchanges 1–2 copies into the **detection-book scroll family** — *초급탐지의 서* (Beginner Detection), *아이템탐지기의 서* (Item Detector), *파티아이템탐지의 서* (Party Item Detection) — the recycle shop's skill-scroll payout beyond the base 30% ratio.
+
 **Recycling rules (client `RecyStringTbl`):** the ticket currency is **딱지 (ddakji — paper-poking tickets)**; conversion is **irreversible** ("한 번 딱지로 전환된 아이템은 되돌릴 수 없습니다"); **growth-compounded, refined, and time-remaining items can still be recycled** — each with its own confirmation warning (including items with remaining lifespan); recycling **can fail**; the window budgets by **remaining weight and ticket count**; and **equipment and MyCamp recycling are separate modes** at the counter.
 
 **The Korean-era VIP exchange shop (client data):** the late Korean client added a **VIP Shop** with a **100-item exchange catalogue** (`VIPShop` + three `VIPShopItem` page tables) pricing items in recycle-style points: a **Light-equipment box for 13 points**, classic skins (mini-hat, shield) for **3 points** each — the same old-item-for-points economy, formalized as a permanent shop rather than an NPC menu.

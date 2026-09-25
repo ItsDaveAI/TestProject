@@ -34,6 +34,7 @@ Available in **all regions** once Mind's Eye is active:
 - **The Dark skill family:** the per-skill curve archive carries a dedicated shadow set — **Dark Spear, Dark Fog, Dark Ghost, Dark Barrier, Dark Whisper, Dark Slow, and Dark Up** (each with full `ESAII_`/`ESAction_` level curves) — the signature kit that separates shadow monsters from the regular roster.
 - **The shadow exchange shop** is registered as `Exchange_Shop_Shadow` — a 54-slot exchange roster (IDs 876–929), the client-side remnant of the shadow-gear economy.
 - The shadow-world boss layer has its own spawn table (`BossMon_Shadow2`) — a single check-timed boss entry per region cycle.
+- The shadow monsters run on **assigned AI profiles** (`ShadowAI`, 90 rows) — per-monster AI-type bindings targeting the shadow zone set, the behavior layer that makes shadow mobs fight differently from their normal-world counterparts.
 
 ## Related systems
 
