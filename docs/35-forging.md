@@ -28,6 +28,10 @@ The safer variant: the **second-slot item's better stats/slots transfer directly
 
 Lena forges only **special-icon Random Box equipment**. It works like Chaos/Requiem forging but is the risky version: there is a **small chance she destroys both equipments** in the attempt.
 
+## The forging window (client data)
+
+The merge service runs on the **Growth Forging (성장조합)** window (`ItemMixUIParams`, 25 rows) — a main slot ("place the item to growth-forge in the slot") plus a **support-item slot** for the catalyst, with a companion mix-reset window (`ResetMixUIParams`). Note the client UI's own name for the service — **성장조합, "growth-forging"** — aligns it with the growth-compound terminology of the [compound family](09-maturing-compound.md) rather than the press's 혼돈 장비 융합; the same word the ghost-equipment and Turtle Shell growth text uses.
+
 ## Related systems
 
 - [Chaos Tower](28-chaos-tower.md) — the equipment source
@@ -39,3 +43,4 @@ Lena forges only **special-icon Random Box equipment**. It works like Chaos/Requ
 - [Forging — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Forging.html) (slot mechanics, examples)
 - [Lena — ggFTW Trickster Wiki](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Lena.html) (Random Forging, destruction risk)
 - [혼돈의 탑 꼭대기엔… — 경향신문 (2011-10-10)](https://www.khan.co.kr/article/201109281518081) (Korean announcement of the fusion system)
+- Client data: `ItemMixUIParams` (the 성장조합 growth-forging window: item + support-item slots), `ResetMixUIParams`

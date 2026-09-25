@@ -29,6 +29,8 @@ Egg Pets are unique among pets: instead of fixed stats, they **level up alongsid
 - Scale: ggFTW documents **55 hatchable eggs** and **200+ Egg Pets**.
 - Erin also handles [Pet Fusion](12-pets.md) (appearance) — the breeding service is her second role.
 
+**The breeding engine is client-confirmed:** Erin's **Growth Vitamins** are the **Pet Growth Vitamin (펫 성장 비타민)** — the single catalyst behind all **483 upgrade rows** of `PetLevelUpInfo` ([Pets](12-pets.md)). The egg-pet tier ladder above (**T1 → T2 → T3 → T4**) is exactly that table's **T-track**, and its **E-track (E1 → E4)** is the egg-pet form-change line — the two tracks of the breeding system in one registry. `PetComposingPresentInfo` (2 rows) gates the hatching present — usable on pets **Lv 1–400**, under both pet-type flags.
+
 ## Related systems
 
 - [MyShop](22-myshop.md) — the point spending that generates eggs
@@ -42,3 +44,4 @@ Egg Pets are unique among pets: instead of fixed stats, they **level up alongsid
 - [ggFTW Trickster Wiki: Main Page](https://wikimirror.lifeto.co/wiki.ggftw.com/trickster/Main_Page.html) (Egg Shop as a top-level system)
 - [VIP Egg Shop — PandaTO Wiki](https://pandato.fandom.com/wiki/VIP_Egg_Shop) (prices, Pet Breeding with Growth Vitamins)
 - [New Tricksters' Guide — LifeTO](https://guides.lifeto.co/t/new-tricksters-guide/14) (daily-reward eggs, Leonard)
+- Client data: `PetLevelUpInfo` (the T/E upgrade graph behind egg-pet tiers and evolutions, catalyzed by the Pet Growth Vitamin), `PetComposingPresentInfo`

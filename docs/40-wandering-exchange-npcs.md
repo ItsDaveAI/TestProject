@@ -2,7 +2,7 @@
 
 ## Overview
 
-**The exchange economy at scale (client data):** `ExchangeShopContents` is the master table behind every exchange vendor in this file — **2,066 exchange recipes**, each with a result level requirement, up to **3 result items**, up to 3+ request items with counts, and per-recipe failure paths. The per-NPC `Exchange_Shop_*` catalogs (the Chaos Tower's 22 exchange-shop files plus 12 ChaosJ pages — Professor Komby's forging counter — and 9 Jump-NPC pages) are paged views into it. `GhostExchange_RefineLevel` adds a refine-level gate on ghost-equipment exchanges.
+**The exchange economy at scale (client data):** `ExchangeShopContents` is the master table behind every exchange vendor in this file — **2,066 exchange recipes**, each with a result level requirement, up to **3 result items**, up to 3+ request items with counts, and per-recipe failure paths. The per-NPC `Exchange_Shop_*` catalogs — **88 files in all** (the Chaos Tower's 22 exchange-shop files plus 12 ChaosJ pages — Professor Komby's forging counter — 9 Jump-NPC pages, and the per-event shops) — are paged views into it, including a typo'd `Exchang_Shop_*` subfamily (the 2009 New Year, 3-month, and test shops) preserved from development. `GhostExchange_RefineLevel` adds a refine-level gate on ghost-equipment exchanges.
 
 A family of **weekday-relocating exchange NPCs** forms Trickster's barter economy: they aren't marked on the minimap, sometimes hide behind background objects, and each offers a different exchange chain that converts farmed junk into elemental crystals, attribute weapons, and treasure boxes — the main non-MyShop route to elemental gear.
 

@@ -8,6 +8,8 @@ The remaining official function-list items: the **client interface and controls*
 
 **The Notice (노티스) system (client data):** `SystemHelp` (72 entries) is the game's tutorial-notification layer — a companion that pops exclamation-mark guidance, announces mail deliveries ("Megalo Company has dispatched your Lv 15 gift box and the Conchipachi guide by postbox"), points to per-type skill-card vendors, marks key-quest and Crazy-Drilling quest levels, and can be turned off in the Option window (`O`). It doubles as the beginner-warning channel: Lv 21 (EXP protection ends) and Lv 50 (angel eligibility — see [Mentor systems](44-mentor-and-support-systems.md)).
 
+The windows behind the keys above are their own tables: `QuickSlotWindow` (the quickslot bar with its three alternate sets) and `OptionWindow` / `OptionUIParams` / `OptionUITooltip` (the settings window where the Notice toggle lives).
+
 - **Character information**: HP/MP, level, EXP bar, galders, weight.
 - **Mini map** (M opens the full world map of Caballa Island).
 - **Day/night clock**: hover the minimap to read the in-game time — **1 real hour = 24 in-game hours**, gating night-only content such as Ray's Phantom School entry ([original-era systems](39-original-launch-era-systems.md)).
